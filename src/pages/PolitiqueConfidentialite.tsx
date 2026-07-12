@@ -16,7 +16,7 @@ const SECTIONS = [
         type: "paragraphs",
         items: [
           "FabFinance SAS, immatriculée au RCS de Paris sous le numéro 524 581 873, dont le siège social est situé 52 RUE DU DOCTEUR SULTZER 67140 BARR, est responsable du traitement de vos données personnelles collectées via ce site.",
-          "Notre Délégué à la Protection des Données (DPO) est joignable à l'adresse : dpo@fabfinancec.com",
+          "Notre Délégué à la Protection des Données (DPO) est joignable à l'adresse : dpo@fab-financeaide.com",
         ],
       },
     ],
@@ -184,7 +184,7 @@ const SECTIONS = [
       {
         type: "paragraphs",
         items: [
-          "Pour exercer vos droits, contactez notre DPO par email à dpo@fabfinancec.com, en joignant une copie de votre pièce d'identité. Nous répondrons dans un délai d'un mois à compter de la réception de votre demande.",
+          "Pour exercer vos droits, contactez notre DPO par email à dpo@fab-financeaide.com, en joignant une copie de votre pièce d'identité. Nous répondrons dans un délai d'un mois à compter de la réception de votre demande.",
           "Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de la CNIL : www.cnil.fr ou 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07.",
         ],
       },
@@ -408,8 +408,8 @@ export default function PolitiqueConfidentialite() {
           >
             <p className="text-xs text-gray-400 leading-relaxed max-w-2xl mx-auto mb-4">
               Pour exercer vos droits ou pour toute question relative à cette politique, contactez notre DPO à{" "}
-              <a href="mailto:dpo@fabfinancec.com" className="text-green-600 hover:underline font-medium">
-                dpo@fabfinancec.fr
+              <a href="mailto:dpo@fab-financeaide.com" className="text-green-600 hover:underline font-medium">
+                dpo@fab-financeaide.com
               </a>
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-xs text-gray-400">

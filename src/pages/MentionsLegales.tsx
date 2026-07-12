@@ -334,8 +334,8 @@ export default function MentionsLegales() {
           >
             <p className="text-xs text-gray-400 leading-relaxed max-w-2xl mx-auto mb-4">
               Pour toute question relative à ces mentions légales, vous pouvez nous contacter à{" "}
-              <a href="mailto:legal@fabfinancec.com" className="text-green-600 hover:underline font-medium">
-                legal@fabfinancec.com
+              <a href="mailto:legal@fab-financeaide.com" className="text-green-600 hover:underline font-medium">
+                legal@fab-financeaide.com
               </a>
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-xs text-gray-400">

@@ -316,7 +316,7 @@ export const fr = {
       },
       {
         q: "Y a-t-il des frais de dossier ?",
-        a: "Non. FabFinance ne facture aucun frais de dossier. La simulation est gratuite et sans engagement. Vous ne payez que les intérêts définis dans votre contrat.",
+        a: "Oui. FabFinance facture des frais de dossier qui sont très faibles.  La simulation est gratuite et sans engagement. Vous ne payez que les intérêts définis dans votre contrat.",
       },
       {
         q: "Quel est le montant maximum que je peux emprunter ?",
