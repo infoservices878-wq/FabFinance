@@ -36,7 +36,7 @@ const CONTACT_INFO = [
   {
     icon: Mail,
     title: "Email",
-    lines: ["contact@fabfinancec.com", "Réponse sous 24h"],
+    lines: ["contact@fab-financeaide.com", "Réponse sous 24h"],
     color: "#8b5cf6",
     bg: "#f5f3ff",
   },

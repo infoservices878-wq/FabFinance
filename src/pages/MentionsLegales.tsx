@@ -55,7 +55,7 @@ const SECTIONS = [
       {
         type: "table",
         rows: [
-          ["Email",       "contact@fabfinancec.com"       ],
+          ["Email",       "contact@fab-financeaide.com"       ],
           ["Téléphone",   "+33 605 662 921 (appel gratuit)" ],
           ["Courrier",    "52 RUE DU DOCTEUR SULTZER 67140 BARR FRANCE" ],
           ["Horaires",    "Lun – Ven, 9h – 18h"         ],
