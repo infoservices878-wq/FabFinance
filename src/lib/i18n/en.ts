@@ -28,12 +28,12 @@ export const en: Translation = {
     titleBefore: "Finance", titleHighlight: "what matters", titleAfter: "truly.",
     subtitle: "Car, home improvement, studies or travel — get a real-time estimate, no commitment.",
     projects: { travaux: "Home", auto: "Car", etudes: "Studies", voyage: "Travel", mariage: "Wedding", sante: "Health" },
-    stats: { rate: "3%", rateLabel: "APR from", unlock: "48h", unlockLabel: "Disbursement", online: "100%", onlineLabel: "Online" },
+    stats: { rate: "2%", rateLabel: "APR from", unlock: "48h", unlockLabel: "Disbursement", online: "100%", onlineLabel: "Online" },
     card: {
       title: "Your simulation", badge: "Free · No commitment",
       amountLabel: "Requested amount", durationLabel: "Repayment term",
       monthlyLabel: "Estimated monthly payment", interestLabel: "Total interest cost",
-      rateNote: "Indicative fixed APR: 3% · Non-contractual simulation",
+      rateNote: "Indicative fixed APR: 2% · Non-contractual simulation",
       nofees: "No processing fees", instant: "Immediate response",
       cta: "Find my loan",
       legal: "A loan commits you and must be repaid. Check your repayment capacity before committing.",
@@ -45,7 +45,7 @@ export const en: Translation = {
     cta: "Simulate my loan for free", ctaSub: "No commitment · Answer in less than 2 minutes",
     learnMore: "Learn more",
     projects: [
-      { title: "Buy a car",           description: "Finance your new or used vehicle at a competitive rate.", tag: "From 3%" },
+      { title: "Buy a car",           description: "Finance your new or used vehicle at a competitive rate.", tag: "From 2%" },
       { title: "Home renovation",     description: "Renovate your home with flexible and fast financing.",   tag: "Up to €75,000" },
       { title: "Travel",              description: "Take the trip of your dreams without waiting.",           tag: "Immediate response" },
       { title: "Fund your education", description: "Invest in your future with a tailor-made student loan.", tag: "Preferential rate" },
@@ -78,8 +78,8 @@ export const en: Translation = {
     ],
   },
   mission: {
-    badge: "ISEUT Finance & You", title: "Financing that", titleHighlight: "makes a difference",
-    text1: "At ISEUT Finance, we put our expertise at the service of your life projects. Personal loan, consumer credit, auto loan or debt consolidation: simple, transparent and adapted solutions for every situation.",
+    badge: "Fab Finance & You", title: "Financing that", titleHighlight: "makes a difference",
+    text1: "At Fab Finance, we put our expertise at the service of your life projects. Personal loan, consumer credit, auto loan or debt consolidation: simple, transparent and adapted solutions for every situation.",
     text2: "Our mission is to make financing more accessible through innovative digital tools and human support at every stage.",
     cta: "Discover our mission",
     stats: { clients: "+200,000", clientsLabel: "projects financed", rating: "4.8", ratingLabel: "Client reviews" },
@@ -91,13 +91,13 @@ export const en: Translation = {
     ],
   },
   whyChooseUs: {
-    badge: "Our commitments", title: "Why choose", titleHighlight: "ISEUT Finance?",
+    badge: "Our commitments", title: "Why choose", titleHighlight: "Fab Finance?",
     subtitle: "Technology and human expertise combined for a simple, fast and reliable financing experience.",
     items: [
       { title: "Fast response",    desc: "Get an in-principle answer in minutes. No waiting, no unnecessary paperwork.", stat: "2 min",    statLabel: "in-principle response"   },
       { title: "100% secure",      desc: "Your data is encrypted and protected by the latest banking technology.",       stat: "256-bit",  statLabel: "SSL encryption"         },
       { title: "Human support",    desc: "Our dedicated advisors guide you at every step, from simulation to signing.",  stat: "7d/7",     statLabel: "advisors available"     },
-      { title: "Competitive rates",desc: "Transparent solutions tailored to your profile. Zero hidden fees.",            stat: "3%",       statLabel: "APR from"               },
+      { title: "Competitive rates",desc: "Transparent solutions tailored to your profile. Zero hidden fees.",            stat: "2%",       statLabel: "APR from"               },
     ],
     metrics: [
       { value: "+200,000", label: "projects financed"   },
@@ -108,7 +108,7 @@ export const en: Translation = {
   },
   trust: {
     badge: "Social proof", title: "They", titleHighlight: "trust us",
-    subtitle: "Thousands of clients trust ISEUT Finance to finance their personal and professional projects.",
+    subtitle: "Thousands of clients trust Fab Finance to finance their personal and professional projects.",
     certifiedBy: "Recognized and certified by",
     stats: [
       { value: "+200,000", label: "projects financed"    },
@@ -119,7 +119,7 @@ export const en: Translation = {
     reviews: [
       { name: "Sophie Martin", role: "Personal loan · €12,000",  text: "Super simple application and answer in minutes. I got my financing in less than 48h. Highly recommend!",                                                                    featured: false, featuredLabel: "" },
       { name: "Lucas Bernard", role: "Auto loan · €18,000",      text: "Clear and transparent interface. The simulation helped me immediately understand the real cost of my credit. No bad surprises.",                                               featured: true,  featuredLabel: "Top pick ❤️" },
-      { name: "Claire Dupont", role: "Renovation · €25,000",     text: "Really professional and available customer service. They accompanied me from A to Z for financing my renovation. Thank you ISEUT Finance!",                                       featured: false, featuredLabel: "" },
+      { name: "Claire Dupont", role: "Renovation · €25,000",     text: "Really professional and available customer service. They accompanied me from A to Z for financing my renovation. Thank you Fab Finance!",                                       featured: false, featuredLabel: "" },
     ],
   },
   faq: {
@@ -131,7 +131,7 @@ export const en: Translation = {
       { q: "What documents are required?",                      a: "Depending on your situation: a photo ID, your last 3 payslips or proof of income, recent proof of address and your bank details. Everything is done online, no paperwork." },
       { q: "Can I repay my loan early?",                        a: "Yes, you can partially or fully repay your credit at any time. Early repayment fees may apply according to contractual conditions." },
       { q: "Is my data secure?",                                a: "Absolutely. All your information is encrypted in SSL 256-bit and we are GDPR compliant. Your data is never sold to third parties." },
-      { q: "Are there processing fees?",                        a: "No. ISEUT Finance charges no processing fees. The simulation is free and without commitment. You only pay the interest defined in your contract." },
+      { q: "Are there processing fees?",                        a: "No. Fab Finance charges no processing fees. The simulation is free and without commitment. You only pay the interest defined in your contract." },
       { q: "What is the maximum amount I can borrow?",          a: "Depending on the loan type, you can borrow up to €75,000 for a personal loan, and up to €100,000 for a business loan. The amount granted depends on your profile and repayment capacity." },
     ],
   },
@@ -141,7 +141,7 @@ export const en: Translation = {
     subtitle1: "Join", subtitle2: "+200,000 clients", subtitle3: "who trust us. Apply in 2 minutes and get an immediate in-principle answer.",
     cta1: "Apply for a loan now", cta2: "Talk to an advisor",
     badges: { speed: "Answer in 2 minutes", secure: "100% secure", clients: "+200,000 satisfied clients" },
-    legal: "A loan commits you and must be repaid. Check your repayment capacity before committing. ISEUT Finance — ORIAS n° XXXXXXXX.",
+    legal: "A loan commits you and must be repaid. Check your repayment capacity before committing. Fab Finance — ORIAS n° 14 001 728.",
   },
   simulator: {
     title: "Simulate your loan", subtitle: "Instant estimate · No commitment",
@@ -152,13 +152,13 @@ export const en: Translation = {
   howItWorks: {
     badge: "100% transparent process", title: "How to get your loan?",
     subtitle: "From simulation to fund disbursement, discover each step.",
-    steps: "6 simple steps", journey: "The ISEUT Finance journey",
-    guarantee: "Our commitments", whyUs: "Why choose ISEUT Finance?",
+    steps: "6 simple steps", journey: "The Fab Finance journey",
+    guarantee: "Our commitments", whyUs: "Why choose Fab Finance?",
     cta: "Start my simulation", ctaSub: "Free · No commitment · Answer in 2 minutes",
   },
   about: {
     badge: "Our story", title: "A fintech at the service of your projects",
-    subtitle: "Since 2016, ISEUT Finance has been supporting individuals and businesses in their financing projects.",
+    subtitle: "Since 2016, Fab Finance has been supporting individuals and businesses in their financing projects.",
     mission: "Our mission", values: "Our values", team: "Our team", cta: "Simulate a loan",
   },
   contact: {

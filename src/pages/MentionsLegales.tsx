@@ -15,15 +15,15 @@ const SECTIONS = [
       {
         type: "table",
         rows: [
-          ["Raison sociale",        "ISEUT FINANCE"                         ],
+          ["Raison sociale",        "Fab Finance"                         ],
           ["Forme juridique",       "Société par Actions Simplifiée (SAS)"   ],
           ["Capital social",        "50 000 €"                               ],
-          ["Siège social",          "31 AVENUE TRUDAINE, 75009 PARIS"  ],
-          ["SIREN",                 "824922561"                            ],
-          ["RCS",                   "824 922 561 R.C.S. Paris"                    ],
+          ["Siège social",          "52 RUE DU DOCTEUR SULTZER 67140 BARR"  ],
+          ["SIREN",                 "524581873"                            ],
+          ["RCS",                   "524 581 873 R.C.S. Colmar"                    ],
           ["N° ORIAS",              "14 001 728 (www.orias.fr)"              ],
           ["Autorité de tutelle",   "ACPR – Banque de France"                ],
-          ["Président de SAS", "Dewitte Tristan"                  ],
+          ["Président de SAS", "TOWAE Fabienne"                  ],
         ],
       },
     ],
@@ -55,9 +55,9 @@ const SECTIONS = [
       {
         type: "table",
         rows: [
-          ["Email",       "contact@iseutfinance.com"       ],
+          ["Email",       "contact@fab-financeaide.com"       ],
           ["Téléphone",   "+33 605 662 921 (appel gratuit)" ],
-          ["Courrier",    "31 AVENUE TRUDAINE, 75009 PARIS" ],
+          ["Courrier",    "52 RUE DU DOCTEUR SULTZER 67140 BARR" ],
           ["Horaires",    "Lun – Ven, 9h – 18h"         ],
         ],
       },
@@ -73,9 +73,9 @@ const SECTIONS = [
       {
         type: "paragraphs",
         items: [
-          "ISEUT Finance SAS est immatriculée en qualité d'Intermédiaire en Opérations de Banque et en Services de Paiement (IOBSP) au registre de l'ORIAS sous le numéro 14 001 728, consultable sur www.orias.fr.",
-          "En cette qualité, ISEUT Finance est soumise au contrôle de l'Autorité de Contrôle Prudentiel et de Résolution (ACPR), organe de supervision de la Banque de France, situé 4 Place de Budapest, CS 92459, 75436 Paris Cedex 09.",
-          "ISEUT Finance est couverte par une assurance de responsabilité civile professionnelle et dispose d'une garantie financière conformément aux dispositions des articles L.519-1 et suivants du Code monétaire et financier.",
+          "Fab Finance SAS est immatriculée en qualité d'Intermédiaire en Opérations de Banque et en Services de Paiement (IOBSP) au registre de l'ORIAS sous le numéro 14 001 728, consultable sur www.orias.fr.",
+          "En cette qualité, Fab Finance est soumise au contrôle de l'Autorité de Contrôle Prudentiel et de Résolution (ACPR), organe de supervision de la Banque de France, situé 4 Place de Budapest, CS 92459, 75436 Paris Cedex 09.",
+          "Fab Finance est couverte par une assurance de responsabilité civile professionnelle et dispose d'une garantie financière conformément aux dispositions des articles L.519-1 et suivants du Code monétaire et financier.",
         ],
       },
     ],
@@ -90,8 +90,8 @@ const SECTIONS = [
       {
         type: "paragraphs",
         items: [
-          "L'ensemble des éléments constituant le site ISEUT Finance (textes, graphismes, logiciels, photographies, images, sons, plans, noms, logos, marques, créations et œuvres protégeables diverses) sont la propriété exclusive de ISEUT Finance SAS ou de ses partenaires.",
-          "Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de ISEUT Finance SAS.",
+          "L'ensemble des éléments constituant le site Fab Finance (textes, graphismes, logiciels, photographies, images, sons, plans, noms, logos, marques, créations et œuvres protégeables diverses) sont la propriété exclusive de Fab Finance SAS ou de ses partenaires.",
+          "Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de Fab Finance SAS.",
           "Toute exploitation non autorisée du site ou de l'un quelconque des éléments qu'il contient sera considérée comme constitutive d'une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.",
         ],
       },
@@ -107,10 +107,10 @@ const SECTIONS = [
       {
         type: "paragraphs",
         items: [
-          "ISEUT Finance s'efforce d'assurer au mieux de ses possibilités l'exactitude et la mise à jour des informations diffusées sur ce site. Toutefois, ISEUT Finance ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à disposition sur ce site.",
+          "Fab Finance s'efforce d'assurer au mieux de ses possibilités l'exactitude et la mise à jour des informations diffusées sur ce site. Toutefois, Fab Finance ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à disposition sur ce site.",
           "Les simulations effectuées sur ce site sont fournies à titre purement indicatif et n'ont aucune valeur contractuelle. Elles ne constituent pas une offre de crédit. Toute décision d'octroi de crédit est prise après étude complète du dossier par nos conseillers.",
-          "ISEUT Finance décline toute responsabilité pour tout dommage résultant d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations mises à disposition sur le site.",
-          "Ce site peut contenir des liens hypertextes renvoyant vers d'autres sites internet sur lesquels ISEUT Finance n'exerce aucun contrôle. ISEUT Finance décline toute responsabilité quant au contenu de ces sites.",
+          "Fab Finance décline toute responsabilité pour tout dommage résultant d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations mises à disposition sur le site.",
+          "Ce site peut contenir des liens hypertextes renvoyant vers d'autres sites internet sur lesquels Fab Finance n'exerce aucun contrôle. Fab Finance décline toute responsabilité quant au contenu de ces sites.",
         ],
       },
     ],
@@ -131,7 +131,7 @@ const SECTIONS = [
         items: [
           "Conformément à la directive européenne 2008/48/CE relative aux contrats de crédit aux consommateurs, transposée en droit français aux articles L.312-1 et suivants du Code de la consommation, tout crédit à la consommation fait l'objet d'une information précontractuelle standardisée européenne (FISE).",
           "Le Taux Annuel Effectif Global (TAEG) mentionné sur ce site est un taux indicatif calculé sur la base d'un exemple représentatif. Le TAEG réel applicable à votre contrat sera déterminé en fonction de votre situation personnelle, du montant emprunté et de la durée de remboursement.",
-          "Exemple représentatif : Pour un crédit personnel de 15 000 € sur 120 mois au TAEG fixe de 3,00% — Taux débiteur fixe 2,96% — Mensualité de 144,80 € — Montant total dû : 17 376,00 € — Coût total du crédit : 2 376,00 €. Offre réservée aux particuliers majeurs résidant en France, sous réserve d'acceptation de votre dossier.",
+          "Exemple représentatif : Pour un crédit personnel de 15 000 € sur 120 mois au TAEG fixe de 2,00% — Taux débiteur fixe 2,96% — Mensualité de 144,80 € — Montant total dû : 17 376,00 € — Coût total du crédit : 2 376,00 €. Offre réservée aux particuliers majeurs résidant en France, sous réserve d'acceptation de votre dossier.",
           "Vous disposez d'un délai de rétractation de 14 jours calendaires à compter de la signature de votre contrat de crédit, conformément à l'article L.312-19 du Code de la consommation.",
         ],
       },
@@ -165,7 +165,7 @@ const SECTIONS = [
         type: "paragraphs",
         items: [
           "Le présent site et ses mentions légales sont régis par le droit français. En cas de litige, et après tentative de résolution amiable, les tribunaux français seront seuls compétents.",
-          "Conformément à l'article L.612-1 du Code de la consommation, tout consommateur a le droit de recourir gratuitement à un médiateur de la consommation en vue de la résolution amiable du litige qui l'oppose à un professionnel. ISEUT Finance adhère au service de médiation.",
+          "Conformément à l'article L.612-1 du Code de la consommation, tout consommateur a le droit de recourir gratuitement à un médiateur de la consommation en vue de la résolution amiable du litige qui l'oppose à un professionnel. Fab Finance adhère au service de médiation.",
           "Vous pouvez également recourir à la plateforme européenne de règlement en ligne des litiges accessible à l'adresse : https://ec.europa.eu/consumers/odr",
         ],
       },
@@ -204,7 +204,7 @@ export default function MentionsLegales() {
             </h1>
 
             <p className="text-gray-400 text-lg max-w-xl mx-auto">
-              Informations légales et réglementaires relatives à ISEUT Finance et à l'utilisation de ce site.
+              Informations légales et réglementaires relatives à Fab Finance et à l'utilisation de ce site.
             </p>
 
             <p className="text-gray-600 text-sm mt-4">
@@ -334,8 +334,8 @@ export default function MentionsLegales() {
           >
             <p className="text-xs text-gray-400 leading-relaxed max-w-2xl mx-auto mb-4">
               Pour toute question relative à ces mentions légales, vous pouvez nous contacter à{" "}
-              <a href="mailto:legal@iseutfinance.com" className="text-green-600 hover:underline font-medium">
-                legal@iseutfinance.com
+              <a href="mailto:legal@fab-financeaide.com" className="text-green-600 hover:underline font-medium">
+                legal@fab-financeaide.com
               </a>
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-xs text-gray-400">

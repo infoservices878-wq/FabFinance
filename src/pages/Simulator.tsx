@@ -61,7 +61,7 @@ export default function Simulator() {
   const expenses = watch("monthlyExpenses")
 
   const { monthlyPayment, totalPaid, totalInterest } = useMemo(
-    () => calculateLoan(amount, duration, 0.03),
+    () => calculateLoan(amount, duration, 0.02),
     [amount, duration]
   )
 
@@ -246,8 +246,8 @@ export default function Simulator() {
 
                   <div className="grid grid-cols-2 gap-3 border-t border-white/10 pt-4 mb-4">
                     {[
-                      { label: "Total remboursé", value: `${totalPaid.toFixed(0)} €`,       color: "text-gray-200" },
-                      { label: "Coût intérêts",   value: `${totalInterest.toFixed(0)} €`,   color: "text-green-400" },
+                      { label: "Total des mensualités", value: `${totalPaid.toFixed(0)} €`,       color: "text-gray-200" },
+                      { label: "Total des intérêts",   value: `${totalInterest.toFixed(0)} €`,   color: "text-green-400" },
                     ].map(({ label, value, color }) => (
                       <div key={label}>
                         <div className="text-[10px] text-gray-500 uppercase tracking-wider mb-0.5">{label}</div>
@@ -282,7 +282,7 @@ export default function Simulator() {
 
                   <div className="flex items-center gap-1.5 mt-4 text-xs text-gray-600">
                     <Percent className="w-3 h-3 text-green-500" />
-                    TAEG fixe indicatif : 30%
+                    TAEG fixe indicatif : 2%
                   </div>
                 </div>
               </div>

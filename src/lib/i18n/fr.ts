@@ -69,7 +69,7 @@ export const fr = {
       sante:   "Santé",
     },
     stats: {
-      rate:    "3%",
+      rate:    "2%",
       rateLabel:    "TAEG dès",
       unlock:  "48h",
       unlockLabel:  "Déblocage",
@@ -83,7 +83,7 @@ export const fr = {
       durationLabel:"Durée de remboursement",
       monthlyLabel: "Mensualité estimée",
       interestLabel:"Coût total intérêts",
-      rateNote:    "TAEG fixe indicatif : 3% · Simulation non contractuelle",
+      rateNote:    "TAEG fixe indicatif : 2% · Simulation non contractuelle",
       nofees:      "Faible frais de dossier",
       instant:     "Réponse immédiate",
       cta:         "Trouver mon crédit",
@@ -103,7 +103,7 @@ export const fr = {
       {
         title:       "Acheter une voiture",
         description: "Financez votre véhicule neuf ou d'occasion avec un taux compétitif.",
-        tag:         "Dès 3%",
+        tag:         "Dès 2%",
       },
       {
         title:       "Faire des travaux",
@@ -195,10 +195,10 @@ export const fr = {
 
   // ── Mission Section ──────────────────────────────────────────────────────────
   mission: {
-    badge:      "ISEUT Finance & Vous",
+    badge:      "Fab Finance & Vous",
     title:      "Le financement qui",
     titleHighlight: "fait la différence",
-    text1:      "Chez ISEUT Finance, nous mettons notre expertise au service de vos projets de vie. Prêt personnel, crédit consommation, prêt auto ou rachat de crédit : des solutions simples, transparentes et adaptées à chaque situation.",
+    text1:      "Chez Fab Finance, nous mettons notre expertise au service de vos projets de vie. Prêt personnel, crédit consommation, prêt auto ou rachat de crédit : des solutions simples, transparentes et adaptées à chaque situation.",
     text2:      "Notre mission est de rendre le financement plus accessible grâce à des outils digitaux innovants et à un accompagnement humain à chaque étape.",
     cta:        "Découvrir notre mission",
     stats: {
@@ -219,7 +219,7 @@ export const fr = {
   whyChooseUs: {
     badge:    "Nos engagements",
     title:    "Pourquoi choisir",
-    titleHighlight: "ISEUT Finance ?",
+    titleHighlight: "Fab Finance ?",
     subtitle: "Technologie et expertise humaine réunies pour une expérience de financement simple, rapide et fiable.",
     items: [
       {
@@ -243,7 +243,7 @@ export const fr = {
       {
         title:      "Taux compétitifs",
         desc:       "Des solutions transparentes adaptées à votre profil. Zéro frais cachés, zéro mauvaise surprise.",
-        stat:       "3%",
+        stat:       "2%",
         statLabel:  "TAEG à partir de",
       },
     ],
@@ -260,7 +260,7 @@ export const fr = {
     badge:    "Preuve sociale",
     title:    "Ils nous font",
     titleHighlight: "confiance",
-    subtitle: "Des milliers de clients font confiance à ISEUT Finance pour financer leurs projets personnels et professionnels.",
+    subtitle: "Des milliers de clients font confiance à Fab Finance pour financer leurs projets personnels et professionnels.",
     certifiedBy: "Reconnu et certifié par",
     stats: [
       { value: "+200 000", label: "projets financés"     },
@@ -284,7 +284,7 @@ export const fr = {
       {
         name: "Claire Dupont",
         role: "Travaux · 25 000€",
-        text: "Service client vraiment professionnel et disponible. Ils m'ont accompagnée de A à Z pour financer ma rénovation. Merci ISEUT Finance !",
+        text: "Service client vraiment professionnel et disponible. Ils m'ont accompagnée de A à Z pour financer ma rénovation. Merci Fab Finance !",
       },
     ],
   },
@@ -316,7 +316,7 @@ export const fr = {
       },
       {
         q: "Y a-t-il des frais de dossier ?",
-        a: "Oui. ISEUT Finance facture des frais de dossier qui sont très faibles.  La simulation est gratuite et sans engagement. Vous ne payez que les intérêts définis dans votre contrat.",
+        a: "Oui. Fab Finance facture des frais de dossier qui sont très faibles.  La simulation est gratuite et sans engagement. Vous ne payez que les intérêts définis dans votre contrat.",
       },
       {
         q: "Quel est le montant maximum que je peux emprunter ?",
@@ -340,7 +340,7 @@ export const fr = {
       secure:   "100% sécurisé",
       clients:  "+200 000 clients satisfaits",
     },
-    legal: "Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. ISEUT Finance — ORIAS n° XXXXXXXX.",
+    legal: "Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Fab Finance — ORIAS n° 14 001 728.",
   },
 
   // ── Simulator page ───────────────────────────────────────────────────────────
@@ -351,7 +351,7 @@ export const fr = {
     duration:       "Durée de remboursement",
     monthlyPayment: "Mensualité estimée",
     rate:           "TAEG fixe indicatif : 4,5%",
-    totalPaid:      "Total remboursé",
+    totalPaid:      "Total des mensualités",
     totalInterest:  "Coût des intérêts",
     cta:            "Demander mon prêt",
     legal:          "Simulation non contractuelle",
@@ -365,9 +365,9 @@ export const fr = {
     title:     "Comment obtenir votre prêt ?",
     subtitle:  "De la simulation au versement des fonds, découvrez chaque étape.",
     steps:     "6 étapes simples",
-    journey:   "Le parcours ISEUT Finance",
+    journey:   "Le parcours Fab Finance",
     guarantee: "Nos engagements",
-    whyUs:     "Pourquoi choisir ISEUT Finance ?",
+    whyUs:     "Pourquoi choisir Fab Finance ?",
     cta:       "Démarrer ma simulation",
     ctaSub:    "Gratuit · Sans engagement · Réponse en 2 minutes",
   },
@@ -376,7 +376,7 @@ export const fr = {
   about: {
     badge:    "Notre histoire",
     title:    "Une fintech au service de vos projets",
-    subtitle: "Depuis 2016, ISEUT Finance accompagne particuliers et professionnels dans leurs projets de financement.",
+    subtitle: "Depuis 2016, Fab Finance accompagne particuliers et professionnels dans leurs projets de financement.",
     mission:  "Notre mission",
     values:   "Nos valeurs",
     team:     "Notre équipe",

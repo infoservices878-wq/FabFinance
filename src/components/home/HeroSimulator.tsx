@@ -13,7 +13,7 @@ export default function HeroSimulator() {
   const [duration, setDuration] = useState(48)
 
   const { monthlyPayment, totalCost } = useMemo(() => {
-    const result = calculateLoan(amount, duration, 0.03)
+    const result = calculateLoan(amount, duration, 0.02)
     return {
       ...result,
       totalCost: result.monthlyPayment * duration - amount,
@@ -174,7 +174,7 @@ export default function HeroSimulator() {
                   <div>
                     <div className="text-gray-400 text-xs mb-1">{s.card.interestLabel}</div>
                     <div className="text-2xl font-bold text-gray-200">
-                      {totalCost.toFixed(0)}<span className="text-gray-400 text-base"> €</span>
+                      {totalCost.toFixed(2)}<span className="text-gray-400 text-base"> €</span>
                     </div>
                   </div>
                 </div>
