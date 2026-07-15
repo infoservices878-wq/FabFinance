@@ -20,10 +20,6 @@ const LOAN_IDS = [
 const LANGUAGES = [
   { code: "fr", label: "Français",  flag: "🇫🇷" },
   { code: "en", label: "English",   flag: "🇬🇧" },
-  { code: "de", label: "Deutsch",   flag: "🇩🇪" },
-  { code: "es", label: "Español",   flag: "🇪🇸" },
-  { code: "it", label: "Italiano",  flag: "🇮🇹" },
-  { code: "pt", label: "Português", flag: "🇵🇹" },
 ];
 
 export function Navbar() {
