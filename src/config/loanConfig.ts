@@ -24,7 +24,7 @@ export const loanConfig: any = {
       min:      "1 000 €",
       max:      "75 000 €",
       duration: "12 à 84 mois",
-      taeg:     "à partir de 2 %",
+      taeg:     "à partir de 3 %",
       rateType: "Fixe",
     },
 

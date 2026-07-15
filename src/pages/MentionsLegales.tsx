@@ -131,7 +131,7 @@ const SECTIONS = [
         items: [
           "Conformément à la directive européenne 2008/48/CE relative aux contrats de crédit aux consommateurs, transposée en droit français aux articles L.312-1 et suivants du Code de la consommation, tout crédit à la consommation fait l'objet d'une information précontractuelle standardisée européenne (FISE).",
           "Le Taux Annuel Effectif Global (TAEG) mentionné sur ce site est un taux indicatif calculé sur la base d'un exemple représentatif. Le TAEG réel applicable à votre contrat sera déterminé en fonction de votre situation personnelle, du montant emprunté et de la durée de remboursement.",
-          "Exemple représentatif : Pour un crédit personnel de 15 000 € sur 120 mois au TAEG fixe de 2,00% — Taux débiteur fixe 2,96% — Mensualité de 144,80 € — Montant total dû : 17 376,00 € — Coût total du crédit : 2 376,00 €. Offre réservée aux particuliers majeurs résidant en France, sous réserve d'acceptation de votre dossier.",
+          "Exemple représentatif : Pour un crédit personnel de 15 000 € sur 120 mois au TAEG fixe de 3,00% — Taux débiteur fixe 3,96% — Mensualité de 144,80 € — Montant total dû : 17 376,00 € — Coût total du crédit : 2 376,00 €. Offre réservée aux particuliers majeurs résidant en France, sous réserve d'acceptation de votre dossier.",
           "Vous disposez d'un délai de rétractation de 14 jours calendaires à compter de la signature de votre contrat de crédit, conformément à l'article L.312-19 du Code de la consommation.",
         ],
       },

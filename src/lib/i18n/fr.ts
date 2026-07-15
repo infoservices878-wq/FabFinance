@@ -69,7 +69,7 @@ export const fr = {
       sante:   "Santé",
     },
     stats: {
-      rate:    "2%",
+      rate:    "3%",
       rateLabel:    "TAEG dès",
       unlock:  "48h",
       unlockLabel:  "Déblocage",
@@ -83,7 +83,7 @@ export const fr = {
       durationLabel:"Durée de remboursement",
       monthlyLabel: "Mensualité estimée",
       interestLabel:"Coût total intérêts",
-      rateNote:    "TAEG fixe indicatif : 2% · Simulation non contractuelle",
+      rateNote:    "TAEG fixe indicatif : 3% · Simulation non contractuelle",
       nofees:      "Faible frais de dossier",
       instant:     "Réponse immédiate",
       cta:         "Trouver mon crédit",
@@ -103,7 +103,7 @@ export const fr = {
       {
         title:       "Acheter une voiture",
         description: "Financez votre véhicule neuf ou d'occasion avec un taux compétitif.",
-        tag:         "Dès 2%",
+        tag:         "Dès 3%",
       },
       {
         title:       "Faire des travaux",
@@ -243,7 +243,7 @@ export const fr = {
       {
         title:      "Taux compétitifs",
         desc:       "Des solutions transparentes adaptées à votre profil. Zéro frais cachés, zéro mauvaise surprise.",
-        stat:       "2%",
+        stat:       "3%",
         statLabel:  "TAEG à partir de",
       },
     ],

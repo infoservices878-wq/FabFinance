@@ -83,7 +83,7 @@ export default function HeroSection() {
                   <TrendingUp className="w-3 h-3" /> {h.statsCard.rateCompete}
                 </span>
               </div>
-              <div className="text-4xl font-extrabold text-white mb-1">2 <span className="text-2xl text-green-400">%</span></div>
+              <div className="text-4xl font-extrabold text-white mb-1">3 <span className="text-2xl text-green-400">%</span></div>
               <div className="text-gray-500 text-xs">{h.statsCard.rateSub}</div>
               <div className="mt-5 pt-5 border-t border-white/10 grid grid-cols-2 gap-4">
                 <div><div className="text-xl font-bold text-white">500€</div><div className="text-gray-500 text-xs mt-0.5">{h.statsCard.minLabel}</div></div>

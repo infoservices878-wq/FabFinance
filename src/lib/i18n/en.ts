@@ -28,12 +28,12 @@ export const en: Translation = {
     titleBefore: "Finance", titleHighlight: "what matters", titleAfter: "truly.",
     subtitle: "Car, home improvement, studies or travel — get a real-time estimate, no commitment.",
     projects: { travaux: "Home", auto: "Car", etudes: "Studies", voyage: "Travel", mariage: "Wedding", sante: "Health" },
-    stats: { rate: "2%", rateLabel: "APR from", unlock: "48h", unlockLabel: "Disbursement", online: "100%", onlineLabel: "Online" },
+    stats: { rate: "3%", rateLabel: "APR from", unlock: "48h", unlockLabel: "Disbursement", online: "100%", onlineLabel: "Online" },
     card: {
       title: "Your simulation", badge: "Free · No commitment",
       amountLabel: "Requested amount", durationLabel: "Repayment term",
       monthlyLabel: "Estimated monthly payment", interestLabel: "Total interest cost",
-      rateNote: "Indicative fixed APR: 2% · Non-contractual simulation",
+      rateNote: "Indicative fixed APR: 3% · Non-contractual simulation",
       nofees: "No processing fees", instant: "Immediate response",
       cta: "Find my loan",
       legal: "A loan commits you and must be repaid. Check your repayment capacity before committing.",
@@ -45,7 +45,7 @@ export const en: Translation = {
     cta: "Simulate my loan for free", ctaSub: "No commitment · Answer in less than 2 minutes",
     learnMore: "Learn more",
     projects: [
-      { title: "Buy a car",           description: "Finance your new or used vehicle at a competitive rate.", tag: "From 2%" },
+      { title: "Buy a car",           description: "Finance your new or used vehicle at a competitive rate.", tag: "From 3%" },
       { title: "Home renovation",     description: "Renovate your home with flexible and fast financing.",   tag: "Up to €75,000" },
       { title: "Travel",              description: "Take the trip of your dreams without waiting.",           tag: "Immediate response" },
       { title: "Fund your education", description: "Invest in your future with a tailor-made student loan.", tag: "Preferential rate" },
@@ -97,7 +97,7 @@ export const en: Translation = {
       { title: "Fast response",    desc: "Get an in-principle answer in minutes. No waiting, no unnecessary paperwork.", stat: "2 min",    statLabel: "in-principle response"   },
       { title: "100% secure",      desc: "Your data is encrypted and protected by the latest banking technology.",       stat: "256-bit",  statLabel: "SSL encryption"         },
       { title: "Human support",    desc: "Our dedicated advisors guide you at every step, from simulation to signing.",  stat: "7d/7",     statLabel: "advisors available"     },
-      { title: "Competitive rates",desc: "Transparent solutions tailored to your profile. Zero hidden fees.",            stat: "2%",       statLabel: "APR from"               },
+      { title: "Competitive rates",desc: "Transparent solutions tailored to your profile. Zero hidden fees.",            stat: "3%",       statLabel: "APR from"               },
     ],
     metrics: [
       { value: "+200,000", label: "projects financed"   },

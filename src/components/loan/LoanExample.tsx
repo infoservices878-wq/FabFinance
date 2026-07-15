@@ -3,17 +3,17 @@ import { Landmark, Percent, ArrowRight } from "lucide-react"
 import { Link } from "wouter"
 import { useI18n } from "@/lib/i18n-context";
 
-// Calcul avec TAEG 2% annuel
+// Calcul avec TAEG 3% annuel
 const AMOUNT    = 15_000
 const MONTHS    = 120
-const r         = 0.02 / 12
+const r         = 0.03 / 12
 const monthly   = +(AMOUNT * (r * Math.pow(1 + r, MONTHS)) / (Math.pow(1 + r, MONTHS) - 1)).toFixed(2)
 const total     = +(monthly * MONTHS).toFixed(2)
 const interests = +(total - AMOUNT).toFixed(2)
 
 const ROWS = [
-  { label: "TAEG fixe",       value: "2,00%",                                   highlight: false },
-  { label: "Taux débiteur",   value: "2,00%",                                   highlight: false },
+  { label: "TAEG fixe",       value: "3,00%",                                   highlight: false },
+  { label: "Taux débiteur",   value: "3,96%",                                   highlight: false },
   { label: "Total des mensualités", value: `${total.toLocaleString("fr-FR")} €`,      highlight: false },
   { label: "Total des intérêts",  value: `${interests.toLocaleString("fr-FR")} €`,  highlight: true  },
 ]
@@ -64,7 +64,7 @@ export default function LoanExample() {
           </div>
           <div>
             <h2 className="text-xl font-extrabold text-white">Exemple de financement</h2>
-            <p className="text-xs text-gray-400 mt-0.5">Simulation indicative · TAEG fixe 2%</p>
+            <p className="text-xs text-gray-400 mt-0.5">Simulation indicative · TAEG fixe 3%</p>
           </div>
         </div>
 
@@ -177,7 +177,7 @@ export default function LoanExample() {
 
             <div className="px-6 py-4 border-t border-white/10">
               <p className="text-[11px] text-gray-600 leading-relaxed">
-                Simulation non contractuelle. TAEG fixe de 2,00% sur 120 mois.
+                Simulation non contractuelle. TAEG fixe de 3,00% sur 120 mois.
                 Un crédit vous engage et doit être remboursé.
               </p>
             </div>
