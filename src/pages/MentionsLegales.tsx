@@ -56,7 +56,7 @@ const SECTIONS = [
         type: "table",
         rows: [
           ["Email",       "contact@fab-financeaide.com"       ],
-          ["Téléphone",   "+33 605 662 921 (appel gratuit)" ],
+          ["Téléphone",   "+33 753 959 516 (appel gratuit)" ],
           ["Courrier",    "52 RUE DU DOCTEUR SULTZER 67140 BARR" ],
           ["Horaires",    "Lun – Ven, 9h – 18h"         ],
         ],

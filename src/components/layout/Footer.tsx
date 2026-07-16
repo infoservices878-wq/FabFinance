@@ -86,7 +86,7 @@ export function Footer() {
             {/* Contact rapide */}
             <div className="space-y-2.5">
               {[
-                { icon: Phone,  text: "+33 605 662 921" },
+                { icon: Phone,  text: "+33 753 959 516" },
                 { icon: Mail,   text: "contact@fab-financeaide.com" },
                 { icon: MapPin, text: "67140 Barr, France" },
               ].map(({ icon: Icon, text }) => (

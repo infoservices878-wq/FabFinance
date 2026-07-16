@@ -29,7 +29,7 @@ const CONTACT_INFO = [
   {
     icon: Phone,
     title: "Téléphone",
-    lines: ["+33 605 662 921", "Lun–Ven, 9h–18h · Gratuit"],
+    lines: ["+33 753 959 516", "Lun–Ven, 9h–18h · Gratuit"],
     color: "#3b82f6",
     bg: "#eff6ff",
   },
