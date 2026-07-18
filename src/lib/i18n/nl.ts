@@ -390,7 +390,7 @@ export const nl = {
       "title": "Simulator",
       "amountLabel": "Bedrag",
       "durationLabel": "Duur",
-      "totalInterest": "Totaal rente",
+      "totalInterest": "Totale rente",
       "debtRatio": "Schuldenratio",
       "rateNote": "Indicatief vast JKP: 3%"
     },
@@ -824,5 +824,363 @@ export const nl = {
     "noCommit": "Geen verplichting",
     "monthly": "maanden",
     "euros": "€"
+  },
+  "mentionsLegales": {
+    "pageTitle": "Wettelijke vermeldingen",
+    "pageSubtitle": "Wettelijke en regelgevende informatie met betrekking tot Fab Finance en het gebruik van deze website.",
+    "lastUpdate": "Laatste update:",
+    "summary": "Inhoudsopgave",
+    "sections": [
+      {
+        "title": "Uitgever van de website",
+        "rows": [
+          {
+            "0": "Bedrijfsnaam",
+            "1": "Fab Finance"
+          },
+          {
+            "0": "Rechtsvorm",
+            "1": "Vereenvoudigde naamloze vennootschap (SAS)"
+          },
+          {
+            "0": "Maatschappelijk kapitaal",
+            "1": "50.000 €"
+          },
+          {
+            "0": "Hoofdkantoor",
+            "1": "52 RUE DU DOCTEUR SULTZER 67140 BARR"
+          },
+          {
+            "0": "SIREN",
+            "1": "524581873"
+          },
+          {
+            "0": "RCS",
+            "1": "524 581 873 Handelsregister Colmar"
+          },
+          {
+            "0": "ORIAS-nummer",
+            "1": "14 001 728 (www.orias.fr)"
+          },
+          {
+            "0": "Toezichthoudende autoriteit",
+            "1": "ACPR – Banque de France"
+          },
+          {
+            "0": "Voorzitter van SAS",
+            "1": "TOWAE Fabienne"
+          }
+        ]
+      },
+      {
+        "title": "Accommodatie",
+        "rows": [
+          {
+            "0": "Webhost",
+            "1": "Vercel Inc."
+          },
+          {
+            "0": "Adres",
+            "1": "440 N Barranca Ave, Covina, CA"
+          },
+          {
+            "0": "Website",
+            "1": "www.vercel.com"
+          }
+        ]
+      },
+      {
+        "title": "Neem contact met ons op",
+        "rows": [
+          {
+            "0": "E-mail",
+            "1": "contact@fab-financeaide.com"
+          },
+          {
+            "0": "Telefoon",
+            "1": "+33 753 959 516 (gratis nummer)"
+          },
+          {
+            "0": "Post",
+            "1": "52 RUE DU DOCTEUR SULTZER 67140 BARR"
+          },
+          {
+            "0": "Openingstijden",
+            "1": "Ma – vr, 9.00 – 18.00 uur"
+          }
+        ]
+      },
+      {
+        "title": "Gereguleerde activiteit",
+        "paragraphs": [
+          "Fab Finance SAS is ingeschreven als tussenpersoon voor banktransacties en betalingsdiensten (IOBSP) in het ORIAS-register onder nummer 14 001 728, te raadplegen op www.orias.fr.",
+          "In die hoedanigheid staat Fab Finance onder toezicht van de Autorité de Contrôle Prudentiel et de Résolution (ACPR), het toezichthoudende orgaan van de Banque de France, gevestigd aan de Place de Budapest 4, CS 92459, 75436 Paris Cedex 09.",
+          "Fab Finance is gedekt door een beroepsaansprakelijkheidsverzekering en beschikt over een financiële garantie overeenkomstig de bepalingen van artikel L.519-1 en volgende van het Monetaire en Financiële Wetboek."
+        ]
+      },
+      {
+        "title": "Intellectueel eigendom",
+        "paragraphs": [
+          "Alle onderdelen waaruit de website van Fab Finance bestaat (teksten, grafische elementen, software, foto’s, afbeeldingen, geluiden, plattegronden, namen, logo’s, merken, creaties en diverse beschermbare werken) zijn het exclusieve eigendom van Fab Finance SAS of haar partners.",
+          "Elke reproductie, weergave, wijziging, publicatie of aanpassing van alle of een deel van de elementen van de website, ongeacht de gebruikte middelen of methoden, is verboden, tenzij Fab Finance SAS hiervoor vooraf schriftelijk toestemming heeft gegeven.",
+          "Elk ongeoorloofd gebruik van de website of van enig onderdeel daarvan wordt beschouwd als een inbreuk op het auteursrecht en zal worden vervolgd overeenkomstig de bepalingen van artikel L.335-2 en volgende van het Wetboek van intellectueel eigendom."
+        ]
+      },
+      {
+        "title": "Beperking van aansprakelijkheid",
+        "paragraphs": [
+          "Fab Finance streeft ernaar om de informatie op deze website zo nauwkeurig en actueel mogelijk te houden. Fab Finance kan echter geen garantie geven voor de juistheid, nauwkeurigheid of volledigheid van de informatie die op deze website wordt aangeboden.",
+          "De simulaties op deze website zijn louter ter indicatie en hebben geen contractuele waarde. Ze vormen geen kredietaanbod. Elk besluit tot toekenning van een krediet wordt genomen na een grondige beoordeling van het dossier door onze adviseurs.",
+          "Fab Finance wijst elke aansprakelijkheid af voor schade die voortvloeit uit frauduleuze inbreuk door een derde, waardoor de op de website beschikbare informatie is gewijzigd.",
+          "Deze website kan hyperlinks bevatten naar andere websites waarover Fab Finance geen controle heeft. Fab Finance aanvaardt geen enkele aansprakelijkheid voor de inhoud van deze websites."
+        ]
+      },
+      {
+        "title": "Wettelijke vermeldingen inzake consumentenkrediet",
+        "warning": "Een lening is een verbintenis en moet worden terugbetaald. Controleer of u in staat bent om de lening terug te betalen voordat u deze aangaat.",
+        "paragraphs": [
+          "Overeenkomstig de Europese richtlijn 2008/48/EG betreffende consumentenkredietovereenkomsten, die in het Franse recht is omgezet in de artikelen L.312-1 en volgende van het Wetboek van Consumentenzaken, geldt voor elk consumentenkrediet de gestandaardiseerde Europese precontractuele informatie (FISE).",
+          "Het op deze website vermelde jaarlijkse effectieve rentepercentage (JER) is een indicatief percentage dat is berekend op basis van een representatief voorbeeld. Het daadwerkelijke JER dat op uw overeenkomst van toepassing is, wordt bepaald op basis van uw persoonlijke situatie, het geleende bedrag en de looptijd van de lening.",
+          "Representatief voorbeeld: Voor een persoonlijke lening van 15.000 € over 120 maanden tegen een vaste JKP van 3,00% — Vaste debetrentevoet 3,96% — Maandelijkse aflossing van 144,80 € — Totaal verschuldigd bedrag: 17.376,00 € — Totale kosten van de lening: 2.376,00 €. Aanbieding uitsluitend bestemd voor meerderjarige particulieren die in Frankrijk wonen, onder voorbehoud van goedkeuring van uw aanvraag.",
+          "U beschikt over een herroepingstermijn van 14 kalenderdagen vanaf de ondertekening van uw kredietovereenkomst, overeenkomstig artikel L.312-19 van het Wetboek van Consumentenzaken."
+        ]
+      },
+      {
+        "title": "Cookies en trackers",
+        "paragraphs": [
+          "Deze website maakt gebruik van cookies om uw surfervaring te verbeteren. Cookies zijn kleine tekstbestanden die tijdens uw bezoek op uw apparaat worden opgeslagen.",
+          "We gebruiken cookies die strikt noodzakelijk zijn voor de werking van de website, analytische cookies (geanonimiseerde bezoekersstatistieken) en cookies voor personalisatie. U kunt uw voorkeuren op elk moment beheren via onze cookiemanager.",
+          "Raadpleeg ons privacybeleid voor meer informatie over ons gebruik van cookies."
+        ]
+      },
+      {
+        "title": "Toepasselijk recht en bevoegde rechtbank",
+        "paragraphs": [
+          "Deze website en de wettelijke vermeldingen daarop vallen onder het Franse recht. In geval van een geschil, en na een poging tot minnelijke schikking, zijn uitsluitend de Franse rechtbanken bevoegd.",
+          "Overeenkomstig artikel L.612-1 van het Consumentenwetboek heeft elke consument het recht om kosteloos een beroep te doen op een consumentenbemiddelaar met het oog op een minnelijke schikking van het geschil tussen hem en een ondernemer. Fab Finance is aangesloten bij de bemiddelingsdienst.",
+          "U kunt ook gebruikmaken van het Europese platform voor online geschillenbeslechting, dat u kunt vinden op: https://ec.europa.eu/consumers/odr"
+        ]
+      }
+    ],
+    "footerContact": "Als u vragen hebt over deze wettelijke vermeldingen, kunt u contact met ons opnemen via"
+  },
+  "politiqueConfidentialite": {
+    "badge": "AVG · Wet op de gegevensbescherming",
+    "pageSubtitle": "Hoe wij uw persoonsgegevens verzamelen, gebruiken en beschermen.",
+    "rgpdBoxTitle": "Uw gegevens zijn beveiligd",
+    "rgpdBoxText": "Fab Finance voldoet aan de Algemene Verordening Gegevensbescherming (AVG – EU 2016/679). Uw gegevens worden nooit verkocht en worden met de grootste zorg behandeld.",
+    "footerText": "Als u uw rechten wilt uitoefenen of vragen hebt over dit beleid, kunt u contact opnemen met onze functionaris voor gegevensbescherming via",
+    "modifDateLabel": "Datum van de laatste update:",
+    "sections": [
+      {
+        "title": "Verantwoordelijke voor de verwerking",
+        "paragraphs": [
+          "Fab Finance SAS, ingeschreven in het handelsregister van Parijs onder nummer 524581873, met maatschappelijke zetel te 52 RUE DU DOCTEUR SULTZER, 67140 BARR, is verantwoordelijk voor de verwerking van uw persoonsgegevens die via deze website worden verzameld.",
+          "Onze functionaris voor gegevensbescherming (DPO) is bereikbaar via het volgende e-mailadres: dpo@fab-financeaide.com"
+        ]
+      },
+      {
+        "title": "Verzamelde gegevens",
+        "intro": "In het kader van uw gebruik van onze diensten verzamelen wij uitsluitend de gegevens die strikt noodzakelijk zijn voor de beoordeling van uw financieringsaanvraag.",
+        "rows": [
+          {
+            "0": "Identiteit",
+            "1": "Naam, voornaam, geboortedatum"
+          },
+          {
+            "0": "Contactgegevens",
+            "1": "E-mail, telefoonnummer, postadres"
+          },
+          {
+            "0": "Professionele situatie.",
+            "1": "Beroepsstatus, maandelijks inkomen, lasten"
+          },
+          {
+            "0": "Project",
+            "1": "Soort lening, gewenst bedrag, looptijd"
+          },
+          {
+            "0": "Navigatie",
+            "1": "IP-adres, bezochte pagina’s, sessieduur (geanonimiseerd)"
+          },
+          {
+            "0": "Toestemming",
+            "1": "Datum, tijdstip en wijze van verkrijging van de toestemming in het kader van de AVG"
+          }
+        ],
+        "paragraphs": [
+          "Wij verzamelen geen zogenaamde „gevoelige” gegevens in de zin van artikel 9 van de AVG (etnische afkomst, politieke opvattingen, gezondheidsgegevens, enz.)."
+        ]
+      },
+      {
+        "title": "Doelstellingen en rechtsgrondslagen",
+        "rows": [
+          {
+            "0": "Behandeling van uw aanvraag",
+            "1": "Uitvoering van een overeenkomst / maatregelen voorafgaand aan de overeenkomst"
+          },
+          {
+            "0": "Mededeling over uw dossier",
+            "1": "Gerechtvaardigd belang / uitvoering van de overeenkomst"
+          },
+          {
+            "0": "Wettelijke verplichtingen",
+            "1": "Wettelijke verplichting (KYC, AML-CFT)"
+          },
+          {
+            "0": "Verbetering van de dienstverlening",
+            "1": "Gerechtvaardigd belang (geanonimiseerde gegevens)"
+          },
+          {
+            "0": "Marketing en nieuwsbrieven",
+            "1": "Uitdrukkelijke toestemming (opt-in)"
+          },
+          {
+            "0": "Analytische cookies",
+            "1": "Uitdrukkelijke toestemming"
+          }
+        ]
+      },
+      {
+        "title": "Ontvangers van de gegevens",
+        "paragraphs": [
+          "Uw gegevens worden uitsluitend verwerkt door Fab Finance SAS en haar technische verwerkers, uitsluitend in het kader van de uitvoering van de dienst. Ze worden nooit aan derden verkocht.",
+          "De onderaannemers waarmee wij samenwerken, zijn contractueel verplicht om de vertrouwelijkheid en de veiligheid van uw gegevens te waarborgen, overeenkomstig artikel 28 van de AVG."
+        ],
+        "rows": [
+          {
+            "0": "Accommodatie",
+            "1": "Vercel Inc. (servers in de EU)"
+          },
+          {
+            "0": "E-mails versturen",
+            "1": "EmailJS / Opnieuw verzenden (TLS-versleuteling)"
+          },
+          {
+            "0": "Analytisch",
+            "1": "Geanonimiseerde gegevens, zonder doorgifte buiten de EU"
+          }
+        ],
+        "paragraphs2": [
+          "Er vinden geen gegevensoverdrachten buiten de Europese Unie plaats zonder passende waarborgen (standaardcontractbepalingen van de Europese Commissie)."
+        ]
+      },
+      {
+        "title": "Houdbaarheid",
+        "rows": [
+          {
+            "0": "Gegevens van de aanvraag (niet succesvol)",
+            "1": "3 jaar vanaf het laatste contact"
+          },
+          {
+            "0": "Contractgegevens",
+            "1": "5 jaar na het aflopen van het contract (wettelijke verplichting)"
+          },
+          {
+            "0": "Navigatiegegevens",
+            "1": "Maximaal 13 maanden"
+          },
+          {
+            "0": "Gegevens inzake toestemming",
+            "1": "3 jaar vanaf de verzameling"
+          },
+          {
+            "0": "Marketinggegevens",
+            "1": "3 jaar na de laatste actieve inzet"
+          }
+        ],
+        "paragraphs": [
+          "Na afloop van deze termijnen worden uw gegevens op een veilige manier verwijderd of onomkeerbaar geanonimiseerd."
+        ]
+      },
+      {
+        "title": "Gegevensbeveiliging",
+        "intro": "Fab Finance neemt passende technische en organisatorische maatregelen om uw gegevens te beschermen tegen verlies, vernietiging, wijziging, ongeoorloofde toegang of openbaarmaking.",
+        "rows": [
+          {
+            "0": "Versleuteling",
+            "1": "SSL/TLS 256-bit bij alle communicatie"
+          },
+          {
+            "0": "Toegang",
+            "1": "Strikte toegangscontrole, sterke authenticatie"
+          },
+          {
+            "0": "Accommodatie",
+            "1": "Beveiligde servers met ISO 27001-certificering"
+          },
+          {
+            "0": "Tests",
+            "1": "Regelmatige veiligheidsaudits"
+          }
+        ],
+        "warning": "In geval van een datalek dat een risico kan vormen voor uw rechten en vrijheden, wordt u hiervan binnen 72 uur op de hoogte gesteld, overeenkomstig artikel 34 van de AVG."
+      },
+      {
+        "title": "Uw rechten",
+        "intro": "Overeenkomstig de Algemene Verordening Gegevensbescherming (AVG – EU 2016/679) en de gewijzigde wet op de gegevensbescherming hebt u de volgende rechten met betrekking tot uw persoonsgegevens:",
+        "rows": [
+          {
+            "0": "Recht op inzage",
+            "1": "Een kopie van uw gegevens opvragen (art. 15 AVG)"
+          },
+          {
+            "0": "Recht op rectificatie",
+            "1": "Onjuiste gegevens corrigeren (art. 16 AVG)"
+          },
+          {
+            "0": "Recht op verwijdering",
+            "1": "Verzoek tot verwijdering van uw gegevens (art. 17 AVG)"
+          },
+          {
+            "0": "Recht op beperking",
+            "1": "Een lopende verwerking beperken (art. 18 AVG)"
+          },
+          {
+            "0": "Recht op gegevensoverdraagbaarheid",
+            "1": "Uw gegevens in een leesbaar formaat ontvangen (art. 20 AVG)"
+          },
+          {
+            "0": "Recht van bezwaar",
+            "1": "Bezwaar maken tegen een verwerking (art. 21 AVG)"
+          },
+          {
+            "0": "Intrekking van de toestemming",
+            "1": "U kunt uw toestemming op elk moment intrekken"
+          }
+        ],
+        "paragraphs2": [
+          "Om uw rechten uit te oefenen, kunt u per e-mail contact opnemen met onze functionaris voor gegevensbescherming via dpo@fab-financeaide.com, met bijvoeging van een kopie van uw identiteitsbewijs. Wij zullen binnen een maand na ontvangst van uw verzoek reageren.",
+          "Als u van mening bent dat uw rechten niet worden gerespecteerd, kunt u een klacht indienen bij de CNIL: www.cnil.fr of 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07."
+        ]
+      },
+      {
+        "title": "Cookies",
+        "rows": [
+          {
+            "0": "Essentiële cookies",
+            "1": "Noodzakelijk voor de werking — Geen toestemming vereist"
+          },
+          {
+            "0": "Analytische cookies",
+            "1": "Anonieme bezoekersmeting — Toestemming vereist"
+          },
+          {
+            "0": "Marketingcookies",
+            "1": "Niet gebruikt op deze website"
+          }
+        ],
+        "paragraphs": [
+          "U kunt uw voorkeuren op elk moment aanpassen via de cookiebeheerder onderaan de pagina. Het weigeren van analytische cookies heeft geen invloed op uw navigatie of uw toegang tot de diensten."
+        ]
+      },
+      {
+        "title": "Wijzigingen in het beleid",
+        "paragraphs": [
+          "Fab Finance behoudt zich het recht voor om dit privacybeleid te allen tijde te wijzigen, met name om te voldoen aan eventuele wijzigingen op het gebied van wetgeving, jurisprudentie, redactionele aanpassingen of technische ontwikkelingen.",
+          "In geval van een wezenlijke wijziging wordt u hiervan op de hoogte gesteld via e-mail of via een zichtbare banner op de website. De geldende versie is altijd te raadplegen via de voettekst van de website."
+        ]
+      }
+    ]
   }
 };

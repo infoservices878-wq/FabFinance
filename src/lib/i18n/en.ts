@@ -824,5 +824,363 @@ export const en = {
     "noCommit": "No commitment",
     "monthly": "months",
     "euros": "€"
+  },
+  "mentionsLegales": {
+    "pageTitle": "Legal Notice",
+    "pageSubtitle": "Legal and regulatory information regarding Fab Finance and the use of this website.",
+    "lastUpdate": "Last updated:",
+    "summary": "Table of Contents",
+    "sections": [
+      {
+        "title": "Website Publisher",
+        "rows": [
+          {
+            "0": "Company Name",
+            "1": "Fab Finance"
+          },
+          {
+            "0": "Legal Form",
+            "1": "Simplified Joint-Stock Company (SAS)"
+          },
+          {
+            "0": "Share Capital",
+            "1": "50,000 €"
+          },
+          {
+            "0": "Headquarters",
+            "1": "52 Rue du Docteur Sultzer, 67140 Barr"
+          },
+          {
+            "0": "SIREN",
+            "1": "524581873"
+          },
+          {
+            "0": "RCS",
+            "1": "524 581 873 Colmar Commercial Register"
+          },
+          {
+            "0": "ORIAS No.",
+            "1": "14,001,728 (www.orias.fr)"
+          },
+          {
+            "0": "Regulatory Authority",
+            "1": "ACPR – Banque de France"
+          },
+          {
+            "0": "President of SAS",
+            "1": "Fabienne TOWAE"
+          }
+        ]
+      },
+      {
+        "title": "Accommodations",
+        "rows": [
+          {
+            "0": "Web Host",
+            "1": "Vercel, Inc."
+          },
+          {
+            "0": "Address",
+            "1": "440 N Barranca Ave, Covina, CA"
+          },
+          {
+            "0": "Website",
+            "1": "www.vercel.com"
+          }
+        ]
+      },
+      {
+        "title": "Contact Us",
+        "rows": [
+          {
+            "0": "Email",
+            "1": "contact@fab-financeaide.com"
+          },
+          {
+            "0": "Phone",
+            "1": "+33 753 959 516 (toll-free)"
+          },
+          {
+            "0": "Mail",
+            "1": "52 Rue du Docteur Sultzer, 67140 Barr"
+          },
+          {
+            "0": "Hours",
+            "1": "Mon–Fri, 9 a.m.–6 p.m."
+          }
+        ]
+      },
+      {
+        "title": "Regulated Activity",
+        "paragraphs": [
+          "Fab Finance SAS is registered as a Banking and Payment Services Intermediary (IOBSP) in the ORIAS registry under number 14 001 728, which can be viewed at www.orias.fr.",
+          "As such, Fab Finance is subject to oversight by the Autorité de Contrôle Prudentiel et de Résolution (ACPR), the supervisory body of the Banque de France, located at 4 Place de Budapest, CS 92459, 75436 Paris Cedex 09.",
+          "Fab Finance is covered by professional liability insurance and maintains a financial guarantee in accordance with the provisions of Articles L.519-1 et seq. of the Monetary and Financial Code."
+        ]
+      },
+      {
+        "title": "Intellectual Property",
+        "paragraphs": [
+          "All elements comprising the Fab Finance website (text, graphics, software, photographs, images, sounds, diagrams, names, logos, trademarks, and various protectable creations and works) are the exclusive property of Fab Finance SAS or its partners.",
+          "Any reproduction, display, modification, publication, or adaptation of all or part of the content on this website, regardless of the means or method used, is prohibited without the prior written consent of Fab Finance SAS.",
+          "Any unauthorized use of the website or any of the elements it contains will be considered an infringement and will be prosecuted in accordance with the provisions of Articles L.335-2 et seq. of the Intellectual Property Code."
+        ]
+      },
+      {
+        "title": "Limitation of Liability",
+        "paragraphs": [
+          "Fab Finance makes every effort to ensure that the information published on this site is accurate and up-to-date. However, Fab Finance cannot guarantee the accuracy, precision, or completeness of the information made available on this site.",
+          "The simulations provided on this site are for informational purposes only and have no contractual value. They do not constitute a credit offer. Any decision to grant credit is made after our advisors have thoroughly reviewed your application.",
+          "Fab Finance assumes no liability for any damages resulting from fraudulent access by a third party that has led to a change in the information made available on the website.",
+          "This site may contain hyperlinks to other websites over which Fab Finance has no control. Fab Finance assumes no responsibility for the content of these sites."
+        ]
+      },
+      {
+        "title": "Legal Notice: Consumer Credit",
+        "warning": "A loan is a financial commitment and must be repaid. Be sure to assess your ability to repay the loan before committing to it.",
+        "paragraphs": [
+          "In accordance with European Directive 2008/48/EC on consumer credit agreements, transposed into French law by Articles L.312-1 et seq. of the Consumer Code, all consumer credit is subject to standardized European pre-contractual information (FISE).",
+          "The Annual Percentage Rate (APR) listed on this site is an indicative rate calculated based on a representative example. The actual APR applicable to your contract will be determined based on your personal circumstances, the amount borrowed, and the repayment term.",
+          "Representative example: For a personal loan of €15,000 over 120 months at a fixed APR of 3.00% — Fixed borrowing rate of 3.96% — Monthly payment of €144.80 — Total amount due: €17,376.00 — Total cost of the loan: €2,376.00. Offer available only to adults residing in France, subject to approval of your application.",
+          "You have a 14-calendar-day withdrawal period beginning on the date you sign your credit agreement, in accordance with Article L.312-19 of the Consumer Code."
+        ]
+      },
+      {
+        "title": "Cookies and Trackers",
+        "paragraphs": [
+          "This site uses cookies to improve your browsing experience. Cookies are small text files stored on your device when you visit the site.",
+          "We use cookies that are strictly necessary for the website to function, analytics cookies (anonymized audience measurement), and personalization cookies. You can manage your preferences at any time through our cookie manager.",
+          "To learn more about our use of cookies, please see our Privacy Policy."
+        ]
+      },
+      {
+        "title": "Governing Law and Jurisdiction",
+        "paragraphs": [
+          "This website and its legal notices are governed by French law. In the event of a dispute, and after an attempt at amicable resolution, the French courts shall have exclusive jurisdiction.",
+          "In accordance with Article L.612-1 of the Consumer Code, every consumer has the right to seek the assistance of a consumer mediator, free of charge, to reach an amicable resolution of a dispute with a business. Fab Finance participates in the mediation service.",
+          "You can also use the European Online Dispute Resolution platform, available at: https://ec.europa.eu/consumers/odr"
+        ]
+      }
+    ],
+    "footerContact": "If you have any questions regarding this legal notice, please contact us at"
+  },
+  "politiqueConfidentialite": {
+    "badge": "GDPR · Data Protection Act",
+    "pageSubtitle": "How We Collect, Use, and Protect Your Personal Data.",
+    "rgpdBoxTitle": "Your data is protected",
+    "rgpdBoxText": "Fab Finance complies with the General Data Protection Regulation (GDPR – EU 2016/679). Your data is never sold and is handled with the utmost care.",
+    "footerText": "To exercise your rights or for any questions regarding this policy, please contact our DPO at",
+    "modifDateLabel": "Date of last update:",
+    "sections": [
+      {
+        "title": "Data Controller",
+        "paragraphs": [
+          "Fab Finance SAS, registered with the Paris Trade and Companies Register under number 524581873, with its registered office located at 52 RUE DU DOCTEUR SULTZER, 67140 BARR, is responsible for processing your personal data collected through this website.",
+          "Our Data Protection Officer (DPO) can be reached at: dpo@fab-financeaide.com"
+        ]
+      },
+      {
+        "title": "Data Collected",
+        "intro": "In connection with your use of our services, we collect only the data strictly necessary to review your financing application.",
+        "rows": [
+          {
+            "0": "Identity",
+            "1": "Last Name, First Name, Date of Birth"
+          },
+          {
+            "0": "Contact Information",
+            "1": "Email, phone number, mailing address"
+          },
+          {
+            "0": "Professional situation.",
+            "1": "Employment status, monthly income, expenses"
+          },
+          {
+            "0": "Project",
+            "1": "Loan type, desired amount, term"
+          },
+          {
+            "0": "Navigation",
+            "1": "IP address, pages visited, session duration (anonymized)"
+          },
+          {
+            "0": "Consent",
+            "1": "Date, Time, and Method of Obtaining GDPR Consent"
+          }
+        ],
+        "paragraphs": [
+          "We do not collect any so-called “sensitive” data as defined in Article 9 of the GDPR (ethnic origin, political opinions, health data, etc.)."
+        ]
+      },
+      {
+        "title": "Purposes and Legal Bases",
+        "rows": [
+          {
+            "0": "Review of Your Request",
+            "1": "Performance of a Contract / Precontractual Measures"
+          },
+          {
+            "0": "Update on Your Case",
+            "1": "Legitimate Interest / Performance of the Contract"
+          },
+          {
+            "0": "Regulatory Requirements",
+            "1": "Legal Requirements (KYC, AML/CFT)"
+          },
+          {
+            "0": "Service Improvement",
+            "1": "Legitimate Interest (Anonymized Data)"
+          },
+          {
+            "0": "Marketing and Newsletters",
+            "1": "Explicit consent (opt-in)"
+          },
+          {
+            "0": "Analytics Cookies",
+            "1": "Explicit Consent"
+          }
+        ]
+      },
+      {
+        "title": "Recipients of the data",
+        "paragraphs": [
+          "Your data is processed exclusively by Fab Finance SAS and its technical service providers, strictly for the purpose of providing the service. It is never sold to third parties.",
+          "The subcontractors we use are contractually obligated to ensure the confidentiality and security of your data, in accordance with Article 28 of the GDPR."
+        ],
+        "rows": [
+          {
+            "0": "Accommodations",
+            "1": "Vercel Inc. (EU servers)"
+          },
+          {
+            "0": "Sending Emails",
+            "1": "EmailJS / Resend (TLS encryption)"
+          },
+          {
+            "0": "Analytics",
+            "1": "Anonymized data, with no transfer outside the EU"
+          }
+        ],
+        "paragraphs2": [
+          "No data is transferred outside the European Union without appropriate safeguards (the European Commission's standard contractual clauses)."
+        ]
+      },
+      {
+        "title": "Shelf Life",
+        "rows": [
+          {
+            "0": "Request Data (Unsuccessful)",
+            "1": "3 years from the last contact"
+          },
+          {
+            "0": "Contractual Information",
+            "1": "5 years after the end of the contract (legal requirement)"
+          },
+          {
+            "0": "Navigation Data",
+            "1": "13 months maximum"
+          },
+          {
+            "0": "Consent Information",
+            "1": "3 years from the date of collection"
+          },
+          {
+            "0": "Marketing Data",
+            "1": "3 years after the last active deployment"
+          }
+        ],
+        "paragraphs": [
+          "Once these time periods have elapsed, your data will be securely deleted or irreversibly anonymized."
+        ]
+      },
+      {
+        "title": "Data Security",
+        "intro": "Fab Finance implements appropriate technical and organizational measures to protect your data against loss, destruction, alteration, and unauthorized access or disclosure.",
+        "rows": [
+          {
+            "0": "Encryption",
+            "1": "256-bit SSL/TLS on all communications"
+          },
+          {
+            "0": "Access",
+            "1": "Strict access control, strong authentication"
+          },
+          {
+            "0": "Accommodations",
+            "1": "ISO 27001-certified secure servers"
+          },
+          {
+            "0": "Tests",
+            "1": "Regular security audits"
+          }
+        ],
+        "warning": "In the event of a data breach that could pose a risk to your rights and freedoms, you will be notified within 72 hours in accordance with Article 34 of the GDPR."
+      },
+      {
+        "title": "Your Rights",
+        "intro": "In accordance with the General Data Protection Regulation (GDPR – EU 2016/679) and the amended French Data Protection Act, you have the following rights regarding your personal data:",
+        "rows": [
+          {
+            "0": "Right of Access",
+            "1": "Obtaining a Copy of Your Data (Art. 15 of the GDPR)"
+          },
+          {
+            "0": "Right to Correction",
+            "1": "Correcting Inaccurate Data (Art. 16 of the GDPR)"
+          },
+          {
+            "0": "Right to Erasure",
+            "1": "Request the deletion of your data (Art. 17 of the GDPR)"
+          },
+          {
+            "0": "Right to Restriction",
+            "1": "Restricting ongoing processing (Art. 18 of the GDPR)"
+          },
+          {
+            "0": "Right to Data Portability",
+            "1": "Receive your data in a readable format (Art. 20 of the GDPR)"
+          },
+          {
+            "0": "Right to Object",
+            "1": "Objecting to Processing (Art. 21 GDPR)"
+          },
+          {
+            "0": "Withdrawal of Consent",
+            "1": "Withdraw your consent at any time"
+          }
+        ],
+        "paragraphs2": [
+          "To exercise your rights, please contact our DPO by email at dpo@fab-financeaide.com, attaching a copy of your ID. We will respond within one month of receiving your request.",
+          "If you believe your rights have not been respected, you may file a complaint with the CNIL: www.cnil.fr or 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07."
+        ]
+      },
+      {
+        "title": "Cookies",
+        "rows": [
+          {
+            "0": "Essential Cookies",
+            "1": "Necessary for operation — No consent required"
+          },
+          {
+            "0": "Analytics Cookies",
+            "1": "Anonymized audience measurement — Consent required"
+          },
+          {
+            "0": "Marketing Cookies",
+            "1": "Not used on this site"
+          }
+        ],
+        "paragraphs": [
+          "You can change your preferences at any time using the cookie manager at the bottom of the page. Declining analytical cookies does not affect your browsing experience or your access to our services."
+        ]
+      },
+      {
+        "title": "Policy Changes",
+        "paragraphs": [
+          "Fab Finance reserves the right to modify this privacy policy at any time, particularly to comply with any legal, judicial, editorial, or technical changes.",
+          "In the event of a substantial change, you will be notified by email or via a prominent banner on the website. The current version is always available in the website's footer."
+        ]
+      }
+    ]
   }
 };
