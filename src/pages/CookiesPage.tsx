@@ -3,44 +3,19 @@ import { motion } from "framer-motion"
 import { Cookie, ShieldCheck, Check, RefreshCw, Save, Info, AlertTriangle } from "lucide-react"
 import { Link } from "wouter"
 import { useCookies } from "@/components/CookieContext"
+import { useI18n } from "@/lib/i18n-context"
 
-const COOKIE_TYPES = [
-  {
-    id:       "necessary" as const,
-    icon:     ShieldCheck,
-    color:    "#16a34a",
-    bg:       "#f0fdf4",
-    title:    "Cookies essentiels",
-    required: true,
-    desc:     "Ces cookies sont indispensables au fonctionnement du site. Ils permettent la navigation, la sécurité des formulaires et la mémorisation de vos préférences de cookies. Ils ne peuvent pas être désactivés.",
-    examples: ["Session de navigation", "Préférences de consentement", "Sécurité CSRF"],
-    retention:"Session / 12 mois",
-  },
-  {
-    id:       "analytics" as const,
-    icon:     Info,
-    color:    "#3b82f6",
-    bg:       "#eff6ff",
-    title:    "Cookies analytiques",
-    required: false,
-    desc:     "Ces cookies nous permettent de mesurer l'audience du site de façon anonyme afin d'améliorer nos services. Aucune donnée personnelle identifiable n'est collectée ni transmise à des tiers.",
-    examples: ["Pages visitées (anonymisé)", "Durée de session", "Origine du trafic"],
-    retention:"13 mois",
-  },
-  {
-    id:       "marketing" as const,
-    icon:     AlertTriangle,
-    color:    "#f59e0b",
-    bg:       "#fffbeb",
-    title:    "Cookies marketing",
-    required: false,
-    desc:     "Ces cookies permettent de personnaliser les offres et publicités qui vous sont présentées. Ils peuvent être déposés par nos partenaires publicitaires avec votre consentement.",
-    examples: ["Personnalisation des offres", "Retargeting publicitaire", "Mesure conversions"],
-    retention:"12 mois",
-  },
+const TYPE_META = [
+  { id: "necessary" as const, icon: ShieldCheck, color: "#16a34a", bg: "#f0fdf4", required: true },
+  { id: "analytics" as const, icon: Info,         color: "#3b82f6", bg: "#eff6ff", required: false },
+  { id: "marketing" as const, icon: AlertTriangle,color: "#f59e0b", bg: "#fffbeb", required: false },
 ]
 
 export default function CookiesPage() {
+  const { t } = useI18n();
+  const s = t.cookiesPage
+  const COOKIE_TYPES = s.types.map((data, i) => ({ ...TYPE_META[i], ...data }))
+
   const { preferences, status, acceptAll, refuseAll, saveCustom, reset } = useCookies()
 
   const [analytics, setAnalytics] = useState(preferences.analytics)
@@ -107,17 +82,16 @@ export default function CookiesPage() {
 
             <span className="inline-flex items-center gap-2 text-green-400 text-xs font-bold uppercase tracking-widest mb-4">
               <span className="w-4 h-0.5 bg-green-500 rounded-full" />
-              Conforme RGPD
+              {s.badge}
               <span className="w-4 h-0.5 bg-green-500 rounded-full" />
             </span>
 
             <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">
-              Gestion des cookies
+              {t.footer.legalLinks.cookies}
             </h1>
 
             <p className="text-gray-400 text-lg max-w-xl mx-auto">
-              Gérez vos préférences de cookies à tout moment.
-              Votre choix est sauvegardé localement sur votre appareil.
+              {s.subtitle}
             </p>
           </motion.div>
         </div>
@@ -141,12 +115,12 @@ export default function CookiesPage() {
                 <ShieldCheck className="w-5 h-5 text-green-600" />
               </div>
               <div>
-                <p className="text-sm font-bold text-gray-900">Statut de votre consentement</p>
+                <p className="text-sm font-bold text-gray-900">{s.statusLabel}</p>
                 <p className="text-xs text-gray-400 mt-0.5">
-                  {status === "pending"  && "Aucun choix enregistré"}
-                  {status === "accepted" && "Tous les cookies acceptés"}
-                  {status === "refused"  && "Cookies optionnels refusés"}
-                  {status === "custom"   && "Préférences personnalisées"}
+                  {status === "pending"  && s.statusMessages.pending}
+                  {status === "accepted" && s.statusMessages.accepted}
+                  {status === "refused"  && s.statusMessages.refused}
+                  {status === "custom"   && s.statusMessages.custom}
                 </p>
               </div>
             </div>
@@ -160,7 +134,7 @@ export default function CookiesPage() {
                 }`}
               >
                 <span className={`w-1.5 h-1.5 rounded-full ${status === "pending" ? "bg-gray-400" : "bg-green-500 animate-pulse"}`} />
-                {status === "pending" ? "En attente" : "Enregistré"}
+                {status === "pending" ? s.statusPending : s.statusSaved}
               </span>
 
               <button
@@ -168,7 +142,7 @@ export default function CookiesPage() {
                 className="flex items-center gap-1.5 text-xs font-semibold text-gray-400 hover:text-red-500 transition-colors px-3 py-1.5 rounded-lg hover:bg-red-50"
               >
                 <RefreshCw className="w-3.5 h-3.5" />
-                Réinitialiser
+                {s.reset}
               </button>
             </div>
           </motion.div>
@@ -212,11 +186,11 @@ export default function CookiesPage() {
                               className="text-[10px] font-bold px-2 py-0.5 rounded-full"
                               style={{ background: color + "15", color }}
                             >
-                              Requis
+                              {s.requiredBadge}
                             </span>
                           )}
                         </div>
-                        <p className="text-xs text-gray-400 mt-0.5">Conservation : {retention}</p>
+                        <p className="text-xs text-gray-400 mt-0.5">{s.retentionLabel} {retention}</p>
                       </div>
                     </div>
 
@@ -244,7 +218,7 @@ export default function CookiesPage() {
 
                     <div>
                       <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">
-                        Exemples d'utilisation
+                        {s.examplesLabel}
                       </p>
                       <div className="flex flex-wrap gap-2">
                         {examples.map(ex => (
@@ -282,7 +256,7 @@ export default function CookiesPage() {
               >
                 <Check className="w-4 h-4 text-green-600" />
                 <span className="text-sm font-semibold text-green-800">
-                  Vos préférences ont été enregistrées.
+                  {s.savedMessage}
                 </span>
               </motion.div>
             )}
@@ -297,29 +271,28 @@ export default function CookiesPage() {
                 }}
               >
                 <Save className="w-4 h-4" />
-                Enregistrer mes choix
+                {s.saveButton}
               </button>
 
               <button
                 onClick={handleAcceptAll}
                 className="flex-1 py-3.5 rounded-xl font-bold text-green-700 text-sm border-2 border-green-200 hover:bg-green-50 transition-all duration-200"
               >
-                Tout accepter
+                {s.acceptAll}
               </button>
 
               <button
                 onClick={handleRefuseAll}
                 className="flex-1 py-3.5 rounded-xl font-semibold text-gray-500 text-sm border border-gray-200 hover:bg-gray-50 transition-all duration-200"
               >
-                Tout refuser
+                {s.refuseAll}
               </button>
             </div>
 
             <p className="text-xs text-gray-400 text-center mt-4 leading-relaxed">
-              Vos préférences sont sauvegardées sur votre appareil uniquement.
-              Aucune donnée n'est envoyée à nos serveurs.{" "}
+              {s.footerNote}{" "}
               <Link href="/politique-confidentialite" className="text-green-600 hover:underline">
-                Politique de confidentialité
+                {t.footer.legalLinks.privacy}
               </Link>
             </p>
           </motion.div>

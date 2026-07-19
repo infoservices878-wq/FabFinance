@@ -834,87 +834,87 @@ export const nl = {
       {
         "title": "Uitgever van de website",
         "rows": [
-          {
-            "0": "Bedrijfsnaam",
-            "1": "Fab Finance"
-          },
-          {
-            "0": "Rechtsvorm",
-            "1": "Vereenvoudigde naamloze vennootschap (SAS)"
-          },
-          {
-            "0": "Maatschappelijk kapitaal",
-            "1": "50.000 €"
-          },
-          {
-            "0": "Hoofdkantoor",
-            "1": "52 RUE DU DOCTEUR SULTZER 67140 BARR"
-          },
-          {
-            "0": "SIREN",
-            "1": "524581873"
-          },
-          {
-            "0": "RCS",
-            "1": "524 581 873 Handelsregister Colmar"
-          },
-          {
-            "0": "ORIAS-nummer",
-            "1": "14 001 728 (www.orias.fr)"
-          },
-          {
-            "0": "Toezichthoudende autoriteit",
-            "1": "ACPR – Banque de France"
-          },
-          {
-            "0": "Voorzitter van SAS",
-            "1": "TOWAE Fabienne"
-          }
+          [
+            "Bedrijfsnaam",
+            "Fab Finance"
+          ],
+          [
+            "Rechtsvorm",
+            "Vereenvoudigde naamloze vennootschap (SAS)"
+          ],
+          [
+            "Maatschappelijk kapitaal",
+            "50.000 €"
+          ],
+          [
+            "Hoofdkantoor",
+            "52 RUE DU DOCTEUR SULTZER 67140 BARR"
+          ],
+          [
+            "SIREN",
+            "524581873"
+          ],
+          [
+            "RCS",
+            "524 581 873 Handelsregister Colmar"
+          ],
+          [
+            "ORIAS-nummer",
+            "14 001 728 (www.orias.fr)"
+          ],
+          [
+            "Toezichthoudende autoriteit",
+            "ACPR – Banque de France"
+          ],
+          [
+            "Voorzitter van SAS",
+            "TOWAE Fabienne"
+          ]
         ]
       },
       {
         "title": "Accommodatie",
         "rows": [
-          {
-            "0": "Webhost",
-            "1": "Vercel Inc."
-          },
-          {
-            "0": "Adres",
-            "1": "440 N Barranca Ave, Covina, CA"
-          },
-          {
-            "0": "Website",
-            "1": "www.vercel.com"
-          }
+          [
+            "Webhost",
+            "Vercel Inc."
+          ],
+          [
+            "Adres",
+            "440 N Barranca Ave, Covina, CA"
+          ],
+          [
+            "Website",
+            "www.vercel.com"
+          ]
         ]
       },
       {
         "title": "Neem contact met ons op",
         "rows": [
-          {
-            "0": "E-mail",
-            "1": "contact@fab-financeaide.com"
-          },
-          {
-            "0": "Telefoon",
-            "1": "+33 753 959 516 (gratis nummer)"
-          },
-          {
-            "0": "Post",
-            "1": "52 RUE DU DOCTEUR SULTZER 67140 BARR"
-          },
-          {
-            "0": "Openingstijden",
-            "1": "Ma – vr, 9.00 – 18.00 uur"
-          }
+          [
+            "E-mail",
+            "contact@fab-financeaide.com"
+          ],
+          [
+            "Telefoon",
+            "+33 753 959 516 (gratis nummer)"
+          ],
+          [
+            "Post",
+            "52 RUE DU DOCTEUR SULTZER 67140 BARR"
+          ],
+          [
+            "Openingstijden",
+            "Ma – vr, 9.00 – 18.00 uur"
+          ]
         ]
       },
       {
         "title": "Gereguleerde activiteit",
         "paragraphs": [
           "Fab Finance SAS is ingeschreven als tussenpersoon voor banktransacties en betalingsdiensten (IOBSP) in het ORIAS-register onder nummer 14 001 728, te raadplegen op www.orias.fr.",
-          "In die hoedanigheid staat Fab Finance onder toezicht van de Autorité de Contrôle Prudentiel et de Résolution (ACPR), het toezichthoudende orgaan van de Banque de France, gevestigd aan de Place de Budapest 4, CS 92459, 75436 Paris Cedex 09.",
+          "In die hoedanigheid staat Fab Finance onder toezicht van de Autorité de Contrôle Prudentiel et de Résolution (ACPR), het toezichthoudende orgaan van de Banque de France, gevestigd te 4 Place de Budapest, CS 92459, 75436 Paris Cedex 09.",
           "Fab Finance is gedekt door een beroepsaansprakelijkheidsverzekering en beschikt over een financiële garantie overeenkomstig de bepalingen van artikel L.519-1 en volgende van het Monetaire en Financiële Wetboek."
         ]
       },
@@ -929,9 +929,9 @@ export const nl = {
       {
         "title": "Beperking van aansprakelijkheid",
         "paragraphs": [
-          "Fab Finance streeft ernaar om de informatie op deze website zo nauwkeurig en actueel mogelijk te houden. Fab Finance kan echter geen garantie geven voor de juistheid, nauwkeurigheid of volledigheid van de informatie die op deze website wordt aangeboden.",
+          "Fab Finance streeft ernaar om de informatie op deze website zo nauwkeurig en actueel mogelijk te houden. Fab Finance kan echter geen garantie bieden voor de juistheid, nauwkeurigheid of volledigheid van de informatie die op deze website wordt aangeboden.",
           "De simulaties op deze website zijn louter ter indicatie en hebben geen contractuele waarde. Ze vormen geen kredietaanbod. Elk besluit tot toekenning van een krediet wordt genomen na een grondige beoordeling van het dossier door onze adviseurs.",
-          "Fab Finance wijst elke aansprakelijkheid af voor schade die voortvloeit uit frauduleuze inbreuk door een derde, waardoor de op de website beschikbare informatie is gewijzigd.",
+          "Fab Finance wijst elke aansprakelijkheid af voor schade die voortvloeit uit frauduleuze inbraak door een derde, waardoor de op de website beschikbare informatie is gewijzigd.",
           "Deze website kan hyperlinks bevatten naar andere websites waarover Fab Finance geen controle heeft. Fab Finance aanvaardt geen enkele aansprakelijkheid voor de inhoud van deze websites."
         ]
       },
@@ -939,7 +939,7 @@ export const nl = {
         "title": "Wettelijke vermeldingen inzake consumentenkrediet",
         "warning": "Een lening is een verbintenis en moet worden terugbetaald. Controleer of u in staat bent om de lening terug te betalen voordat u deze aangaat.",
         "paragraphs": [
-          "Overeenkomstig de Europese richtlijn 2008/48/EG betreffende consumentenkredietovereenkomsten, die in het Franse recht is omgezet in de artikelen L.312-1 en volgende van het Wetboek van Consumentenzaken, geldt voor elk consumentenkrediet de gestandaardiseerde Europese precontractuele informatie (FISE).",
+          "Overeenkomstig de Europese Richtlijn 2008/48/EG betreffende consumentenkredietovereenkomsten, die in het Franse recht is omgezet in de artikelen L.312-1 en volgende van het Wetboek van Consumentenzaken, geldt voor elk consumentenkrediet de gestandaardiseerde Europese precontractuele informatie (FISE).",
           "Het op deze website vermelde jaarlijkse effectieve rentepercentage (JER) is een indicatief percentage dat is berekend op basis van een representatief voorbeeld. Het daadwerkelijke JER dat op uw overeenkomst van toepassing is, wordt bepaald op basis van uw persoonlijke situatie, het geleende bedrag en de looptijd van de lening.",
           "Representatief voorbeeld: Voor een persoonlijke lening van 15.000 € over 120 maanden tegen een vaste JKP van 3,00% — Vaste debetrentevoet 3,96% — Maandelijkse aflossing van 144,80 € — Totaal verschuldigd bedrag: 17.376,00 € — Totale kosten van de lening: 2.376,00 €. Aanbieding uitsluitend bestemd voor meerderjarige particulieren die in Frankrijk wonen, onder voorbehoud van goedkeuring van uw aanvraag.",
           "U beschikt over een herroepingstermijn van 14 kalenderdagen vanaf de ondertekening van uw kredietovereenkomst, overeenkomstig artikel L.312-19 van het Wetboek van Consumentenzaken."
@@ -957,7 +957,7 @@ export const nl = {
         "title": "Toepasselijk recht en bevoegde rechtbank",
         "paragraphs": [
           "Deze website en de wettelijke vermeldingen daarop vallen onder het Franse recht. In geval van een geschil, en na een poging tot minnelijke schikking, zijn uitsluitend de Franse rechtbanken bevoegd.",
-          "Overeenkomstig artikel L.612-1 van het Consumentenwetboek heeft elke consument het recht om kosteloos een beroep te doen op een consumentenbemiddelaar met het oog op een minnelijke schikking van het geschil tussen hem en een ondernemer. Fab Finance is aangesloten bij de bemiddelingsdienst.",
+          "Overeenkomstig artikel L.612-1 van het Consumentenwetboek heeft elke consument het recht om kosteloos een beroep te doen op een consumentenbemiddelaar met het oog op een minnelijke schikking van het geschil dat hem met een ondernemer verdeelt. Fab Finance is aangesloten bij de bemiddelingsdienst.",
           "U kunt ook gebruikmaken van het Europese platform voor online geschillenbeslechting, dat u kunt vinden op: https://ec.europa.eu/consumers/odr"
         ]
       }
@@ -983,30 +983,30 @@ export const nl = {
         "title": "Verzamelde gegevens",
         "intro": "In het kader van uw gebruik van onze diensten verzamelen wij uitsluitend de gegevens die strikt noodzakelijk zijn voor de beoordeling van uw financieringsaanvraag.",
         "rows": [
-          {
-            "0": "Identiteit",
-            "1": "Naam, voornaam, geboortedatum"
-          },
-          {
-            "0": "Contactgegevens",
-            "1": "E-mail, telefoonnummer, postadres"
-          },
-          {
-            "0": "Professionele situatie.",
-            "1": "Beroepsstatus, maandelijks inkomen, lasten"
-          },
-          {
-            "0": "Project",
-            "1": "Soort lening, gewenst bedrag, looptijd"
-          },
-          {
-            "0": "Navigatie",
-            "1": "IP-adres, bezochte pagina’s, sessieduur (geanonimiseerd)"
-          },
-          {
-            "0": "Toestemming",
-            "1": "Datum, tijdstip en wijze van verkrijging van de toestemming in het kader van de AVG"
-          }
+          [
+            "Identiteit",
+            "Naam, voornaam, geboortedatum"
+          ],
+          [
+            "Contactgegevens",
+            "E-mail, telefoonnummer, postadres"
+          ],
+          [
+            "Professionele situatie.",
+            "Beroepsstatus, maandelijks inkomen, lasten"
+          ],
+          [
+            "Project",
+            "Soort lening, gewenst bedrag, looptijd"
+          ],
+          [
+            "Navigatie",
+            "IP-adres, bezochte pagina’s, sessieduur (geanonimiseerd)"
+          ],
+          [
+            "Toestemming",
+            "Datum, tijdstip en wijze van verkrijging van de toestemming in het kader van de AVG"
+          ]
         ],
         "paragraphs": [
           "Wij verzamelen geen zogenaamde „gevoelige” gegevens in de zin van artikel 9 van de AVG (etnische afkomst, politieke opvattingen, gezondheidsgegevens, enz.)."
@@ -1015,51 +1015,51 @@ export const nl = {
       {
         "title": "Doelstellingen en rechtsgrondslagen",
         "rows": [
-          {
-            "0": "Behandeling van uw aanvraag",
-            "1": "Uitvoering van een overeenkomst / maatregelen voorafgaand aan de overeenkomst"
-          },
-          {
-            "0": "Mededeling over uw dossier",
-            "1": "Gerechtvaardigd belang / uitvoering van de overeenkomst"
-          },
-          {
-            "0": "Wettelijke verplichtingen",
-            "1": "Wettelijke verplichting (KYC, AML-CFT)"
-          },
-          {
-            "0": "Verbetering van de dienstverlening",
-            "1": "Gerechtvaardigd belang (geanonimiseerde gegevens)"
-          },
-          {
-            "0": "Marketing en nieuwsbrieven",
-            "1": "Uitdrukkelijke toestemming (opt-in)"
-          },
-          {
-            "0": "Analytische cookies",
-            "1": "Uitdrukkelijke toestemming"
-          }
+          [
+            "Behandeling van uw aanvraag",
+            "Uitvoering van een overeenkomst / maatregelen voorafgaand aan de overeenkomst"
+          ],
+          [
+            "Mededeling over uw dossier",
+            "Gerechtvaardigd belang / uitvoering van de overeenkomst"
+          ],
+          [
+            "Wettelijke verplichtingen",
+            "Wettelijke verplichting (KYC, AML-CFT)"
+          ],
+          [
+            "Verbetering van de dienstverlening",
+            "Gerechtvaardigd belang (geanonimiseerde gegevens)"
+          ],
+          [
+            "Marketing en nieuwsbrieven",
+            "Uitdrukkelijke toestemming (opt-in)"
+          ],
+          [
+            "Analytische cookies",
+            "Uitdrukkelijke toestemming"
+          ]
         ]
       },
       {
         "title": "Ontvangers van de gegevens",
         "paragraphs": [
           "Uw gegevens worden uitsluitend verwerkt door Fab Finance SAS en haar technische verwerkers, uitsluitend in het kader van de uitvoering van de dienst. Ze worden nooit aan derden verkocht.",
-          "De onderaannemers waarmee wij samenwerken, zijn contractueel verplicht om de vertrouwelijkheid en de veiligheid van uw gegevens te waarborgen, overeenkomstig artikel 28 van de AVG."
+          "De onderaannemers waarmee wij samenwerken, zijn contractueel verplicht om de vertrouwelijkheid en veiligheid van uw gegevens te waarborgen, overeenkomstig artikel 28 van de AVG."
         ],
         "rows": [
-          {
-            "0": "Accommodatie",
-            "1": "Vercel Inc. (servers in de EU)"
-          },
-          {
-            "0": "E-mails versturen",
-            "1": "EmailJS / Opnieuw verzenden (TLS-versleuteling)"
-          },
-          {
-            "0": "Analytisch",
-            "1": "Geanonimiseerde gegevens, zonder doorgifte buiten de EU"
-          }
+          [
+            "Accommodatie",
+            "Vercel Inc. (servers in de EU)"
+          ],
+          [
+            "E-mails versturen",
+            "EmailJS / Opnieuw verzenden (TLS-versleuteling)"
+          ],
+          [
+            "Analytisch",
+            "Geanonimiseerde gegevens, zonder doorgifte buiten de EU"
+          ]
         ],
         "paragraphs2": [
           "Er vinden geen gegevensoverdrachten buiten de Europese Unie plaats zonder passende waarborgen (standaardcontractbepalingen van de Europese Commissie)."
@@ -1068,26 +1068,26 @@ export const nl = {
       {
         "title": "Houdbaarheid",
         "rows": [
-          {
-            "0": "Gegevens van de aanvraag (niet succesvol)",
-            "1": "3 jaar vanaf het laatste contact"
-          },
-          {
-            "0": "Contractgegevens",
-            "1": "5 jaar na het aflopen van het contract (wettelijke verplichting)"
-          },
-          {
-            "0": "Navigatiegegevens",
-            "1": "Maximaal 13 maanden"
-          },
-          {
-            "0": "Gegevens inzake toestemming",
-            "1": "3 jaar vanaf de verzameling"
-          },
-          {
-            "0": "Marketinggegevens",
-            "1": "3 jaar na de laatste actieve inzet"
-          }
+          [
+            "Gegevens van de aanvraag (niet succesvol)",
+            "3 jaar vanaf het laatste contact"
+          ],
+          [
+            "Contractgegevens",
+            "5 jaar na het aflopen van het contract (wettelijke verplichting)"
+          ],
+          [
+            "Navigatiegegevens",
+            "Maximaal 13 maanden"
+          ],
+          [
+            "Gegevens inzake toestemming",
+            "3 jaar vanaf de verzameling"
+          ],
+          [
+            "Marketinggegevens",
+            "3 jaar na de laatste actieve inzet"
+          ]
         ],
         "paragraphs": [
           "Na afloop van deze termijnen worden uw gegevens op een veilige manier verwijderd of onomkeerbaar geanonimiseerd."
@@ -1097,22 +1097,22 @@ export const nl = {
         "title": "Gegevensbeveiliging",
         "intro": "Fab Finance neemt passende technische en organisatorische maatregelen om uw gegevens te beschermen tegen verlies, vernietiging, wijziging, ongeoorloofde toegang of openbaarmaking.",
         "rows": [
-          {
-            "0": "Versleuteling",
-            "1": "SSL/TLS 256-bit bij alle communicatie"
-          },
-          {
-            "0": "Toegang",
-            "1": "Strikte toegangscontrole, sterke authenticatie"
-          },
-          {
-            "0": "Accommodatie",
-            "1": "Beveiligde servers met ISO 27001-certificering"
-          },
-          {
-            "0": "Tests",
-            "1": "Regelmatige veiligheidsaudits"
-          }
+          [
+            "Versleuteling",
+            "SSL/TLS 256-bit bij alle communicatie"
+          ],
+          [
+            "Toegang",
+            "Strikte toegangscontrole, sterke authenticatie"
+          ],
+          [
+            "Accommodatie",
+            "Beveiligde servers met ISO 27001-certificering"
+          ],
+          [
+            "Tests",
+            "Regelmatige veiligheidsaudits"
+          ]
         ],
         "warning": "In geval van een datalek dat een risico kan vormen voor uw rechten en vrijheden, wordt u hiervan binnen 72 uur op de hoogte gesteld, overeenkomstig artikel 34 van de AVG."
       },
@@ -1120,55 +1120,55 @@ export const nl = {
         "title": "Uw rechten",
         "intro": "Overeenkomstig de Algemene Verordening Gegevensbescherming (AVG – EU 2016/679) en de gewijzigde wet op de gegevensbescherming hebt u de volgende rechten met betrekking tot uw persoonsgegevens:",
         "rows": [
-          {
-            "0": "Recht op inzage",
-            "1": "Een kopie van uw gegevens opvragen (art. 15 AVG)"
-          },
-          {
-            "0": "Recht op rectificatie",
-            "1": "Onjuiste gegevens corrigeren (art. 16 AVG)"
-          },
-          {
-            "0": "Recht op verwijdering",
-            "1": "Verzoek tot verwijdering van uw gegevens (art. 17 AVG)"
-          },
-          {
-            "0": "Recht op beperking",
-            "1": "Een lopende verwerking beperken (art. 18 AVG)"
-          },
-          {
-            "0": "Recht op gegevensoverdraagbaarheid",
-            "1": "Uw gegevens in een leesbaar formaat ontvangen (art. 20 AVG)"
-          },
-          {
-            "0": "Recht van bezwaar",
-            "1": "Bezwaar maken tegen een verwerking (art. 21 AVG)"
-          },
-          {
-            "0": "Intrekking van de toestemming",
-            "1": "U kunt uw toestemming op elk moment intrekken"
-          }
+          [
+            "Recht op inzage",
+            "Een kopie van uw gegevens opvragen (art. 15 AVG)"
+          ],
+          [
+            "Recht op rectificatie",
+            "Onjuiste gegevens corrigeren (art. 16 AVG)"
+          ],
+          [
+            "Recht op verwijdering",
+            "Verzoek tot verwijdering van uw gegevens (art. 17 AVG)"
+          ],
+          [
+            "Recht op beperking",
+            "Een lopende verwerking beperken (art. 18 AVG)"
+          ],
+          [
+            "Recht op gegevensoverdraagbaarheid",
+            "Uw gegevens in een leesbaar formaat ontvangen (art. 20 AVG)"
+          ],
+          [
+            "Recht van bezwaar",
+            "Bezwaar maken tegen een verwerking (art. 21 AVG)"
+          ],
+          [
+            "Intrekking van de toestemming",
+            "U kunt uw toestemming op elk moment intrekken"
+          ]
         ],
         "paragraphs2": [
-          "Om uw rechten uit te oefenen, kunt u per e-mail contact opnemen met onze functionaris voor gegevensbescherming via dpo@fab-financeaide.com, met bijvoeging van een kopie van uw identiteitsbewijs. Wij zullen binnen een maand na ontvangst van uw verzoek reageren.",
+          "Om uw rechten uit te oefenen, kunt u per e-mail contact opnemen met onze functionaris voor gegevensbescherming via dpo@fab-financeaide.com, met een kopie van uw identiteitsbewijs in de bijlage. Wij zullen binnen een maand na ontvangst van uw verzoek reageren.",
           "Als u van mening bent dat uw rechten niet worden gerespecteerd, kunt u een klacht indienen bij de CNIL: www.cnil.fr of 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07."
         ]
       },
       {
         "title": "Cookies",
         "rows": [
-          {
-            "0": "Essentiële cookies",
-            "1": "Noodzakelijk voor de werking — Geen toestemming vereist"
-          },
-          {
-            "0": "Analytische cookies",
-            "1": "Anonieme bezoekersmeting — Toestemming vereist"
-          },
-          {
-            "0": "Marketingcookies",
-            "1": "Niet gebruikt op deze website"
-          }
+          [
+            "Essentiële cookies",
+            "Noodzakelijk voor de werking — Geen toestemming vereist"
+          ],
+          [
+            "Analytische cookies",
+            "Anonieme bezoekersmeting — Toestemming vereist"
+          ],
+          [
+            "Marketingcookies",
+            "Niet gebruikt op deze website"
+          ]
         ],
         "paragraphs": [
           "U kunt uw voorkeuren op elk moment aanpassen via de cookiebeheerder onderaan de pagina. Het weigeren van analytische cookies heeft geen invloed op uw navigatie of uw toegang tot de diensten."
@@ -1177,10 +1177,288 @@ export const nl = {
       {
         "title": "Wijzigingen in het beleid",
         "paragraphs": [
-          "Fab Finance behoudt zich het recht voor om dit privacybeleid te allen tijde te wijzigen, met name om te voldoen aan eventuele wijzigingen op het gebied van wetgeving, jurisprudentie, redactionele aanpassingen of technische ontwikkelingen.",
+          "Fab Finance behoudt zich het recht voor om dit privacybeleid te allen tijde te wijzigen, met name om te voldoen aan eventuele wijzigingen op het gebied van wetgeving, jurisprudentie, publicaties of techniek.",
           "In geval van een wezenlijke wijziging wordt u hiervan op de hoogte gesteld via e-mail of via een zichtbare banner op de website. De geldende versie is altijd te raadplegen via de voettekst van de website."
         ]
       }
     ]
+  },
+  "cookiesPage": {
+    "badge": "In overeenstemming met de AVG",
+    "subtitle": "U kunt uw cookievoorkeuren op elk moment beheren. Uw keuze wordt lokaal op uw apparaat opgeslagen.",
+    "statusLabel": "Status van uw toestemming",
+    "statusMessages": {
+      "pending": "Er zijn geen keuzes opgeslagen",
+      "accepted": "Alle cookies geaccepteerd",
+      "refused": "Optionele cookies geweigerd",
+      "custom": "Gepersonaliseerde voorkeuren"
+    },
+    "statusPending": "In afwachting",
+    "statusSaved": "Opgeslagen",
+    "reset": "Resetten",
+    "requiredBadge": "Vereist",
+    "retentionLabel": "Bewaring:",
+    "types": [
+      {
+        "title": "Essentiële cookies",
+        "desc": "Deze cookies zijn onmisbaar voor de werking van de website. Ze zorgen ervoor dat u door de website kunt navigeren, dat formulieren veilig zijn en dat uw cookievoorkeuren worden opgeslagen. Ze kunnen niet worden uitgeschakeld.",
+        "examples": [
+          "Browsesessie",
+          "Instellingen voor toestemming",
+          "CSRF-beveiliging"
+        ],
+        "retention": "Sessie / 12 maanden"
+      },
+      {
+        "title": "Analytische cookies",
+        "desc": "Met deze cookies kunnen we het bezoekersaantal van de website op anonieme wijze meten om onze diensten te verbeteren. Er worden geen persoonlijk identificeerbare gegevens verzameld of doorgegeven aan derden.",
+        "examples": [
+          "Bezochte pagina's (geanonimiseerd)",
+          "Sessieduur",
+          "Herkomst van het verkeer"
+        ],
+        "retention": "13 maanden"
+      },
+      {
+        "title": "Marketingcookies",
+        "desc": "Deze cookies maken het mogelijk om de aanbiedingen en advertenties die aan u worden getoond, op maat te maken. Ze kunnen met uw toestemming door onze advertentiepartners worden geplaatst.",
+        "examples": [
+          "Aanbiedingen op maat",
+          "Retargeting van advertenties",
+          "Conversiemeting"
+        ],
+        "retention": "12 maanden"
+      }
+    ],
+    "examplesLabel": "Toepassingsvoorbeelden",
+    "savedMessage": "Uw voorkeuren zijn opgeslagen.",
+    "saveButton": "Mijn keuzes opslaan",
+    "acceptAll": "Alles accepteren",
+    "refuseAll": "Alles weigeren",
+    "footerNote": "Uw voorkeuren worden uitsluitend op uw apparaat opgeslagen. Er worden geen gegevens naar onze servers verzonden."
+  },
+  "loanHero": {
+    "badge": "Direct antwoord · Vrijblijvend",
+    "fallbackTaglinePrefix": "De oplossing van Fab Finance voor",
+    "fallbackTaglineSuffix": "transparantie, snelheid en persoonlijke begeleiding bij al uw projecten.",
+    "trustResponseTime": "Antwoord binnen 2 minuten"
+  },
+  "loans": {
+    "personnel": {
+      "tagline": "Financier uw projecten in alle vrijheid",
+      "conditions": {
+        "duration": "12 tot 84 maanden",
+        "taeg": "vanaf 3 %",
+        "rateType": "Vast"
+      },
+      "advantages": [
+        "Geen bewijs van gebruik",
+        "Gratis vervroegde aflossing",
+        "Mogelijkheid tot uitstel van maandelijkse aflossing"
+      ],
+      "explanation": {
+        "title": "Inzicht in de persoonlijke lening",
+        "paragraphs": [
+          "Een persoonlijke lening is een flexibele financieringsoplossing waarmee u verschillende projecten kunt financieren zonder dat u hoeft aan te tonen waarvoor u het geld gebruikt.",
+          "Of het nu gaat om het financieren van verbouwingen, een reis of het opvangen van onvoorziene uitgaven: met deze lening beschikt u snel over een geldbedrag.",
+          "Bij Fab Finance kunt u binnen enkele seconden online een lening simuleren om te zien hoe hoog uw maandelijkse aflossingen zullen zijn.",
+          "Ons team staat u bij om u een duidelijke, transparante oplossing aan te bieden die is afgestemd op uw financiële situatie."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Een auto kopen",
+          "desc": "Financier uw nieuwe of tweedehands auto snel."
+        },
+        {
+          "title": "Verbouwingen uitvoeren",
+          "desc": "Verbeter uw woning met een flexibele financiering."
+        },
+        {
+          "title": "Een reis financieren",
+          "desc": "Voer uw persoonlijke projecten in alle rust uit."
+        }
+      ]
+    },
+    "etudiant": {
+      "tagline": "Financier je studie en bereid je voor op je toekomst",
+      "conditions": {
+        "duration": "12 tot 120 maanden",
+        "taeg": "vanaf 0,90 %",
+        "rateType": "Vast"
+      },
+      "advantages": [
+        "Uitgestelde terugbetaling tijdens de studie",
+        "Geen administratiekosten",
+        "Vereenvoudigde ouderlijke toestemming"
+      ],
+      "explanation": {
+        "title": "Inzicht in de studielening",
+        "paragraphs": [
+          "De studielening is een lening die speciaal is bedoeld om studenten te helpen bij de financiering van hun studie en de kosten die daarmee gepaard gaan.",
+          "In tegenstelling tot een klassieke lening kan de terugbetaling tijdens de studieperiode worden uitgesteld, zodat de student zich volledig op zijn opleiding kan concentreren.",
+          "Zodra de studie is afgerond, begint de aflossing van de lening volgens de voorwaarden die bij het afsluiten zijn vastgelegd.",
+          "Bij Fab Finance bieden we eenvoudige, transparante financieringsoplossingen die zijn afgestemd op de dagelijkse realiteit van studenten."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Een studie financieren",
+          "desc": "Betaal je collegegeld en je opleiding."
+        },
+        {
+          "title": "Studentenhuisvesting",
+          "desc": "Financier je woning tijdens je studie."
+        },
+        {
+          "title": "Computerapparatuur",
+          "desc": "Koop de benodigde spullen voor je studie."
+        }
+      ]
+    },
+    "auto": {
+      "tagline": "Financier uw nieuwe of tweedehands auto",
+      "conditions": {
+        "duration": "12 tot 84 maanden",
+        "taeg": "vanaf 3,2 %",
+        "rateType": "Vast"
+      },
+      "advantages": [
+        "Snelle financiering van uw auto",
+        "Vaste rente gedurende de gehele looptijd van de lening",
+        "Mogelijkheid tot vervroegde aflossing"
+      ],
+      "explanation": {
+        "title": "Alles over de autolening",
+        "paragraphs": [
+          "Een autolening is een speciale lening waarmee de aankoop van een nieuwe of tweedehands auto kan worden gefinancierd.",
+          "Hiermee kunt u de kosten van uw auto over meerdere maanden of jaren spreiden, zodat u meer kunt sparen.",
+          "De hoogte van de maandelijkse aflossingen hangt af van het geleende bedrag, de looptijd van de lening en de toegepaste rentevoet.",
+          "Bij Fab Finance kunt u online een simulatie van uw autolening maken en snel een voorlopige toezegging krijgen."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Nieuwe auto",
+          "desc": "Financier de aankoop van een nieuwe auto met maandelijkse aflossingen op maat."
+        },
+        {
+          "title": "Tweedehandsauto",
+          "desc": "Koop een tweedehandsauto zonder je budget te overschrijden."
+        },
+        {
+          "title": "Elektrisch voertuig",
+          "desc": "Stap over op elektrische mobiliteit met een flexibele financiering."
+        }
+      ]
+    },
+    "professionnel": {
+      "tagline": "Financier de groei van uw bedrijf",
+      "conditions": {
+        "duration": "12 tot 120 maanden",
+        "taeg": "vanaf 3,5 %",
+        "rateType": "Vast of variabel"
+      },
+      "advantages": [
+        "Financiering op maat voor bedrijven",
+        "Begeleiding door deskundigen",
+        "Flexibele terugbetaling"
+      ],
+      "explanation": {
+        "title": "Inzicht in de zakelijke lening",
+        "paragraphs": [
+          "Met een zakelijke lening kunnen bedrijven en zelfstandigen hun investeringen en groei financieren.",
+          "Het kan worden gebruikt om de aanschaf van apparatuur, de inrichting van een ruimte, de aanwerving van personeel of de start van een nieuw project te financieren.",
+          "De looptijd en het bedrag van de lening zijn afhankelijk van het project, de terugbetalingscapaciteit van het bedrijf en eventuele zekerheden.",
+          "Bij Fab Finance bieden we duidelijke financieringsoplossingen die zijn afgestemd op de behoeften van ondernemers."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Een bedrijf oprichten",
+          "desc": "Financier de opstart van uw bedrijf."
+        },
+        {
+          "title": "Materiaal kopen",
+          "desc": "Investeer in de apparatuur die u voor uw bedrijf nodig hebt."
+        },
+        {
+          "title": "Uw bedrijf uitbouwen",
+          "desc": "Steun de groei van uw bedrijf."
+        }
+      ]
+    },
+    "conso": {
+      "tagline": "Financier uw dagelijkse projecten",
+      "conditions": {
+        "duration": "6 tot 84 maanden",
+        "taeg": "vanaf 2,5 %",
+        "rateType": "Vast"
+      },
+      "advantages": [
+        "Snelle financiering",
+        "Maandelijkse aflossingen afgestemd op uw budget",
+        "Eenvoudige procedure die volledig online verloopt"
+      ],
+      "explanation": {
+        "title": "Inzicht in de consumentenkredietregeling",
+        "paragraphs": [
+          "Een consumentenkrediet is een lening die aan particulieren wordt verstrekt om goederen of diensten voor persoonlijk gebruik te financieren.",
+          "Het verschilt van een hypotheek omdat het doorgaans om lagere bedragen en kortere aflossingstermijnen gaat.",
+          "De terugbetaling vindt plaats in de vorm van vaste maandelijkse termijnen die bestaan uit een deel van de geleende hoofdsom en de rente.",
+          "Met behulp van de online simulatietools van Fab Finance kunt u snel achterhalen welk maandelijks aflossingsbedrag bij uw budget past."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Apparatuur kopen",
+          "desc": "Financier de aankoop van huishoudelijke apparaten of uitrusting voor uw woning."
+        },
+        {
+          "title": "Een evenement organiseren",
+          "desc": "Financier een bruiloft, een feest of een belangrijk persoonlijk project."
+        },
+        {
+          "title": "Onvoorziene uitgave",
+          "desc": "Zorg dat u snel over geld beschikt om een noodsituatie het hoofd te bieden."
+        }
+      ]
+    },
+    "rachat": {
+      "tagline": "Breng uw leningen onder één dak en verlaag uw maandelijkse aflossingen",
+      "conditions": {
+        "duration": "24 tot 144 maanden",
+        "taeg": "vanaf 3,9 %",
+        "rateType": "Vast"
+      },
+      "advantages": [
+        "Slechts één maandelijkse aflossing",
+        "Mogelijke verlaging van de maandelijkse aflossingen",
+        "Een beter beheer van uw budget"
+      ],
+      "explanation": {
+        "title": "Inzicht in het herfinancieren van schulden",
+        "paragraphs": [
+          "Bij een krediethergroepering worden meerdere lopende leningen samengevoegd tot één enkele lening met één maandelijkse aflossing.",
+          "Met deze oplossing kunt u het beheer van uw financiën vereenvoudigen en de hoogte van de maandelijkse aflossingen afstemmen op uw aflossingscapaciteit.",
+          "De samenvoeging kan betrekking hebben op verschillende soorten leningen: persoonlijke leningen, autoleningen of consumptieve kredieten.",
+          "Bij Fab Finance analyseert ons team uw financiële situatie om u een oplossing voor het samenvoegen van uw leningen aan te bieden die bij uw budget past."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Meerdere leningen samenvoegen",
+          "desc": "Voeg al uw leningen samen tot één maandelijkse aflossing."
+        },
+        {
+          "title": "De maandelijkse aflossingen verlagen",
+          "desc": "Pas uw aflossingen aan uw budget aan."
+        },
+        {
+          "title": "Het beheer vereenvoudigen",
+          "desc": "Eén lening, één maandelijkse aflossing om bij te houden."
+        }
+      ]
+    }
   }
 };

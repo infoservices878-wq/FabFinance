@@ -861,6 +861,197 @@ export const fr = {
       },
     ],
   },
+  // ── Page Cookies ─────────────────────────────────────────────────────────────
+  cookiesPage: {
+    badge:    "Conforme RGPD",
+    subtitle: "Gérez vos préférences de cookies à tout moment. Votre choix est sauvegardé localement sur votre appareil.",
+    statusLabel: "Statut de votre consentement",
+    statusMessages: {
+      pending:  "Aucun choix enregistré",
+      accepted: "Tous les cookies acceptés",
+      refused:  "Cookies optionnels refusés",
+      custom:   "Préférences personnalisées",
+    },
+    statusPending: "En attente",
+    statusSaved:   "Enregistré",
+    reset:         "Réinitialiser",
+    requiredBadge: "Requis",
+    retentionLabel: "Conservation :",
+    types: [
+      {
+        title: "Cookies essentiels",
+        desc:  "Ces cookies sont indispensables au fonctionnement du site. Ils permettent la navigation, la sécurité des formulaires et la mémorisation de vos préférences de cookies. Ils ne peuvent pas être désactivés.",
+        examples: ["Session de navigation", "Préférences de consentement", "Sécurité CSRF"],
+        retention: "Session / 12 mois",
+      },
+      {
+        title: "Cookies analytiques",
+        desc:  "Ces cookies nous permettent de mesurer l'audience du site de façon anonyme afin d'améliorer nos services. Aucune donnée personnelle identifiable n'est collectée ni transmise à des tiers.",
+        examples: ["Pages visitées (anonymisé)", "Durée de session", "Origine du trafic"],
+        retention: "13 mois",
+      },
+      {
+        title: "Cookies marketing",
+        desc:  "Ces cookies permettent de personnaliser les offres et publicités qui vous sont présentées. Ils peuvent être déposés par nos partenaires publicitaires avec votre consentement.",
+        examples: ["Personnalisation des offres", "Retargeting publicitaire", "Mesure conversions"],
+        retention: "12 mois",
+      },
+    ],
+    examplesLabel: "Exemples d'utilisation",
+    savedMessage:  "Vos préférences ont été enregistrées.",
+    saveButton:    "Enregistrer mes choix",
+    acceptAll:     "Tout accepter",
+    refuseAll:     "Tout refuser",
+    footerNote:    "Vos préférences sont sauvegardées sur votre appareil uniquement. Aucune donnée n'est envoyée à nos serveurs.",
+  },
+    // ── Loan Hero (composant) ───────────────────────────────────────────────────
+  loanHero: {
+    badge: "Réponse immédiate · Sans engagement",
+    fallbackTaglinePrefix: "La solution Fab Finance pour",
+    fallbackTaglineSuffix: "transparence, rapidité et accompagnement humain pour tous vos projets.",
+    trustResponseTime: "Réponse en 2 minutes",
+  },
+    // ── Pages Prêts (données par type, ex loanConfig) ──────────────────────────────
+  loans: {
+    personnel: {
+      tagline: "Financez vos projets en toute liberté",
+      conditions: { duration: "12 à 84 mois", taeg: "à partir de 3 %", rateType: "Fixe" },
+      advantages: [
+        "Aucun justificatif d'utilisation",
+        "Remboursement anticipé gratuit",
+        "Pause mensualité possible",
+      ],
+      explanation: {
+        title: "Comprendre le prêt personnel",
+        paragraphs: [
+          "Le prêt personnel est une solution de financement flexible qui permet de financer différents projets sans avoir à fournir de justificatif d'utilisation des fonds.",
+          "Que ce soit pour financer des travaux, un voyage ou faire face à une dépense imprévue, ce crédit permet de disposer rapidement d'une somme d'argent.",
+          "Chez Fab Finance, vous pouvez simuler votre prêt en ligne en quelques secondes afin de connaître le montant de vos mensualités.",
+          "Notre équipe vous accompagne pour vous proposer une solution claire, transparente et adaptée à votre situation financière.",
+        ],
+      },
+      usages: [
+        { title: "Acheter une voiture", desc: "Financez votre véhicule neuf ou d'occasion rapidement." },
+        { title: "Faire des travaux",   desc: "Améliorez votre logement avec un financement flexible." },
+        { title: "Financer un voyage",  desc: "Réalisez vos projets personnels en toute sérénité." },
+      ],
+    },
+    etudiant: {
+      tagline: "Financez vos études et préparez votre avenir",
+      conditions: { duration: "12 à 120 mois", taeg: "à partir de 0,90 %", rateType: "Fixe" },
+      advantages: [
+        "Remboursement différé pendant les études",
+        "Pas de frais de dossier",
+        "Caution parentale simplifiée",
+      ],
+      explanation: {
+        title: "Comprendre le prêt étudiant",
+        paragraphs: [
+          "Le prêt étudiant est un crédit spécialement conçu pour aider les étudiants à financer leurs études et les dépenses associées à leur parcours académique.",
+          "Contrairement à un prêt classique, le remboursement peut être différé pendant la durée des études afin de permettre à l'étudiant de se concentrer sur sa formation.",
+          "Une fois les études terminées, le remboursement du prêt commence selon les modalités définies lors de la souscription.",
+          "Chez Fab Finance, nous proposons des solutions de financement simples, transparentes et adaptées à la réalité des étudiants.",
+        ],
+      },
+      usages: [
+        { title: "Financer les études",     desc: "Payez vos frais de scolarité et votre formation." },
+        { title: "Logement étudiant",       desc: "Financez votre logement pendant vos études." },
+        { title: "Matériel informatique",   desc: "Achetez l'équipement nécessaire à vos études." },
+      ],
+    },
+    auto: {
+      tagline: "Financez votre voiture neuve ou d'occasion",
+      conditions: { duration: "12 à 84 mois", taeg: "à partir de 3,2 %", rateType: "Fixe" },
+      advantages: [
+        "Financement rapide de votre véhicule",
+        "Taux fixe pendant toute la durée du prêt",
+        "Possibilité de remboursement anticipé",
+      ],
+      explanation: {
+        title: "Comprendre le prêt auto",
+        paragraphs: [
+          "Le prêt auto est un crédit dédié qui permet de financer l'achat d'un véhicule neuf ou d'occasion.",
+          "Il vous permet de répartir le coût de votre voiture sur plusieurs mois ou années afin de préserver votre capacité d'épargne.",
+          "Le montant des mensualités dépend du capital emprunté, de la durée du prêt et du taux d'intérêt appliqué.",
+          "Chez Fab Finance, vous pouvez simuler votre prêt auto en ligne et obtenir rapidement une réponse de principe.",
+        ],
+      },
+      usages: [
+        { title: "Voiture neuve",     desc: "Financez l'achat d'un véhicule neuf avec des mensualités adaptées." },
+        { title: "Voiture d'occasion",desc: "Achetez un véhicule d'occasion tout en maîtrisant votre budget." },
+        { title: "Véhicule électrique",desc: "Passez à la mobilité électrique avec un financement flexible." },
+      ],
+    },
+    professionnel: {
+      tagline: "Financez le développement de votre activité",
+      conditions: { duration: "12 à 120 mois", taeg: "à partir de 3,5 %", rateType: "Fixe ou variable" },
+      advantages: [
+        "Financement adapté aux entreprises",
+        "Accompagnement par des experts",
+        "Remboursement flexible",
+      ],
+      explanation: {
+        title: "Comprendre le prêt professionnel",
+        paragraphs: [
+          "Le prêt professionnel permet aux entreprises et aux indépendants de financer leurs investissements et leur développement.",
+          "Il peut servir à financer l'achat de matériel, l'aménagement d'un local, le recrutement de personnel ou encore le lancement d'un nouveau projet.",
+          "La durée et le montant du prêt dépendent du projet, de la capacité de remboursement de l'entreprise et des garanties éventuelles.",
+          "Chez Fab Finance, nous proposons des solutions de financement claires et adaptées aux besoins des professionnels.",
+        ],
+      },
+      usages: [
+        { title: "Créer une entreprise",       desc: "Financez le lancement de votre activité." },
+        { title: "Acheter du matériel",        desc: "Investissez dans l'équipement nécessaire à votre activité." },
+        { title: "Développer votre entreprise",desc: "Soutenez la croissance de votre entreprise." },
+      ],
+    },
+    conso: {
+      tagline: "Financez vos projets du quotidien",
+      conditions: { duration: "6 à 84 mois", taeg: "à partir de 2,5 %", rateType: "Fixe" },
+      advantages: [
+        "Financement rapide",
+        "Mensualités adaptées à votre budget",
+        "Procédure simple et 100 % en ligne",
+      ],
+      explanation: {
+        title: "Comprendre le prêt à la consommation",
+        paragraphs: [
+          "Le prêt à la consommation est un crédit accordé aux particuliers pour financer des biens ou des services destinés à un usage personnel.",
+          "Il se distingue du prêt immobilier car il concerne généralement des montants plus faibles et des durées de remboursement plus courtes.",
+          "Le remboursement se fait sous forme de mensualités fixes comprenant une partie du capital emprunté et les intérêts.",
+          "Grâce aux outils de simulation en ligne de Fab Finance, il est possible de connaître rapidement le montant des mensualités adapté à son budget.",
+        ],
+      },
+      usages: [
+        { title: "Acheter des équipements", desc: "Financez l'achat d'électroménager ou d'équipements pour votre maison." },
+        { title: "Organiser un événement",  desc: "Financez un mariage, une fête ou un projet personnel important." },
+        { title: "Dépense imprévue",        desc: "Disposez rapidement de fonds pour gérer une situation urgente." },
+      ],
+    },
+    rachat: {
+      tagline: "Regroupez vos crédits et allégez vos mensualités",
+      conditions: { duration: "24 à 144 mois", taeg: "à partir de 3,9 %", rateType: "Fixe" },
+      advantages: [
+        "Une seule mensualité",
+        "Réduction possible des mensualités",
+        "Meilleure gestion de votre budget",
+      ],
+      explanation: {
+        title: "Comprendre le rachat de crédit",
+        paragraphs: [
+          "Le rachat de crédit consiste à regrouper plusieurs prêts en cours en un seul crédit avec une mensualité unique.",
+          "Cette solution permet de simplifier la gestion de vos finances et d'adapter le montant des mensualités à votre capacité de remboursement.",
+          "Le regroupement peut concerner différents types de crédits : prêt personnel, crédit auto ou crédit à la consommation.",
+          "Chez Fab Finance, notre équipe analyse votre situation financière afin de vous proposer une solution de regroupement adaptée à votre budget.",
+        ],
+      },
+      usages: [
+        { title: "Regrouper plusieurs crédits", desc: "Fusionnez tous vos crédits en une seule mensualité." },
+        { title: "Réduire les mensualités",     desc: "Adaptez vos remboursements à votre budget." },
+        { title: "Simplifier la gestion",       desc: "Un seul crédit, une seule mensualité à gérer." },
+      ],
+    },
+  },
 
   // ── Common ───────────────────────────────────────────────────────────────────
   common: {

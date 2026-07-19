@@ -172,7 +172,8 @@ function setAtPath(obj, pathArr, value) {
   for (let i = 0; i < pathArr.length - 1; i++) {
     const key = pathArr[i];
     const nextKey = pathArr[i + 1];
-    if (cur[key] === undefined) cur[key] = typeof nextKey === 'number' ? [] : {};
+    const nextIsArrayIndex = typeof nextKey === 'number' || /^\d+$/.test(String(nextKey));
+    if (cur[key] === undefined) cur[key] = nextIsArrayIndex ? [] : {};
     cur = cur[key];
   }
   cur[pathArr[pathArr.length - 1]] = value;

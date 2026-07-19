@@ -834,80 +834,80 @@ export const en = {
       {
         "title": "Website Publisher",
         "rows": [
-          {
-            "0": "Company Name",
-            "1": "Fab Finance"
-          },
-          {
-            "0": "Legal Form",
-            "1": "Simplified Joint-Stock Company (SAS)"
-          },
-          {
-            "0": "Share Capital",
-            "1": "50,000 €"
-          },
-          {
-            "0": "Headquarters",
-            "1": "52 Rue du Docteur Sultzer, 67140 Barr"
-          },
-          {
-            "0": "SIREN",
-            "1": "524581873"
-          },
-          {
-            "0": "RCS",
-            "1": "524 581 873 Colmar Commercial Register"
-          },
-          {
-            "0": "ORIAS No.",
-            "1": "14,001,728 (www.orias.fr)"
-          },
-          {
-            "0": "Regulatory Authority",
-            "1": "ACPR – Banque de France"
-          },
-          {
-            "0": "President of SAS",
-            "1": "Fabienne TOWAE"
-          }
+          [
+            "Company Name",
+            "Fab Finance"
+          ],
+          [
+            "Legal Form",
+            "Simplified Joint-Stock Company (SAS)"
+          ],
+          [
+            "Share Capital",
+            "50,000 €"
+          ],
+          [
+            "Headquarters",
+            "52 Rue du Docteur Sultzer, 67140 Barr"
+          ],
+          [
+            "SIREN",
+            "524581873"
+          ],
+          [
+            "RCS",
+            "524 581 873 Colmar Commercial Register"
+          ],
+          [
+            "ORIAS No.",
+            "14,001,728 (www.orias.fr)"
+          ],
+          [
+            "Regulatory Authority",
+            "ACPR – Banque de France"
+          ],
+          [
+            "President of SAS",
+            "Fabienne TOWAE"
+          ]
         ]
       },
       {
         "title": "Accommodations",
         "rows": [
-          {
-            "0": "Web Host",
-            "1": "Vercel, Inc."
-          },
-          {
-            "0": "Address",
-            "1": "440 N Barranca Ave, Covina, CA"
-          },
-          {
-            "0": "Website",
-            "1": "www.vercel.com"
-          }
+          [
+            "Web Host",
+            "Vercel, Inc."
+          ],
+          [
+            "Address",
+            "440 N Barranca Ave, Covina, CA"
+          ],
+          [
+            "Website",
+            "www.vercel.com"
+          ]
         ]
       },
       {
         "title": "Contact Us",
         "rows": [
-          {
-            "0": "Email",
-            "1": "contact@fab-financeaide.com"
-          },
-          {
-            "0": "Phone",
-            "1": "+33 753 959 516 (toll-free)"
-          },
-          {
-            "0": "Mail",
-            "1": "52 Rue du Docteur Sultzer, 67140 Barr"
-          },
-          {
-            "0": "Hours",
-            "1": "Mon–Fri, 9 a.m.–6 p.m."
-          }
+          [
+            "Email",
+            "contact@fab-financeaide.com"
+          ],
+          [
+            "Phone",
+            "+33 753 959 516 (toll-free)"
+          ],
+          [
+            "Mail",
+            "52 Rue du Docteur Sultzer, 67140 Barr"
+          ],
+          [
+            "Hours",
+            "Mon–Fri, 9 a.m.–6 p.m."
+          ]
         ]
       },
       {
@@ -930,8 +930,8 @@ export const en = {
         "title": "Limitation of Liability",
         "paragraphs": [
           "Fab Finance makes every effort to ensure that the information published on this site is accurate and up-to-date. However, Fab Finance cannot guarantee the accuracy, precision, or completeness of the information made available on this site.",
-          "The simulations provided on this site are for informational purposes only and have no contractual value. They do not constitute a credit offer. Any decision to grant credit is made after our advisors have thoroughly reviewed your application.",
-          "Fab Finance assumes no liability for any damages resulting from fraudulent access by a third party that has led to a change in the information made available on the website.",
+          "The simulations provided on this website are for informational purposes only and have no contractual value. They do not constitute a credit offer. Any decision to grant credit is made after our advisors have thoroughly reviewed the application.",
+          "Fab Finance assumes no liability for any damages resulting from fraudulent intrusion by a third party that has led to a change in the information made available on the website.",
           "This site may contain hyperlinks to other websites over which Fab Finance has no control. Fab Finance assumes no responsibility for the content of these sites."
         ]
       },
@@ -939,7 +939,7 @@ export const en = {
         "title": "Legal Notice: Consumer Credit",
         "warning": "A loan is a financial commitment and must be repaid. Be sure to assess your ability to repay the loan before committing to it.",
         "paragraphs": [
-          "In accordance with European Directive 2008/48/EC on consumer credit agreements, transposed into French law by Articles L.312-1 et seq. of the Consumer Code, all consumer credit is subject to standardized European pre-contractual information (FISE).",
+          "In accordance with European Directive 2008/48/EC on consumer credit agreements, transposed into French law by Articles L.312-1 et seq. of the Consumer Code, all consumer credit is subject to a standardized European pre-contractual information form (FISE).",
           "The Annual Percentage Rate (APR) listed on this site is an indicative rate calculated based on a representative example. The actual APR applicable to your contract will be determined based on your personal circumstances, the amount borrowed, and the repayment term.",
           "Representative example: For a personal loan of €15,000 over 120 months at a fixed APR of 3.00% — Fixed borrowing rate of 3.96% — Monthly payment of €144.80 — Total amount due: €17,376.00 — Total cost of the loan: €2,376.00. Offer available only to adults residing in France, subject to approval of your application.",
           "You have a 14-calendar-day withdrawal period beginning on the date you sign your credit agreement, in accordance with Article L.312-19 of the Consumer Code."
@@ -950,7 +950,7 @@ export const en = {
         "paragraphs": [
           "This site uses cookies to improve your browsing experience. Cookies are small text files stored on your device when you visit the site.",
           "We use cookies that are strictly necessary for the website to function, analytics cookies (anonymized audience measurement), and personalization cookies. You can manage your preferences at any time through our cookie manager.",
-          "To learn more about our use of cookies, please see our Privacy Policy."
+          "To learn more about how we use cookies, please see our Privacy Policy."
         ]
       },
       {
@@ -969,7 +969,7 @@ export const en = {
     "pageSubtitle": "How We Collect, Use, and Protect Your Personal Data.",
     "rgpdBoxTitle": "Your data is protected",
     "rgpdBoxText": "Fab Finance complies with the General Data Protection Regulation (GDPR – EU 2016/679). Your data is never sold and is handled with the utmost care.",
-    "footerText": "To exercise your rights or for any questions regarding this policy, please contact our DPO at",
+    "footerText": "To exercise your rights or if you have any questions regarding this policy, please contact our DPO at",
     "modifDateLabel": "Date of last update:",
     "sections": [
       {
@@ -983,30 +983,30 @@ export const en = {
         "title": "Data Collected",
         "intro": "In connection with your use of our services, we collect only the data strictly necessary to review your financing application.",
         "rows": [
-          {
-            "0": "Identity",
-            "1": "Last Name, First Name, Date of Birth"
-          },
-          {
-            "0": "Contact Information",
-            "1": "Email, phone number, mailing address"
-          },
-          {
-            "0": "Professional situation.",
-            "1": "Employment status, monthly income, expenses"
-          },
-          {
-            "0": "Project",
-            "1": "Loan type, desired amount, term"
-          },
-          {
-            "0": "Navigation",
-            "1": "IP address, pages visited, session duration (anonymized)"
-          },
-          {
-            "0": "Consent",
-            "1": "Date, Time, and Method of Obtaining GDPR Consent"
-          }
+          [
+            "Identity",
+            "Last Name, First Name, Date of Birth"
+          ],
+          [
+            "Contact Information",
+            "Email, phone number, mailing address"
+          ],
+          [
+            "Professional status.",
+            "Employment status, monthly income, expenses"
+          ],
+          [
+            "Project",
+            "Loan type, desired amount, term"
+          ],
+          [
+            "Navigation",
+            "IP address, pages visited, session duration (anonymized)"
+          ],
+          [
+            "Consent",
+            "Date, Time, and Method of Obtaining GDPR Consent"
+          ]
         ],
         "paragraphs": [
           "We do not collect any so-called “sensitive” data as defined in Article 9 of the GDPR (ethnic origin, political opinions, health data, etc.)."
@@ -1015,30 +1015,30 @@ export const en = {
       {
         "title": "Purposes and Legal Bases",
         "rows": [
-          {
-            "0": "Review of Your Request",
-            "1": "Performance of a Contract / Precontractual Measures"
-          },
-          {
-            "0": "Update on Your Case",
-            "1": "Legitimate Interest / Performance of the Contract"
-          },
-          {
-            "0": "Regulatory Requirements",
-            "1": "Legal Requirements (KYC, AML/CFT)"
-          },
-          {
-            "0": "Service Improvement",
-            "1": "Legitimate Interest (Anonymized Data)"
-          },
-          {
-            "0": "Marketing and Newsletters",
-            "1": "Explicit consent (opt-in)"
-          },
-          {
-            "0": "Analytics Cookies",
-            "1": "Explicit Consent"
-          }
+          [
+            "Review of Your Request",
+            "Performance of a Contract / Precontractual Measures"
+          ],
+          [
+            "Update on Your Case",
+            "Legitimate Interest / Performance of the Contract"
+          ],
+          [
+            "Regulatory Requirements",
+            "Legal Requirements (KYC, AML/CFT)"
+          ],
+          [
+            "Service Improvement",
+            "Legitimate Interest (Anonymized Data)"
+          ],
+          [
+            "Marketing and Newsletters",
+            "Explicit consent (opt-in)"
+          ],
+          [
+            "Analytics Cookies",
+            "Explicit Consent"
+          ]
         ]
       },
       {
@@ -1048,18 +1048,18 @@ export const en = {
           "The subcontractors we use are contractually obligated to ensure the confidentiality and security of your data, in accordance with Article 28 of the GDPR."
         ],
         "rows": [
-          {
-            "0": "Accommodations",
-            "1": "Vercel Inc. (EU servers)"
-          },
-          {
-            "0": "Sending Emails",
-            "1": "EmailJS / Resend (TLS encryption)"
-          },
-          {
-            "0": "Analytics",
-            "1": "Anonymized data, with no transfer outside the EU"
-          }
+          [
+            "Accommodations",
+            "Vercel Inc. (EU servers)"
+          ],
+          [
+            "Sending Emails",
+            "EmailJS / Resend (TLS encryption)"
+          ],
+          [
+            "Analytics",
+            "Anonymized data, with no transfer outside the EU"
+          ]
         ],
         "paragraphs2": [
           "No data is transferred outside the European Union without appropriate safeguards (the European Commission's standard contractual clauses)."
@@ -1068,26 +1068,26 @@ export const en = {
       {
         "title": "Shelf Life",
         "rows": [
-          {
-            "0": "Request Data (Unsuccessful)",
-            "1": "3 years from the last contact"
-          },
-          {
-            "0": "Contractual Information",
-            "1": "5 years after the end of the contract (legal requirement)"
-          },
-          {
-            "0": "Navigation Data",
-            "1": "13 months maximum"
-          },
-          {
-            "0": "Consent Information",
-            "1": "3 years from the date of collection"
-          },
-          {
-            "0": "Marketing Data",
-            "1": "3 years after the last active deployment"
-          }
+          [
+            "Request Data (Unsuccessful)",
+            "3 years from the last contact"
+          ],
+          [
+            "Contractual Information",
+            "5 years after the end of the contract (legal requirement)"
+          ],
+          [
+            "Navigation Data",
+            "13 months maximum"
+          ],
+          [
+            "Consent Information",
+            "3 years from the date of collection"
+          ],
+          [
+            "Marketing Data",
+            "3 years after the last active deployment"
+          ]
         ],
         "paragraphs": [
           "Once these time periods have elapsed, your data will be securely deleted or irreversibly anonymized."
@@ -1097,22 +1097,22 @@ export const en = {
         "title": "Data Security",
         "intro": "Fab Finance implements appropriate technical and organizational measures to protect your data against loss, destruction, alteration, and unauthorized access or disclosure.",
         "rows": [
-          {
-            "0": "Encryption",
-            "1": "256-bit SSL/TLS on all communications"
-          },
-          {
-            "0": "Access",
-            "1": "Strict access control, strong authentication"
-          },
-          {
-            "0": "Accommodations",
-            "1": "ISO 27001-certified secure servers"
-          },
-          {
-            "0": "Tests",
-            "1": "Regular security audits"
-          }
+          [
+            "Encryption",
+            "256-bit SSL/TLS on all communications"
+          ],
+          [
+            "Access",
+            "Strict access control, strong authentication"
+          ],
+          [
+            "Accommodations",
+            "ISO 27001-certified secure servers"
+          ],
+          [
+            "Tests",
+            "Regular security audits"
+          ]
         ],
         "warning": "In the event of a data breach that could pose a risk to your rights and freedoms, you will be notified within 72 hours in accordance with Article 34 of the GDPR."
       },
@@ -1120,34 +1120,34 @@ export const en = {
         "title": "Your Rights",
         "intro": "In accordance with the General Data Protection Regulation (GDPR – EU 2016/679) and the amended French Data Protection Act, you have the following rights regarding your personal data:",
         "rows": [
-          {
-            "0": "Right of Access",
-            "1": "Obtaining a Copy of Your Data (Art. 15 of the GDPR)"
-          },
-          {
-            "0": "Right to Correction",
-            "1": "Correcting Inaccurate Data (Art. 16 of the GDPR)"
-          },
-          {
-            "0": "Right to Erasure",
-            "1": "Request the deletion of your data (Art. 17 of the GDPR)"
-          },
-          {
-            "0": "Right to Restriction",
-            "1": "Restricting ongoing processing (Art. 18 of the GDPR)"
-          },
-          {
-            "0": "Right to Data Portability",
-            "1": "Receive your data in a readable format (Art. 20 of the GDPR)"
-          },
-          {
-            "0": "Right to Object",
-            "1": "Objecting to Processing (Art. 21 GDPR)"
-          },
-          {
-            "0": "Withdrawal of Consent",
-            "1": "Withdraw your consent at any time"
-          }
+          [
+            "Right of Access",
+            "Request a copy of your data (Art. 15 of the GDPR)"
+          ],
+          [
+            "Right to Correction",
+            "Correcting Inaccurate Data (Art. 16 of the GDPR)"
+          ],
+          [
+            "Right to Erasure",
+            "Request the deletion of your data (Art. 17 of the GDPR)"
+          ],
+          [
+            "Right to Restriction",
+            "Restricting ongoing processing (Art. 18 of the GDPR)"
+          ],
+          [
+            "Right to Data Portability",
+            "Receive your data in a readable format (Art. 20 GDPR)"
+          ],
+          [
+            "Right to Object",
+            "Objecting to Processing (Art. 21 of the GDPR)"
+          ],
+          [
+            "Withdrawal of Consent",
+            "Withdraw your consent at any time"
+          ]
         ],
         "paragraphs2": [
           "To exercise your rights, please contact our DPO by email at dpo@fab-financeaide.com, attaching a copy of your ID. We will respond within one month of receiving your request.",
@@ -1157,18 +1157,18 @@ export const en = {
       {
         "title": "Cookies",
         "rows": [
-          {
-            "0": "Essential Cookies",
-            "1": "Necessary for operation — No consent required"
-          },
-          {
-            "0": "Analytics Cookies",
-            "1": "Anonymized audience measurement — Consent required"
-          },
-          {
-            "0": "Marketing Cookies",
-            "1": "Not used on this site"
-          }
+          [
+            "Essential Cookies",
+            "Necessary for operation — No consent required"
+          ],
+          [
+            "Analytics Cookies",
+            "Anonymized audience measurement — Consent required"
+          ],
+          [
+            "Marketing Cookies",
+            "Not used on this site"
+          ]
         ],
         "paragraphs": [
           "You can change your preferences at any time using the cookie manager at the bottom of the page. Declining analytical cookies does not affect your browsing experience or your access to our services."
@@ -1182,5 +1182,283 @@ export const en = {
         ]
       }
     ]
+  },
+  "cookiesPage": {
+    "badge": "GDPR-compliant",
+    "subtitle": "Manage your cookie preferences at any time. Your selection is saved locally on your device.",
+    "statusLabel": "Status of Your Consent",
+    "statusMessages": {
+      "pending": "No selections saved",
+      "accepted": "All cookies accepted",
+      "refused": "Optional cookies rejected",
+      "custom": "Custom Preferences"
+    },
+    "statusPending": "Pending",
+    "statusSaved": "Saved",
+    "reset": "Reset",
+    "requiredBadge": "Required",
+    "retentionLabel": "Storage:",
+    "types": [
+      {
+        "title": "Essential Cookies",
+        "desc": "These cookies are essential for the website to function. They enable navigation, ensure the security of forms, and save your cookie preferences. They cannot be disabled.",
+        "examples": [
+          "Browsing Session",
+          "Consent Preferences",
+          "CSRF Security"
+        ],
+        "retention": "Session / 12 months"
+      },
+      {
+        "title": "Analytics Cookies",
+        "desc": "These cookies allow us to anonymously track website traffic in order to improve our services. No personally identifiable information is collected or shared with third parties.",
+        "examples": [
+          "Pages Visited (Anonymized)",
+          "Session Duration",
+          "Traffic Source"
+        ],
+        "retention": "13 months"
+      },
+      {
+        "title": "Marketing Cookies",
+        "desc": "These cookies are used to personalize the offers and ads shown to you. They may be placed by our advertising partners with your consent.",
+        "examples": [
+          "Customizing Offers",
+          "Ad Retargeting",
+          "Conversion Tracking"
+        ],
+        "retention": "12 months"
+      }
+    ],
+    "examplesLabel": "Examples of Use",
+    "savedMessage": "Your preferences have been saved.",
+    "saveButton": "Save my selections",
+    "acceptAll": "Accept All",
+    "refuseAll": "Reject Everything",
+    "footerNote": "Your preferences are saved only on your device. No data is sent to our servers."
+  },
+  "loanHero": {
+    "badge": "Immediate response · No obligation",
+    "fallbackTaglinePrefix": "The Fab Finance solution for",
+    "fallbackTaglineSuffix": "Transparency, speed, and personalized support for all your projects.",
+    "trustResponseTime": "Answer in 2 minutes"
+  },
+  "loans": {
+    "personnel": {
+      "tagline": "Finance your projects with complete flexibility",
+      "conditions": {
+        "duration": "12 to 84 months",
+        "taeg": "starting at 3%",
+        "rateType": "Landline"
+      },
+      "advantages": [
+        "No proof of use",
+        "Free early repayment",
+        "Monthly payment deferral available"
+      ],
+      "explanation": {
+        "title": "Understanding Personal Loans",
+        "paragraphs": [
+          "A personal loan is a flexible financing solution that allows you to fund various projects without having to provide proof of how the funds will be used.",
+          "Whether you need to finance home improvements, a trip, or cover an unexpected expense, this loan provides you with quick access to funds.",
+          "At Fab Finance, you can run a loan simulation online in just a few seconds to find out how much your monthly payments will be.",
+          "Our team works with you to provide a clear, transparent solution tailored to your financial situation."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Buy a Car",
+          "desc": "Finance your new or used vehicle quickly."
+        },
+        {
+          "title": "Do some home improvement work",
+          "desc": "Improve your home with flexible financing."
+        },
+        {
+          "title": "Financing a Trip",
+          "desc": "Work on your personal projects with complete peace of mind."
+        }
+      ]
+    },
+    "etudiant": {
+      "tagline": "Finance Your Education and Plan for Your Future",
+      "conditions": {
+        "duration": "12 to 120 months",
+        "taeg": "starting at 0.90%",
+        "rateType": "Landline"
+      },
+      "advantages": [
+        "Deferred Repayment During College",
+        "No application fee",
+        "Simplified Parental Guarantee"
+      ],
+      "explanation": {
+        "title": "Understanding Student Loans",
+        "paragraphs": [
+          "A student loan is a loan specifically designed to help students finance their education and cover the expenses associated with their academic pursuits.",
+          "Unlike a traditional loan, repayment can be deferred for the duration of the student's studies to allow the student to focus on their education.",
+          "Once you have completed your studies, loan repayment begins according to the terms agreed upon when you took out the loan.",
+          "At Fab Finance, we offer financing solutions that are simple, transparent, and tailored to students' real-life situations."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Financing a College Education",
+          "desc": "Pay your tuition and training fees."
+        },
+        {
+          "title": "Student Housing",
+          "desc": "Finance your housing while you're in school."
+        },
+        {
+          "title": "Computer Equipment",
+          "desc": "Buy the supplies you need for your studies."
+        }
+      ]
+    },
+    "auto": {
+      "tagline": "Finance Your New or Used Car",
+      "conditions": {
+        "duration": "12 to 84 months",
+        "taeg": "starting at 3.2%",
+        "rateType": "Landline"
+      },
+      "advantages": [
+        "Fast Financing for Your Vehicle",
+        "Fixed rate for the entire term of the loan",
+        "Option for early repayment"
+      ],
+      "explanation": {
+        "title": "Understanding Car Loans",
+        "paragraphs": [
+          "A car loan is a specialized loan designed to finance the purchase of a new or used vehicle.",
+          "It allows you to spread the cost of your car over several months or years so you can continue to save.",
+          "The amount of the monthly payments depends on the principal amount borrowed, the term of the loan, and the interest rate applied.",
+          "At Fab Finance, you can get a quote for your auto loan online and quickly receive a preliminary approval."
+        ]
+      },
+      "usages": [
+        {
+          "title": "New car",
+          "desc": "Finance the purchase of a new vehicle with monthly payments tailored to your needs."
+        },
+        {
+          "title": "Used Car",
+          "desc": "Buy a used car while staying within your budget."
+        },
+        {
+          "title": "Electric vehicle",
+          "desc": "Make the switch to electric vehicles with flexible financing."
+        }
+      ]
+    },
+    "professionnel": {
+      "tagline": "Finance the growth of your business",
+      "conditions": {
+        "duration": "12 to 120 months",
+        "taeg": "starting at 3.5%",
+        "rateType": "Fixed or variable"
+      },
+      "advantages": [
+        "Financing Tailored to Businesses",
+        "Support from Experts",
+        "Flexible Refund Policy"
+      ],
+      "explanation": {
+        "title": "Understanding Business Loans",
+        "paragraphs": [
+          "A business loan allows companies and self-employed individuals to finance their investments and growth.",
+          "It can be used to finance the purchase of equipment, the renovation of a space, the hiring of staff, or the launch of a new project.",
+          "The term and amount of the loan depend on the project, the company's ability to repay the loan, and any collateral provided.",
+          "At Fab Finance, we offer clear financing solutions tailored to the needs of business professionals."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Starting a Business",
+          "desc": "Finance the launch of your business."
+        },
+        {
+          "title": "Buy equipment",
+          "desc": "Invest in the equipment you need for your business."
+        },
+        {
+          "title": "Grow Your Business",
+          "desc": "Support your company's growth."
+        }
+      ]
+    },
+    "conso": {
+      "tagline": "Finance Your Everyday Projects",
+      "conditions": {
+        "duration": "6 to 84 months",
+        "taeg": "starting at 2.5%",
+        "rateType": "Landline"
+      },
+      "advantages": [
+        "Fast Financing",
+        "Monthly payments tailored to your budget",
+        "A simple, 100% online process"
+      ],
+      "explanation": {
+        "title": "Understanding Consumer Loans",
+        "paragraphs": [
+          "A consumer loan is a loan granted to individuals to finance goods or services intended for personal use.",
+          "It differs from a mortgage because it generally involves smaller amounts and shorter repayment terms.",
+          "Repayment is made in the form of fixed monthly payments that include a portion of the principal and interest.",
+          "With Fab Finance's online simulation tools, you can quickly determine the monthly payment amount that fits your budget."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Buy equipment",
+          "desc": "Finance the purchase of appliances or equipment for your home."
+        },
+        {
+          "title": "Organize an event",
+          "desc": "Finance a wedding, a party, or an important personal project."
+        },
+        {
+          "title": "Unexpected expense",
+          "desc": "Get funds quickly to handle an emergency."
+        }
+      ]
+    },
+    "rachat": {
+      "tagline": "Consolidate your loans and lower your monthly payments",
+      "conditions": {
+        "duration": "24 to 144 months",
+        "taeg": "starting at 3.9%",
+        "rateType": "Landline"
+      },
+      "advantages": [
+        "One monthly payment",
+        "Possible Reduction in Monthly Payments",
+        "Better Budget Management"
+      ],
+      "explanation": {
+        "title": "Understanding Debt Consolidation",
+        "paragraphs": [
+          "Debt consolidation involves combining several outstanding loans into a single loan with a single monthly payment.",
+          "This solution simplifies the management of your finances and allows you to adjust your monthly payments to match your ability to repay.",
+          "Debt consolidation can apply to various types of loans: personal loans, auto loans, or consumer loans.",
+          "At Fab Finance, our team analyzes your financial situation to offer you a debt consolidation solution tailored to your budget."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Consolidate Multiple Loans",
+          "desc": "Consolidate all your loans into a single monthly payment."
+        },
+        {
+          "title": "Reduce Monthly Payments",
+          "desc": "Adjust your payments to fit your budget."
+        },
+        {
+          "title": "Simplify Management",
+          "desc": "One loan, one monthly payment to manage."
+        }
+      ]
+    }
   }
 };

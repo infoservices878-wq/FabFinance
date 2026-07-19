@@ -11,6 +11,7 @@ interface Props {
 
 export default function LoanHero({ title, img, tagline }: Props) {
   const { lang, t, routes, switchLang } = useI18n();
+  const s = t.loanHero
 
   return (
     <section className="relative h-[520px] md:h-[580px] flex items-center overflow-hidden">
@@ -51,9 +52,9 @@ export default function LoanHero({ title, img, tagline }: Props) {
             transition={{ delay: 0.15, duration: 0.5 }}
             className="flex items-center gap-1.5 text-sm text-gray-400 mb-7"
           >
-            <Link href={routes.home} className="hover:text-white transition-colors">Accueil</Link>
+            <Link href={routes.home} className="hover:text-white transition-colors">{t.nav.home}</Link>
             <ChevronRight className="w-3.5 h-3.5 opacity-50" />
-            <Link href={routes.home} className="hover:text-white transition-colors">Nos prêts</Link>
+            <Link href={routes.home} className="hover:text-white transition-colors">{t.footer.links.loans}</Link>
             <ChevronRight className="w-3.5 h-3.5 opacity-50" />
             <span className="text-green-400 font-medium">{title}</span>
           </motion.div>
@@ -67,7 +68,7 @@ export default function LoanHero({ title, img, tagline }: Props) {
           >
             <span className="flex h-2 w-2 rounded-full bg-green-400 animate-pulse" />
             <span className="text-green-400 text-xs font-bold uppercase tracking-widest">
-              Réponse immédiate · Sans engagement
+              {s.badge}
             </span>
           </motion.div>
 
@@ -79,8 +80,7 @@ export default function LoanHero({ title, img, tagline }: Props) {
           {/* Tagline */}
           <p className="text-lg text-gray-300 leading-relaxed mb-9 max-w-xl">
             {tagline ??
-              `La solution Fab Finance pour ${title.toLowerCase()} : transparence,
-              rapidité et accompagnement humain pour tous vos projets.`}
+              `${s.fallbackTaglinePrefix} ${title.toLowerCase()} : ${s.fallbackTaglineSuffix}`}
           </p>
 
           {/* CTAs */}
@@ -93,7 +93,7 @@ export default function LoanHero({ title, img, tagline }: Props) {
                 boxShadow: "0 8px 24px rgba(22,163,74,0.45)",
               }}
             >
-              Simuler mon prêt
+              {t.common.simulate}
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
             </Link>
 
@@ -102,15 +102,15 @@ export default function LoanHero({ title, img, tagline }: Props) {
               className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-semibold text-white text-sm border border-white/20 bg-white/8 hover:bg-white/15 transition-all duration-200"
             >
               <ArrowLeft className="w-4 h-4" />
-              Retour
+              {t.common.back}
             </Link>
           </div>
 
           {/* Trust badges */}
           <div className="flex flex-wrap gap-5 mt-9">
             {[
-              { icon: Clock,       label: "Réponse en 2 minutes"    },
-              { icon: ShieldCheck, label: "100% sécurisé"           },
+              { icon: Clock,       label: s.trustResponseTime },
+              { icon: ShieldCheck, label: t.common.secure     },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex items-center gap-2 text-sm text-gray-400">
                 <Icon className="w-4 h-4 text-green-400 flex-shrink-0" />

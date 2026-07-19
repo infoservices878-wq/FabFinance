@@ -23,11 +23,12 @@ export default function LoanPage(){
 
   const type = params.type || "personnel"
 
-  const data= loanConfig[type]
+  const data = loanConfig[type]
+  const text = (t.loans as any)[type]
 
   const title = (t.nav.loanTypes as any)[type] ?? type
 
-  if(!data){
+  if(!data || !text){
     return <div className="p-20 text-center">Prêt introuvable</div>
   }
 
@@ -37,7 +38,7 @@ export default function LoanPage(){
 
       <LoanHero
         title={title}
-        tagline={data.hero.tagline}
+        tagline={text.tagline}
         img={data.hero.image}
       />
 
@@ -51,19 +52,24 @@ export default function LoanPage(){
         <LoanStats
           min={data.conditions.min}
           max={data.conditions.max}
-          duration={data.conditions.duration}
-          taeg={data.conditions.taeg}
-          rateType={data.conditions.rateType}
+          duration={text.conditions.duration}
+          taeg={text.conditions.taeg}
+          rateType={text.conditions.rateType}
         />
 
-        <LoanAdvantages advantages={data.advantages} />
+        <LoanAdvantages advantages={text.advantages} />
 
         <LoanExplanation
-          title={data.explanation.title}
-          paragraphs={data.explanation.paragraphs}
+          title={text.explanation.title}
+          paragraphs={text.explanation.paragraphs}
         />
 
-        <LoanUsage usage={data.usages} />
+        <LoanUsage
+          usage={text.usages.map((u: { title: string; desc: string }, i: number) => ({
+            ...u,
+            image: data.usages[i].image,
+          }))}
+        />
 
         <LoanExample/>
 

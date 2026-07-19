@@ -834,80 +834,80 @@ export const de = {
       {
         "title": "Herausgeber der Website",
         "rows": [
-          {
-            "0": "Firmenname",
-            "1": "Fab Finance"
-          },
-          {
-            "0": "Rechtsform",
-            "1": "Vereinfachte Aktiengesellschaft (SAS)"
-          },
-          {
-            "0": "Grundkapital",
-            "1": "50.000 €"
-          },
-          {
-            "0": "Hauptsitz",
-            "1": "52 Rue du Docteur Sultzer, 67140 Barr"
-          },
-          {
-            "0": "SIREN",
-            "1": "524581873"
-          },
-          {
-            "0": "Handelsregister",
-            "1": "524 581 873 Handelsregister Colmar"
-          },
-          {
-            "0": "ORIAS-Nr.",
-            "1": "14.001.728 (www.orias.fr)"
-          },
-          {
-            "0": "Aufsichtsbehörde",
-            "1": "ACPR – Banque de France"
-          },
-          {
-            "0": "Vorstandsvorsitzender der SAS",
-            "1": "TOWAE Fabienne"
-          }
+          [
+            "Firmenname",
+            "Fab Finance"
+          ],
+          [
+            "Rechtsform",
+            "Vereinfachte Aktiengesellschaft (SAS)"
+          ],
+          [
+            "Grundkapital",
+            "50.000 €"
+          ],
+          [
+            "Hauptsitz",
+            "52 Rue du Docteur Sultzer, 67140 Barr"
+          ],
+          [
+            "SIREN",
+            "524581873"
+          ],
+          [
+            "Handelsregister",
+            "524 581 873 Handelsregister Colmar"
+          ],
+          [
+            "ORIAS-Nr.",
+            "14 001 728 (www.orias.fr)"
+          ],
+          [
+            "Aufsichtsbehörde",
+            "ACPR – Banque de France"
+          ],
+          [
+            "Vorstandsvorsitzender der SAS",
+            "TOWAE Fabienne"
+          ]
         ]
       },
       {
         "title": "Unterkunft",
         "rows": [
-          {
-            "0": "Webhost",
-            "1": "Vercel Inc."
-          },
-          {
-            "0": "Adresse",
-            "1": "440 N Barranca Ave, Covina, CA"
-          },
-          {
-            "0": "Website",
-            "1": "www.vercel.com"
-          }
+          [
+            "Webhost",
+            "Vercel Inc."
+          ],
+          [
+            "Adresse",
+            "440 N Barranca Ave, Covina, CA"
+          ],
+          [
+            "Website",
+            "www.vercel.com"
+          ]
         ]
       },
       {
         "title": "Kontaktieren Sie uns",
         "rows": [
-          {
-            "0": "E-Mail",
-            "1": "contact@fab-financeaide.com"
-          },
-          {
-            "0": "Telefon",
-            "1": "+33 753 959 516 (kostenloser Anruf)"
-          },
-          {
-            "0": "Post",
-            "1": "52 Rue du Docteur Sultzer, 67140 Barr"
-          },
-          {
-            "0": "Öffnungszeiten",
-            "1": "Mo – Fr, 9:00 – 18:00 Uhr"
-          }
+          [
+            "E-Mail",
+            "contact@fab-financeaide.com"
+          ],
+          [
+            "Telefon",
+            "+33 753 959 516 (kostenloser Anruf)"
+          ],
+          [
+            "Post",
+            "52 Rue du Docteur Sultzer, 67140 Barr"
+          ],
+          [
+            "Öffnungszeiten",
+            "Mo – Fr, 9:00 – 18:00 Uhr"
+          ]
         ]
       },
       {
@@ -937,12 +937,12 @@ export const de = {
       },
       {
         "title": "Rechtliche Hinweise zum Verbraucherkredit",
-        "warning": "Ein Kredit ist eine Verpflichtung und muss zurückgezahlt werden. Prüfen Sie Ihre Rückzahlungsmöglichkeiten, bevor Sie sich dazu verpflichten.",
+        "warning": "Ein Kredit ist eine Verpflichtung und muss zurückgezahlt werden. Prüfen Sie Ihre Rückzahlungsmöglichkeiten, bevor Sie eine Verpflichtung eingehen.",
         "paragraphs": [
-          "Gemäß der EU-Richtlinie 2008/48/EG über Verbraucherkreditverträge, die in Frankreich durch die Artikel L.312-1 ff. des Verbrauchergesetzbuchs umgesetzt wurde, unterliegt jeder Verbraucherkredit einer standardisierten vorvertraglichen Information auf europäischer Ebene (FISE).",
+          "Gemäß der EU-Richtlinie 2008/48/EG über Verbraucherkreditverträge, die in Frankreich durch die Artikel L.312-1 ff. des Verbrauchergesetzbuchs umgesetzt wurde, unterliegt jeder Verbraucherkredit einer standardisierten vorvertraglichen Information nach europäischem Recht (FISE).",
           "Der auf dieser Website angegebene effektive Jahreszins (TAEG) ist ein Richtwert, der auf der Grundlage eines repräsentativen Beispiels berechnet wurde. Der für Ihren Vertrag tatsächlich geltende effektive Jahreszins richtet sich nach Ihrer persönlichen Situation, der Kreditsumme und der Laufzeit.",
-          "Repräsentatives Beispiel: Für einen Privatkredit in Höhe von 15.000 € mit einer Laufzeit von 120 Monaten bei einem festen effektiven Jahreszins von 3,00 % – fester Sollzinssatz 3,96 % – monatliche Rate 144,80 € – Gesamtbetrag: 17.376,00 € — Gesamtkosten des Kredits: 2.376,00 €. Das Angebot gilt ausschließlich für volljährige Privatpersonen mit Wohnsitz in Frankreich, vorbehaltlich der Genehmigung Ihres Antrags.",
-          "Gemäß Artikel L.312-19 des Verbrauchergesetzbuchs haben Sie ab Unterzeichnung Ihres Kreditvertrags eine Widerrufsfrist von 14 Kalendertagen."
+          "Repräsentatives Beispiel: Bei einem Privatkredit in Höhe von 15.000 € mit einer Laufzeit von 120 Monaten und einem festen effektiven Jahreszins von 3,00 % – fester Sollzinssatz 3,96 % – monatliche Rate 144,80 € – Gesamtbetrag: 17.376,00 € — Gesamtkosten des Kredits: 2.376,00 €. Das Angebot gilt ausschließlich für volljährige Privatpersonen mit Wohnsitz in Frankreich, vorbehaltlich der Genehmigung Ihres Antrags.",
+          "Gemäß Artikel L.312-19 des Verbraucherschutzgesetzes haben Sie ab Unterzeichnung Ihres Kreditvertrags eine Widerrufsfrist von 14 Kalendertagen."
         ]
       },
       {
@@ -957,7 +957,7 @@ export const de = {
         "title": "Anwendbares Recht und Gerichtsstand",
         "paragraphs": [
           "Diese Website und ihre rechtlichen Hinweise unterliegen französischem Recht. Im Falle eines Rechtsstreits und nach dem Versuch einer gütlichen Einigung sind ausschließlich die französischen Gerichte zuständig.",
-          "Gemäß Artikel L.612-1 des Verbraucherschutzgesetzes hat jeder Verbraucher das Recht, sich kostenlos an einen Verbraucherschlichter zu wenden, um eine gütliche Einigung in einem Streitfall mit einem Unternehmer zu erzielen. Fab Finance ist Mitglied dieses Schlichtungsdienstes.",
+          "Gemäß Artikel L.612-1 des Verbrauchergesetzbuchs hat jeder Verbraucher das Recht, sich kostenlos an einen Verbraucherschlichter zu wenden, um eine gütliche Beilegung des Streits mit einem Gewerbetreibenden zu erreichen. Fab Finance ist Mitglied dieses Schlichtungsdienstes.",
           "Sie können sich auch an die europäische Plattform zur Online-Streitbeilegung wenden, die unter folgender Adresse erreichbar ist: https://ec.europa.eu/consumers/odr"
         ]
       }
@@ -983,30 +983,30 @@ export const de = {
         "title": "Erfasste Daten",
         "intro": "Im Rahmen Ihrer Nutzung unserer Dienste erheben wir ausschließlich die Daten, die für die Prüfung Ihres Finanzierungsantrags unbedingt erforderlich sind.",
         "rows": [
-          {
-            "0": "Identität",
-            "1": "Nachname, Vorname, Geburtsdatum"
-          },
-          {
-            "0": "Kontaktdaten",
-            "1": "E-Mail, Telefon, Postanschrift"
-          },
-          {
-            "0": "Berufliche Situation.",
-            "1": "Beruflicher Status, monatliches Einkommen, Ausgaben"
-          },
-          {
-            "0": "Projekt",
-            "1": "Art des Darlehens, gewünschter Betrag, Laufzeit"
-          },
-          {
-            "0": "Navigation",
-            "1": "IP-Adresse, besuchte Seiten, Sitzungsdauer (anonymisiert)"
-          },
-          {
-            "0": "Einwilligung",
-            "1": "Datum, Uhrzeit und Art der Einholung der Einwilligung gemäß DSGVO"
-          }
+          [
+            "Identität",
+            "Nachname, Vorname, Geburtsdatum"
+          ],
+          [
+            "Kontaktdaten",
+            "E-Mail, Telefon, Postanschrift"
+          ],
+          [
+            "Berufliche Situation.",
+            "Beruflicher Status, monatliches Einkommen, Ausgaben"
+          ],
+          [
+            "Projekt",
+            "Art des Darlehens, gewünschter Betrag, Laufzeit"
+          ],
+          [
+            "Navigation",
+            "IP-Adresse, besuchte Seiten, Sitzungsdauer (anonymisiert)"
+          ],
+          [
+            "Einwilligung",
+            "Datum, Uhrzeit und Art und Weise der Einholung der Einwilligung gemäß DSGVO"
+          ]
         ],
         "paragraphs": [
           "Wir erheben keine sogenannten „sensiblen“ Daten im Sinne von Artikel 9 der DSGVO (ethnische Herkunft, politische Meinungen, Gesundheitsdaten usw.)."
@@ -1015,79 +1015,79 @@ export const de = {
       {
         "title": "Zweck und Rechtsgrundlagen",
         "rows": [
-          {
-            "0": "Prüfung Ihres Antrags",
-            "1": "Vertragsdurchführung / vorvertragliche Maßnahmen"
-          },
-          {
-            "0": "Mitteilung zu Ihrem Fall",
-            "1": "Berechtigtes Interesse / Vertragserfüllung"
-          },
-          {
-            "0": "Gesetzliche Verpflichtungen",
-            "1": "Gesetzliche Verpflichtung (KYC, Geldwäschebekämpfung und Terrorismusfinanzierung)"
-          },
-          {
-            "0": "Verbesserung des Serviceangebots",
-            "1": "Berechtigtes Interesse (anonymisierte Daten)"
-          },
-          {
-            "0": "Marketing und Newsletter",
-            "1": "Ausdrückliche Einwilligung (Opt-in)"
-          },
-          {
-            "0": "Analytische Cookies",
-            "1": "Ausdrückliche Einwilligung"
-          }
+          [
+            "Prüfung Ihres Antrags",
+            "Vertragsdurchführung / vorvertragliche Maßnahmen"
+          ],
+          [
+            "Mitteilung zu Ihrem Fall",
+            "Berechtigtes Interesse / Vertragserfüllung"
+          ],
+          [
+            "Gesetzliche Verpflichtungen",
+            "Gesetzliche Verpflichtung (KYC, Geldwäschebekämpfung und Terrorismusfinanzierung)"
+          ],
+          [
+            "Verbesserung des Serviceangebots",
+            "Berechtigtes Interesse (anonymisierte Daten)"
+          ],
+          [
+            "Marketing und Newsletter",
+            "Ausdrückliche Einwilligung (Opt-in)"
+          ],
+          [
+            "Analytische Cookies",
+            "Ausdrückliche Einwilligung"
+          ]
         ]
       },
       {
         "title": "Empfänger der Daten",
         "paragraphs": [
-          "Ihre Daten werden ausschließlich von Fab Finance SAS und deren technischen Auftragsverarbeitern im Rahmen der Erbringung der Dienstleistung verarbeitet. Sie werden niemals an Dritte verkauft.",
+          "Ihre Daten werden ausschließlich von Fab Finance SAS und deren technischen Dienstleistern im Rahmen der Erbringung der Dienstleistung verarbeitet. Sie werden niemals an Dritte verkauft.",
           "Die von uns beauftragten Auftragsverarbeiter sind gemäß Artikel 28 der DSGVO vertraglich verpflichtet, die Vertraulichkeit und Sicherheit Ihrer Daten zu gewährleisten."
         ],
         "rows": [
-          {
-            "0": "Unterkunft",
-            "1": "Vercel Inc. (Server in der EU)"
-          },
-          {
-            "0": "Versenden von E-Mails",
-            "1": "EmailJS / Erneut senden (TLS-Verschlüsselung)"
-          },
-          {
-            "0": "Analytik",
-            "1": "Anonymisierte Daten, keine Übermittlung außerhalb der EU"
-          }
+          [
+            "Unterkunft",
+            "Vercel Inc. (Server in der EU)"
+          ],
+          [
+            "Versenden von E-Mails",
+            "EmailJS / Erneut senden (TLS-Verschlüsselung)"
+          ],
+          [
+            "Analytik",
+            "Anonymisierte Daten, keine Übermittlung außerhalb der EU"
+          ]
         ],
         "paragraphs2": [
-          "Eine Datenübermittlung außerhalb der Europäischen Union erfolgt nur mit angemessenen Garantien (Standardvertragsklauseln der Europäischen Kommission)."
+          "Eine Datenübermittlung außerhalb der Europäischen Union erfolgt nur, wenn angemessene Garantien bestehen (Standardvertragsklauseln der Europäischen Kommission)."
         ]
       },
       {
         "title": "Haltbarkeit",
         "rows": [
-          {
-            "0": "Anfragedaten (nicht erfolgreich)",
-            "1": "3 Jahre ab dem letzten Kontakt"
-          },
-          {
-            "0": "Vertragsdaten",
-            "1": "5 Jahre nach Vertragsende (gesetzliche Verpflichtung)"
-          },
-          {
-            "0": "Navigationsdaten",
-            "1": "Höchstens 13 Monate"
-          },
-          {
-            "0": "Einwilligungsdaten",
-            "1": "3 Jahre ab der Erhebung"
-          },
-          {
-            "0": "Marketingdaten",
-            "1": "3 Jahre nach dem letzten aktiven Einsatz"
-          }
+          [
+            "Anfragedaten (nicht erfolgreich)",
+            "3 Jahre ab dem letzten Kontakt"
+          ],
+          [
+            "Vertragsdaten",
+            "5 Jahre nach Vertragsende (gesetzliche Verpflichtung)"
+          ],
+          [
+            "Navigationsdaten",
+            "Höchstens 13 Monate"
+          ],
+          [
+            "Einwilligungsdaten",
+            "3 Jahre ab der Erhebung"
+          ],
+          [
+            "Marketingdaten",
+            "3 Jahre nach dem letzten aktiven Einsatz"
+          ]
         ],
         "paragraphs": [
           "Nach Ablauf dieser Fristen werden Ihre Daten sicher gelöscht oder unwiderruflich anonymisiert."
@@ -1097,22 +1097,22 @@ export const de = {
         "title": "Datensicherheit",
         "intro": "Fab Finance ergreift geeignete technische und organisatorische Maßnahmen, um Ihre Daten vor Verlust, Zerstörung, Veränderung sowie unbefugtem Zugriff oder unbefugter Weitergabe zu schützen.",
         "rows": [
-          {
-            "0": "Verschlüsselung",
-            "1": "256-Bit-SSL/TLS bei der gesamten Kommunikation"
-          },
-          {
-            "0": "Anfahrt",
-            "1": "Strenge Zugriffskontrolle, starke Authentifizierung"
-          },
-          {
-            "0": "Unterkunft",
-            "1": "Sichere, nach ISO 27001 zertifizierte Server"
-          },
-          {
-            "0": "Tests",
-            "1": "Regelmäßige Sicherheitsaudits"
-          }
+          [
+            "Verschlüsselung",
+            "256-Bit-SSL/TLS bei der gesamten Kommunikation"
+          ],
+          [
+            "Anfahrt",
+            "Strenge Zugriffskontrolle, starke Authentifizierung"
+          ],
+          [
+            "Unterkunft",
+            "Sichere, nach ISO 27001 zertifizierte Server"
+          ],
+          [
+            "Tests",
+            "Regelmäßige Sicherheitsaudits"
+          ]
         ],
         "warning": "Im Falle einer Datenpanne, die ein Risiko für Ihre Rechte und Freiheiten darstellen könnte, werden Sie gemäß Artikel 34 der DSGVO innerhalb von 72 Stunden benachrichtigt."
       },
@@ -1120,34 +1120,34 @@ export const de = {
         "title": "Ihre Rechte",
         "intro": "Gemäß der Datenschutz-Grundverordnung (DSGVO – EU 2016/679) und dem geänderten französischen Datenschutzgesetz haben Sie folgende Rechte in Bezug auf Ihre personenbezogenen Daten:",
         "rows": [
-          {
-            "0": "Auskunftsrecht",
-            "1": "Eine Kopie Ihrer Daten anfordern (Art. 15 DSGVO)"
-          },
-          {
-            "0": "Recht auf Berichtigung",
-            "1": "Berichtigung unrichtiger Daten (Art. 16 DSGVO)"
-          },
-          {
-            "0": "Recht auf Löschung",
-            "1": "Antrag auf Löschung Ihrer Daten (Art. 17 DSGVO)"
-          },
-          {
-            "0": "Recht auf Einschränkung",
-            "1": "Einschränkung einer laufenden Verarbeitung (Art. 18 DSGVO)"
-          },
-          {
-            "0": "Recht auf Datenübertragbarkeit",
-            "1": "Ihre Daten in einem lesbaren Format erhalten (Art. 20 DSGVO)"
-          },
-          {
-            "0": "Widerspruchsrecht",
-            "1": "Widerspruch gegen eine Verarbeitung einlegen (Art. 21 DSGVO)"
-          },
-          {
-            "0": "Widerruf der Einwilligung",
-            "1": "Ihre Einwilligung jederzeit widerrufen"
-          }
+          [
+            "Auskunftsrecht",
+            "Eine Kopie Ihrer Daten anfordern (Art. 15 DSGVO)"
+          ],
+          [
+            "Recht auf Berichtigung",
+            "Berichtigung unrichtiger Daten (Art. 16 DSGVO)"
+          ],
+          [
+            "Recht auf Löschung",
+            "Antrag auf Löschung Ihrer Daten (Art. 17 DSGVO)"
+          ],
+          [
+            "Recht auf Einschränkung",
+            "Einschränkung einer laufenden Verarbeitung (Art. 18 DSGVO)"
+          ],
+          [
+            "Recht auf Datenübertragbarkeit",
+            "Ihre Daten in einem lesbaren Format erhalten (Art. 20 DSGVO)"
+          ],
+          [
+            "Widerspruchsrecht",
+            "Widerspruch gegen eine Verarbeitung einlegen (Art. 21 DSGVO)"
+          ],
+          [
+            "Widerruf der Einwilligung",
+            "Ihre Einwilligung jederzeit widerrufen"
+          ]
         ],
         "paragraphs2": [
           "Um Ihre Rechte geltend zu machen, wenden Sie sich bitte per E-Mail an unseren Datenschutzbeauftragten unter dpo@fab-financeaide.com und fügen Sie eine Kopie Ihres Ausweises bei. Wir werden Ihnen innerhalb eines Monats nach Eingang Ihrer Anfrage antworten.",
@@ -1157,18 +1157,18 @@ export const de = {
       {
         "title": "Cookies",
         "rows": [
-          {
-            "0": "Unbedingt erforderliche Cookies",
-            "1": "Für den Betrieb erforderlich – Keine Einwilligung erforderlich"
-          },
-          {
-            "0": "Analytische Cookies",
-            "1": "Anonymisierte Reichweitenmessung – Einwilligung erforderlich"
-          },
-          {
-            "0": "Marketing-Cookies",
-            "1": "Auf dieser Website nicht verwendet"
-          }
+          [
+            "Unbedingt erforderliche Cookies",
+            "Für den Betrieb erforderlich – Keine Einwilligung erforderlich"
+          ],
+          [
+            "Analytische Cookies",
+            "Anonymisierte Reichweitenmessung – Einwilligung erforderlich"
+          ],
+          [
+            "Marketing-Cookies",
+            "Auf dieser Website nicht verwendet"
+          ]
         ],
         "paragraphs": [
           "Sie können Ihre Einstellungen jederzeit über den Cookie-Manager am Fuß der Seite ändern. Die Ablehnung von Analyse-Cookies hat keinen Einfluss auf Ihre Navigation oder Ihren Zugriff auf die Dienste."
@@ -1182,5 +1182,283 @@ export const de = {
         ]
       }
     ]
+  },
+  "cookiesPage": {
+    "badge": "DSGVO-konform",
+    "subtitle": "Sie können Ihre Cookie-Einstellungen jederzeit verwalten. Ihre Auswahl wird lokal auf Ihrem Gerät gespeichert.",
+    "statusLabel": "Status Ihrer Einwilligung",
+    "statusMessages": {
+      "pending": "Keine Auswahl gespeichert",
+      "accepted": "Alle Cookies akzeptiert",
+      "refused": "Optionale Cookies abgelehnt",
+      "custom": "Individuelle Einstellungen"
+    },
+    "statusPending": "In Bearbeitung",
+    "statusSaved": "Gespeichert",
+    "reset": "Zurücksetzen",
+    "requiredBadge": "Erforderlich",
+    "retentionLabel": "Aufbewahrung:",
+    "types": [
+      {
+        "title": "Unbedingt erforderliche Cookies",
+        "desc": "Diese Cookies sind für den Betrieb der Website unerlässlich. Sie ermöglichen die Navigation, gewährleisten die Sicherheit der Formulare und speichern Ihre Cookie-Einstellungen. Sie können nicht deaktiviert werden.",
+        "examples": [
+          "Browsing-Sitzung",
+          "Einstellungen zur Einwilligung",
+          "CSRF-Sicherheit"
+        ],
+        "retention": "Sitzung / 12 Monate"
+      },
+      {
+        "title": "Analytische Cookies",
+        "desc": "Mithilfe dieser Cookies können wir die Besucherzahlen der Website anonym erfassen, um unsere Dienste zu verbessern. Es werden keine personenbezogenen Daten erfasst oder an Dritte weitergegeben.",
+        "examples": [
+          "Aufgerufene Seiten (anonymisiert)",
+          "Sitzungsdauer",
+          "Herkunft des Datenverkehrs"
+        ],
+        "retention": "13 Monate"
+      },
+      {
+        "title": "Marketing-Cookies",
+        "desc": "Diese Cookies ermöglichen es, die Ihnen angezeigten Angebote und Werbeanzeigen individuell anzupassen. Sie können mit Ihrer Einwilligung von unseren Werbepartnern gesetzt werden.",
+        "examples": [
+          "Individuelle Anpassung der Angebote",
+          "Werbungs-Retargeting",
+          "Umrechnungswerte"
+        ],
+        "retention": "12 Monate"
+      }
+    ],
+    "examplesLabel": "Anwendungsbeispiele",
+    "savedMessage": "Ihre Einstellungen wurden gespeichert.",
+    "saveButton": "Meine Auswahl speichern",
+    "acceptAll": "Alles akzeptieren",
+    "refuseAll": "Alles ablehnen",
+    "footerNote": "Ihre Einstellungen werden ausschließlich auf Ihrem Gerät gespeichert. Es werden keine Daten an unsere Server übertragen."
+  },
+  "loanHero": {
+    "badge": "Sofortige Antwort · Unverbindlich",
+    "fallbackTaglinePrefix": "Die Fab Finance-Lösung für",
+    "fallbackTaglineSuffix": "Transparenz, Schnelligkeit und persönliche Betreuung bei all Ihren Projekten.",
+    "trustResponseTime": "Antwort in 2 Minuten"
+  },
+  "loans": {
+    "personnel": {
+      "tagline": "Finanzieren Sie Ihre Projekte ganz nach Ihren Vorstellungen",
+      "conditions": {
+        "duration": "12 bis 84 Monate",
+        "taeg": "ab 3 %",
+        "rateType": "Festnetz"
+      },
+      "advantages": [
+        "Kein Nachweis über die Verwendung",
+        "Kostenlose vorzeitige Rückzahlung",
+        "Möglichkeit einer Ratenzahlungspause"
+      ],
+      "explanation": {
+        "title": "Das Privatkredit-Konzept verstehen",
+        "paragraphs": [
+          "Der Privatkredit ist eine flexible Finanzierungslösung, mit der sich verschiedene Projekte finanzieren lassen, ohne dass ein Verwendungsnachweis für die Mittel erbracht werden muss.",
+          "Ob zur Finanzierung von Renovierungsarbeiten, einer Reise oder zur Deckung unerwarteter Ausgaben – mit diesem Kredit steht Ihnen schnell ein Geldbetrag zur Verfügung.",
+          "Bei Fab Finance können Sie Ihren Kredit in wenigen Sekunden online simulieren, um die Höhe Ihrer monatlichen Raten zu erfahren.",
+          "Unser Team steht Ihnen zur Seite, um Ihnen eine klare, transparente und auf Ihre finanzielle Situation zugeschnittene Lösung anzubieten."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Ein Auto kaufen",
+          "desc": "Finanzieren Sie Ihren Neu- oder Gebrauchtwagen schnell."
+        },
+        {
+          "title": "Renovierungsarbeiten durchführen",
+          "desc": "Verschönern Sie Ihr Zuhause mit einer flexiblen Finanzierung."
+        },
+        {
+          "title": "Eine Reise finanzieren",
+          "desc": "Verwirklichen Sie Ihre persönlichen Projekte ganz entspannt."
+        }
+      ]
+    },
+    "etudiant": {
+      "tagline": "Finanzieren Sie Ihr Studium und sichern Sie sich Ihre Zukunft",
+      "conditions": {
+        "duration": "12 bis 120 Monate",
+        "taeg": "ab 0,90 %",
+        "rateType": "Festnetz"
+      },
+      "advantages": [
+        "Aufgeschobene Rückzahlung während des Studiums",
+        "Keine Bearbeitungsgebühr",
+        "Vereinfachte elterliche Bürgschaft"
+      ],
+      "explanation": {
+        "title": "Das Studentendarlehen verstehen",
+        "paragraphs": [
+          "Das Studiendarlehen ist ein Kredit, der speziell darauf ausgelegt ist, Studierenden bei der Finanzierung ihres Studiums und der damit verbundenen Ausgaben zu helfen.",
+          "Im Gegensatz zu einem herkömmlichen Darlehen kann die Rückzahlung während der Studiendauer aufgeschoben werden, damit sich der Studierende ganz auf sein Studium konzentrieren kann.",
+          "Nach Abschluss des Studiums beginnt die Rückzahlung des Darlehens gemäß den bei Vertragsabschluss festgelegten Bedingungen.",
+          "Bei Fab Finance bieten wir einfache, transparente und auf die Lebensumstände von Studierenden zugeschnittene Finanzierungslösungen an."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Das Studium finanzieren",
+          "desc": "Bezahlen Sie Ihre Studiengebühren und Ihre Ausbildung."
+        },
+        {
+          "title": "Studentenwohnheim",
+          "desc": "Finanzieren Sie Ihre Wohnung während des Studiums."
+        },
+        {
+          "title": "IT-Ausstattung",
+          "desc": "Kaufen Sie die für Ihr Studium benötigte Ausrüstung."
+        }
+      ]
+    },
+    "auto": {
+      "tagline": "Finanzieren Sie Ihren Neu- oder Gebrauchtwagen",
+      "conditions": {
+        "duration": "12 bis 84 Monate",
+        "taeg": "ab 3,2 %",
+        "rateType": "Festnetz"
+      },
+      "advantages": [
+        "Schnelle Finanzierung Ihres Fahrzeugs",
+        "Fester Zinssatz über die gesamte Laufzeit des Darlehens",
+        "Möglichkeit einer vorzeitigen Rückzahlung"
+      ],
+      "explanation": {
+        "title": "Autokredite verstehen",
+        "paragraphs": [
+          "Der Autokredit ist ein zweckgebundener Kredit, mit dem der Kauf eines Neu- oder Gebrauchtwagens finanziert werden kann.",
+          "Damit können Sie die Kosten für Ihr Auto auf mehrere Monate oder Jahre verteilen, um Ihre Sparfähigkeit zu erhalten.",
+          "Die Höhe der monatlichen Raten hängt von der Kreditsumme, der Laufzeit des Kredits und dem geltenden Zinssatz ab.",
+          "Bei Fab Finance können Sie Ihren Autokredit online simulieren und erhalten umgehend eine vorläufige Zusage."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Neuwagen",
+          "desc": "Finanzieren Sie den Kauf eines Neuwagens mit maßgeschneiderten Monatsraten."
+        },
+        {
+          "title": "Gebrauchtwagen",
+          "desc": "Kaufen Sie einen Gebrauchtwagen und behalten Sie dabei Ihr Budget im Griff."
+        },
+        {
+          "title": "Elektrofahrzeug",
+          "desc": "Steigen Sie mit einer flexiblen Finanzierung auf Elektromobilität um."
+        }
+      ]
+    },
+    "professionnel": {
+      "tagline": "Finanzieren Sie den Ausbau Ihres Unternehmens",
+      "conditions": {
+        "duration": "12 bis 120 Monate",
+        "taeg": "ab 3,5 %",
+        "rateType": "Fest oder variabel"
+      },
+      "advantages": [
+        "Maßgeschneiderte Finanzierung für Unternehmen",
+        "Betreuung durch Experten",
+        "Flexible Rückerstattung"
+      ],
+      "explanation": {
+        "title": "Das Geschäftskredit-Modell verstehen",
+        "paragraphs": [
+          "Mit einem Geschäftskredit können Unternehmen und Selbstständige ihre Investitionen und ihre Expansion finanzieren.",
+          "Er kann zur Finanzierung des Kaufs von Ausrüstung, der Einrichtung von Räumlichkeiten, der Einstellung von Personal oder auch der Einführung eines neuen Projekts dienen.",
+          "Die Laufzeit und die Höhe des Darlehens hängen vom Projekt, der Rückzahlungsfähigkeit des Unternehmens und etwaigen Sicherheiten ab.",
+          "Bei Fab Finance bieten wir transparente Finanzierungslösungen an, die auf die Bedürfnisse von Gewerbetreibenden zugeschnitten sind."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Ein Unternehmen gründen",
+          "desc": "Finanzieren Sie die Gründung Ihres Unternehmens."
+        },
+        {
+          "title": "Ausrüstung kaufen",
+          "desc": "Investieren Sie in die für Ihre Tätigkeit erforderliche Ausrüstung."
+        },
+        {
+          "title": "Ihr Unternehmen ausbauen",
+          "desc": "Unterstützen Sie das Wachstum Ihres Unternehmens."
+        }
+      ]
+    },
+    "conso": {
+      "tagline": "Finanzieren Sie Ihre alltäglichen Projekte",
+      "conditions": {
+        "duration": "6 bis 84 Monate",
+        "taeg": "ab 2,5 %",
+        "rateType": "Festnetz"
+      },
+      "advantages": [
+        "Schnelle Finanzierung",
+        "Raten, die auf Ihr Budget abgestimmt sind",
+        "Einfaches Verfahren, das zu 100 % online abgewickelt wird"
+      ],
+      "explanation": {
+        "title": "Das Verbraucherdarlehen verstehen",
+        "paragraphs": [
+          "Ein Verbraucherkredit ist ein Darlehen, das Privatpersonen zur Finanzierung von Gütern oder Dienstleistungen für den persönlichen Gebrauch gewährt wird.",
+          "Er unterscheidet sich vom Immobilienkredit dadurch, dass er in der Regel geringere Beträge und kürzere Laufzeiten betrifft.",
+          "Die Rückzahlung erfolgt in Form von festen monatlichen Raten, die sich aus einem Teil des geliehenen Kapitals und den Zinsen zusammensetzen.",
+          "Mit den Online-Simulationstools von Fab Finance lässt sich schnell ermitteln, welche monatlichen Raten zum eigenen Budget passen."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Ausrüstung kaufen",
+          "desc": "Finanzieren Sie den Kauf von Haushaltsgeräten oder Einrichtungsgegenständen für Ihr Zuhause."
+        },
+        {
+          "title": "Eine Veranstaltung organisieren",
+          "desc": "Finanzieren Sie eine Hochzeit, eine Feier oder ein wichtiges persönliches Projekt."
+        },
+        {
+          "title": "Unvorhergesehene Ausgabe",
+          "desc": "Holen Sie sich schnell Geld, um eine Notsituation zu bewältigen."
+        }
+      ]
+    },
+    "rachat": {
+      "tagline": "Fassen Sie Ihre Kredite zusammen und senken Sie Ihre monatlichen Raten",
+      "conditions": {
+        "duration": "24 bis 144 Monate",
+        "taeg": "ab 3,9 %",
+        "rateType": "Festnetz"
+      },
+      "advantages": [
+        "Eine einzige monatliche Rate",
+        "Mögliche Senkung der monatlichen Raten",
+        "Bessere Verwaltung Ihres Budgets"
+      ],
+      "explanation": {
+        "title": "Die Umschuldung verstehen",
+        "paragraphs": [
+          "Bei einer Kreditumschuldung werden mehrere laufende Kredite zu einem einzigen Kredit mit einer einzigen monatlichen Rate zusammengefasst.",
+          "Diese Lösung ermöglicht es Ihnen, Ihre Finanzen einfacher zu verwalten und die Höhe der monatlichen Raten an Ihre Rückzahlungsmöglichkeiten anzupassen.",
+          "Die Umschuldung kann verschiedene Kreditarten betreffen: Privatkredit, Autokredit oder Verbraucherkredit.",
+          "Bei Fab Finance analysiert unser Team Ihre finanzielle Situation, um Ihnen eine auf Ihr Budget zugeschnittene Lösung zur Umschuldung anzubieten."
+        ]
+      },
+      "usages": [
+        {
+          "title": "Mehrere Kredite zusammenfassen",
+          "desc": "Fassen Sie alle Ihre Kredite zu einer einzigen monatlichen Rate zusammen."
+        },
+        {
+          "title": "Die monatlichen Raten senken",
+          "desc": "Passen Sie Ihre Rückzahlungen an Ihr Budget an."
+        },
+        {
+          "title": "Die Verwaltung vereinfachen",
+          "desc": "Ein einziger Kredit, eine einzige monatliche Rate, die es zu verwalten gilt."
+        }
+      ]
+    }
   }
 };
