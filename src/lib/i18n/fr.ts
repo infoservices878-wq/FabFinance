@@ -1169,6 +1169,11 @@ export const fr = {
     tooltip:  "Besoin d'aide ? 👋",
     ariaLabel:"Contacter via WhatsApp",
   },
+  // ── Page 404 ─────────────────────────────────────────────────────────────────
+  notFound: {
+    title:       "Page introuvable",
+    description: "La page que vous cherchez n'existe pas ou a été déplacée. Pas d'inquiétude — votre projet de financement, lui, est bien là.",
+  },
 
   // ── Common ───────────────────────────────────────────────────────────────────
   common: {

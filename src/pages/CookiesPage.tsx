@@ -12,7 +12,7 @@ const TYPE_META = [
 ]
 
 export default function CookiesPage() {
-  const { t } = useI18n();
+  const { t, routes } = useI18n();
   const s = t.cookiesPage
   const COOKIE_TYPES = s.types.map((data, i) => ({ ...TYPE_META[i], ...data }))
 
@@ -291,7 +291,7 @@ export default function CookiesPage() {
 
             <p className="text-xs text-gray-400 text-center mt-4 leading-relaxed">
               {s.footerNote}{" "}
-              <Link href="/politique-confidentialite" className="text-green-600 hover:underline">
+              <Link href={routes.privacy} className="text-green-600 hover:underline">
                 {t.footer.legalLinks.privacy}
               </Link>
             </p>

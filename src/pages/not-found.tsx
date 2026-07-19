@@ -1,14 +1,18 @@
 import { motion } from "framer-motion"
 import { Link } from "wouter"
 import { ArrowRight, Home, Calculator, Phone, SearchX } from "lucide-react"
-
-const QUICK_LINKS = [
-  { icon: Home,       color: "#16a34a", bg: "#f0fdf4", label: "Accueil",          href: "/"                   },
-  { icon: Calculator, color: "#3b82f6", bg: "#eff6ff", label: "Simuler un prêt",  href: "/simulateur"         },
-  { icon: Phone,      color: "#8b5cf6", bg: "#f5f3ff", label: "Nous contacter",   href: "/contact"            },
-]
+import { useI18n } from "@/lib/i18n-context"
 
 export default function NotFound() {
+  const { t, routes } = useI18n();
+  const s = t.notFound
+
+  const QUICK_LINKS = [
+    { icon: Home,       color: "#16a34a", bg: "#f0fdf4", label: t.nav.home,     href: routes.home      },
+    { icon: Calculator, color: "#3b82f6", bg: "#eff6ff", label: t.common.simulate, href: routes.simulator },
+    { icon: Phone,      color: "#8b5cf6", bg: "#f5f3ff", label: t.contact.badge, href: routes.contact   },
+  ]
+
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4 relative overflow-hidden">
 
@@ -61,12 +65,11 @@ export default function NotFound() {
           </div>
 
           <h1 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-3">
-            Page introuvable
+            {s.title}
           </h1>
 
           <p className="text-gray-500 leading-relaxed max-w-md mx-auto mb-10">
-            La page que vous cherchez n'existe pas ou a été déplacée.
-            Pas d'inquiétude — votre projet de financement, lui, est bien là.
+            {s.description}
           </p>
         </motion.div>
 
@@ -107,19 +110,19 @@ export default function NotFound() {
           transition={{ duration: 0.5, delay: 0.3 }}
         >
           <Link
-            href="/simulateur"
+            href={routes.simulator}
             className="group inline-flex items-center gap-2.5 px-8 py-4 rounded-xl font-bold text-white text-sm transition-all duration-200 hover:-translate-y-0.5"
             style={{
               background: "linear-gradient(135deg, #16a34a 0%, #15803d 100%)",
               boxShadow: "0 8px 28px rgba(22,163,74,0.40)",
             }}
           >
-            Démarrer ma simulation
+            {t.howItWorks.cta}
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
 
           <p className="text-xs text-gray-400 mt-4">
-            Gratuit · Sans engagement · Réponse en 2 minutes
+            {t.howItWorks.ctaSub}
           </p>
         </motion.div>
 

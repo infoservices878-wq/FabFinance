@@ -38,7 +38,7 @@ const REVIEW_META = [
 // ─────────────────────────────────────────────
 
 export default function HowItWorks() {
-  const { t } = useI18n();
+  const { t, routes } = useI18n();
   const s = t.howItWorks
 
   const STEPS = s.stepsList.map((data, i) => ({ ...STEP_META[i], ...data }))
@@ -429,7 +429,7 @@ export default function HowItWorks() {
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
-              href="/simulateur"
+              href={routes.simulator}
               className="group inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl font-bold text-white text-sm transition-all duration-200 hover:-translate-y-0.5"
               style={{
                 background: "linear-gradient(135deg, #16a34a 0%, #15803d 100%)",

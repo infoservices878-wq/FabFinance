@@ -18,7 +18,7 @@ const SECTION_META = [
 ]
 
 export default function PolitiqueConfidentialite() {
-  const { t } = useI18n();
+  const { t, routes } = useI18n();
   const s = t.politiqueConfidentialite
   const SECTIONS = s.sections.map((data, i) => ({ ...SECTION_META[i], ...data }))
 
@@ -217,15 +217,15 @@ export default function PolitiqueConfidentialite() {
               </a>
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-xs text-gray-400">
-              <Link to="/fr/mentions-legales" className="hover:text-green-600 transition-colors">
+              <Link href={routes.legal} className="hover:text-green-600 transition-colors">
                 {t.footer.legalLinks.mentions}
               </Link>
               <span>·</span>
-              <Link to="/fr/cookies" className="hover:text-green-600 transition-colors">
+              <Link href={routes.cookies} className="hover:text-green-600 transition-colors">
                 {t.footer.legalLinks.cookies}
               </Link>
               <span>·</span>
-              <Link to="/fr/contact" className="hover:text-green-600 transition-colors">
+              <Link href={routes.contact} className="hover:text-green-600 transition-colors">
                 {t.contact.badge}
               </Link>
             </div>

@@ -1611,5 +1611,9 @@ export const en = {
     ],
     "tooltip": "Need help? 👋",
     "ariaLabel": "Contact via WhatsApp"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved. Don't worry—your funding project is still here."
   }
 };

@@ -1611,5 +1611,9 @@ export const de = {
     ],
     "tooltip": "Brauchst du Hilfe? 👋",
     "ariaLabel": "Über WhatsApp kontaktieren"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die von Ihnen gesuchte Seite existiert nicht oder wurde verschoben. Keine Sorge – Ihr Finanzierungsprojekt ist aber noch da."
   }
 };

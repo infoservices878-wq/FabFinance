@@ -1611,5 +1611,9 @@ export const nl = {
     ],
     "tooltip": "Hulp nodig? 👋",
     "ariaLabel": "Contact opnemen via WhatsApp"
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "description": "De pagina die u zoekt, bestaat niet of is verplaatst. Maar geen zorgen — uw financieringsproject is er wel degelijk."
   }
 };
