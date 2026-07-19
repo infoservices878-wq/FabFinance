@@ -1,21 +1,17 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { X, MessageCircle, Phone, Mail, ChevronRight } from "lucide-react"
+import { useI18n } from "@/lib/i18n-context"
 
 const WHATSAPP_NUMBER = "33605662921" // ← remplace par ton numéro sans le +
-
-const QUICK_MESSAGES = [
-  { label: "Demander un prêt personnel",    msg: "Bonjour Fab Finance 👋 Je souhaite obtenir un prêt personnel. Pouvez-vous m'aider ?"       },
-  { label: "Simuler un prêt auto",          msg: "Bonjour Fab Finance 👋 Je souhaite simuler un prêt auto. Pouvez-vous m'accompagner ?"       },
-  { label: "Connaître mes mensualités",     msg: "Bonjour Fab Finance 👋 J'aimerais connaître mes mensualités pour un projet de financement." },
-  { label: "Suivre mon dossier",            msg: "Bonjour Fab Finance 👋 Je souhaite avoir des nouvelles de mon dossier de prêt."              },
-]
 
 function buildWhatsAppUrl(msg: string) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`
 }
 
 export default function WhatsAppButton() {
+  const { t } = useI18n();
+  const s = t.whatsAppButton
   const [open, setOpen] = useState(false)
 
   return (
@@ -62,7 +58,7 @@ export default function WhatsAppButton() {
                       <p className="text-white font-bold text-sm">Fab Finance</p>
                       <div className="flex items-center gap-1.5">
                         <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-                        <span className="text-green-300 text-xs">En ligne · répond en 2h</span>
+                        <span className="text-green-300 text-xs">{s.status}</span>
                       </div>
                     </div>
                   </div>
@@ -79,8 +75,7 @@ export default function WhatsAppButton() {
               <div className="px-5 py-4 bg-[#e5ddd5]">
                 <div className="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm max-w-[90%]">
                   <p className="text-sm text-gray-700 leading-relaxed">
-                    Bonjour ! 👋 Comment puis-je vous aider aujourd'hui ?
-                    Choisissez un sujet ou écrivez-nous directement.
+                    {s.greeting}
                   </p>
                   <p className="text-[10px] text-gray-400 text-right mt-1">10:24 ✓✓</p>
                 </div>
@@ -88,7 +83,7 @@ export default function WhatsAppButton() {
 
               {/* Quick replies */}
               <div className="px-4 py-4 space-y-2 bg-[#e5ddd5]">
-                {QUICK_MESSAGES.map(({ label, msg }) => (
+                {s.quickMessages.map(({ label, msg }) => (
                   <a
                     key={label}
                     href={buildWhatsAppUrl(msg)}
@@ -101,31 +96,6 @@ export default function WhatsAppButton() {
                   </a>
                 ))}
               </div>
-
-              {/* Footer — autres contacts */}
-              {/* <div className="px-5 py-4 bg-white border-t border-gray-100">
-                <p className="text-[11px] text-gray-400 font-semibold uppercase tracking-wider mb-3">
-                  Autres moyens de contact
-                </p>
-                <div className="flex gap-3">
-                  <a
-                    href="tel:+33612345678"
-                    className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-semibold text-white transition-all hover:-translate-y-0.5"
-                    style={{ background: "linear-gradient(135deg, #3b82f6, #2563eb)" }}
-                  >
-                    <Phone className="w-3.5 h-3.5" />
-                    Appeler
-                  </a>
-                  <a
-                    href="mailto:contact@Fab Finance.fr"
-                    className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-semibold text-white transition-all hover:-translate-y-0.5"
-                    style={{ background: "linear-gradient(135deg, #8b5cf6, #7c3aed)" }}
-                  >
-                    <Mail className="w-3.5 h-3.5" />
-                    Email
-                  </a>
-                </div>
-              </div> */}
             </motion.div>
           )}
         </AnimatePresence>
@@ -153,7 +123,7 @@ export default function WhatsAppButton() {
                 transition={{ delay: 1.5, duration: 0.4 }}
                 className="absolute right-16 top-1/2 -translate-y-1/2 bg-gray-900 text-white text-xs font-semibold px-3 py-2 rounded-xl whitespace-nowrap shadow-lg pointer-events-none"
               >
-                Besoin d'aide ? 👋
+                {s.tooltip}
                 {/* Flèche */}
                 <div className="absolute right-[-6px] top-1/2 -translate-y-1/2 w-0 h-0 border-t-[6px] border-b-[6px] border-l-[6px] border-t-transparent border-b-transparent border-l-gray-900" />
               </motion.div>
@@ -170,7 +140,7 @@ export default function WhatsAppButton() {
               background: "linear-gradient(135deg, #25d366 0%, #128c7e 100%)",
               boxShadow: "0 8px 32px rgba(37,211,102,0.50)",
             }}
-            aria-label="Contacter via WhatsApp"
+            aria-label={s.ariaLabel}
           >
             <AnimatePresence mode="wait" initial={false}>
               {open ? (

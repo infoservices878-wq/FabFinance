@@ -1577,5 +1577,39 @@ export const de = {
     "rateTypeLabel": "Zinsart",
     "feesLabel": "Bearbeitungsgebühr",
     "feesValue": "Gering"
+  },
+  "cookieBanner": {
+    "text": "Wir verwenden Cookies, um Ihr Nutzererlebnis zu verbessern. Die unbedingt erforderlichen Cookies sind immer aktiviert.",
+    "toggleDescs": {
+      "necessary": "Für den Betrieb der Website erforderlich.",
+      "analytics": "Anonymisierte Besucherzählung (keine personenbezogenen Daten).",
+      "marketing": "Personalisierung von Angeboten und Werbung."
+    },
+    "hideOptions": "Optionen ausblenden",
+    "customize": "Anpassen"
+  },
+  "whatsAppButton": {
+    "status": "Online · antwortet innerhalb von 2 Stunden",
+    "greeting": "Hallo! 👋 Wie kann ich Ihnen heute helfen? Wählen Sie ein Thema aus oder schreiben Sie uns direkt.",
+    "quickMessages": [
+      {
+        "label": "Einen Privatkredit beantragen",
+        "msg": "Hallo Fab Finance 👋 Ich möchte einen Privatkredit aufnehmen. Können Sie mir dabei helfen?"
+      },
+      {
+        "label": "Autokredit simulieren",
+        "msg": "Hallo Fab Finance 👋 Ich möchte einen Autokredit simulieren. Können Sie mir dabei helfen?"
+      },
+      {
+        "label": "Meine monatlichen Raten erfahren",
+        "msg": "Hallo Fab Finance 👋 Ich würde gerne wissen, wie hoch meine monatlichen Raten für ein Finanzierungsprojekt wären."
+      },
+      {
+        "label": "Meine Akte verfolgen",
+        "msg": "Hallo Fab Finance 👋 Ich würde gerne wissen, wie es mit meinem Kreditantrag steht."
+      }
+    ],
+    "tooltip": "Brauchst du Hilfe? 👋",
+    "ariaLabel": "Über WhatsApp kontaktieren"
   }
 };

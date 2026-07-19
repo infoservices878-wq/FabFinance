@@ -1577,5 +1577,39 @@ export const en = {
     "rateTypeLabel": "Rate Type",
     "feesLabel": "Application Fee",
     "feesValue": "Low"
+  },
+  "cookieBanner": {
+    "text": "We use cookies to improve your experience. Essential cookies are always enabled.",
+    "toggleDescs": {
+      "necessary": "Essential for the site to function.",
+      "analytics": "Anonymized audience measurement (no personal data).",
+      "marketing": "Personalization of offers and advertisements."
+    },
+    "hideOptions": "Hide options",
+    "customize": "Customize"
+  },
+  "whatsAppButton": {
+    "status": "Online · Responds within 2 hours",
+    "greeting": "Hello! 👋 How can I help you today? Choose a topic or write to us directly.",
+    "quickMessages": [
+      {
+        "label": "Apply for a personal loan",
+        "msg": "Hello, Fab Finance 👋 I'd like to apply for a personal loan. Can you help me?"
+      },
+      {
+        "label": "Get a Car Loan Estimate",
+        "msg": "Hello, Fab Finance 👋 I'd like to get a car loan quote. Can you help me with that?"
+      },
+      {
+        "label": "Find out my monthly payments",
+        "msg": "Hello, Fab Finance 👋 I'd like to know my monthly payments for a financing plan."
+      },
+      {
+        "label": "Track My Case",
+        "msg": "Hello, Fab Finance 👋 I'd like to know the status of my loan application."
+      }
+    ],
+    "tooltip": "Need help? 👋",
+    "ariaLabel": "Contact via WhatsApp"
   }
 };

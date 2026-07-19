@@ -1144,6 +1144,31 @@ export const fr = {
     feesLabel:     "Frais de dossier",
     feesValue:     "Faible",
   },
+  // ── Cookie Banner (composant) ───────────────────────────────────────────────
+  cookieBanner: {
+    text: "Nous utilisons des cookies pour améliorer votre expérience. Les cookies essentiels sont toujours actifs.",
+    toggleDescs: {
+      necessary: "Nécessaires au fonctionnement du site.",
+      analytics: "Mesure d'audience anonymisée (aucune donnée personnelle).",
+      marketing: "Personnalisation des offres et publicités.",
+    },
+    hideOptions:  "Masquer les options",
+    customize:    "Personnaliser",
+  },
+
+  // ── WhatsApp Button (composant) ─────────────────────────────────────────────
+  whatsAppButton: {
+    status:   "En ligne · répond en 2h",
+    greeting: "Bonjour ! 👋 Comment puis-je vous aider aujourd'hui ? Choisissez un sujet ou écrivez-nous directement.",
+    quickMessages: [
+      { label: "Demander un prêt personnel", msg: "Bonjour Fab Finance 👋 Je souhaite obtenir un prêt personnel. Pouvez-vous m'aider ?" },
+      { label: "Simuler un prêt auto",       msg: "Bonjour Fab Finance 👋 Je souhaite simuler un prêt auto. Pouvez-vous m'accompagner ?" },
+      { label: "Connaître mes mensualités",  msg: "Bonjour Fab Finance 👋 J'aimerais connaître mes mensualités pour un projet de financement." },
+      { label: "Suivre mon dossier",         msg: "Bonjour Fab Finance 👋 Je souhaite avoir des nouvelles de mon dossier de prêt." },
+    ],
+    tooltip:  "Besoin d'aide ? 👋",
+    ariaLabel:"Contacter via WhatsApp",
+  },
 
   // ── Common ───────────────────────────────────────────────────────────────────
   common: {

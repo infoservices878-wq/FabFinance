@@ -1577,5 +1577,39 @@ export const nl = {
     "rateTypeLabel": "Soort rentevoet",
     "feesLabel": "Behandelingskosten",
     "feesValue": "Laag"
+  },
+  "cookieBanner": {
+    "text": "We gebruiken cookies om uw ervaring te verbeteren. Essentiële cookies blijven altijd actief.",
+    "toggleDescs": {
+      "necessary": "Noodzakelijk voor de werking van de website.",
+      "analytics": "Anonieme bezoekersmeting (geen persoonsgegevens).",
+      "marketing": "Aanpassing van aanbiedingen en advertenties."
+    },
+    "hideOptions": "Opties verbergen",
+    "customize": "Aanpassen"
+  },
+  "whatsAppButton": {
+    "status": "Online · antwoord binnen 2 uur",
+    "greeting": "Hallo! 👋 Waarmee kan ik u vandaag van dienst zijn? Kies een onderwerp of stuur ons direct een bericht.",
+    "quickMessages": [
+      {
+        "label": "Een persoonlijke lening aanvragen",
+        "msg": "Hallo Fab Finance 👋 Ik wil graag een persoonlijke lening afsluiten. Kunt u mij daarbij helpen?"
+      },
+      {
+        "label": "Een autolening simuleren",
+        "msg": "Hallo Fab Finance 👋 Ik wil graag een autolening simuleren. Kunt u mij daarbij helpen?"
+      },
+      {
+        "label": "Mijn maandelijkse aflossingen bekijken",
+        "msg": "Hallo Fab Finance 👋 Ik zou graag willen weten wat mijn maandelijkse aflossingen zijn voor een financieringsproject."
+      },
+      {
+        "label": "Mijn dossier volgen",
+        "msg": "Hallo Fab Finance 👋 Ik zou graag graag op de hoogte worden gehouden van de stand van zaken met betrekking tot mijn leningaanvraag."
+      }
+    ],
+    "tooltip": "Hulp nodig? 👋",
+    "ariaLabel": "Contact opnemen via WhatsApp"
   }
 };

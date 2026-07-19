@@ -4,8 +4,13 @@ import { Cookie, ShieldCheck, ChevronDown, X, Check } from "lucide-react"
 import { Link } from "wouter"
 
 import { useCookies } from "./CookieContext"
+import { useI18n } from "@/lib/i18n-context"
 
 export default function CookieBanner() {
+  const { t } = useI18n();
+  const s = t.cookieBanner
+  const cp = t.cookiesPage
+
   const { status, acceptAll, refuseAll, saveCustom } = useCookies()
   const [expanded,  setExpanded]  = useState(false)
   const [analytics, setAnalytics] = useState(false)
@@ -41,10 +46,10 @@ export default function CookieBanner() {
                   <Cookie className="w-4.5 h-4.5 text-green-400" />
                 </div>
                 <div>
-                  <p className="text-white font-bold text-sm">Gestion des cookies</p>
+                  <p className="text-white font-bold text-sm">{t.footer.legalLinks.cookies}</p>
                   <div className="flex items-center gap-1.5 mt-0.5">
                     <ShieldCheck className="w-3 h-3 text-green-400" />
-                    <span className="text-green-400 text-[11px] font-medium">Conforme RGPD</span>
+                    <span className="text-green-400 text-[11px] font-medium">{cp.badge}</span>
                   </div>
                 </div>
               </div>
@@ -53,10 +58,9 @@ export default function CookieBanner() {
             {/* Corps */}
             <div className="px-5 py-4">
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                Nous utilisons des cookies pour améliorer votre expérience.
-                Les cookies essentiels sont toujours actifs.{" "}
+                {s.text}{" "}
                 <Link href="/politique-confidentialite" className="text-green-600 hover:underline font-medium">
-                  En savoir plus
+                  {t.common.learnMore}
                 </Link>
               </p>
 
@@ -73,23 +77,23 @@ export default function CookieBanner() {
                     <div className="space-y-3 mb-4 pt-1">
                       {/* Nécessaires — toujours ON */}
                       <ToggleRow
-                        label="Cookies essentiels"
-                        desc="Nécessaires au fonctionnement du site."
+                        label={cp.types[0].title}
+                        desc={s.toggleDescs.necessary}
                         checked={true}
                         disabled
                         onChange={() => {}}
                       />
                       {/* Analytiques */}
                       <ToggleRow
-                        label="Cookies analytiques"
-                        desc="Mesure d'audience anonymisée (aucune donnée personnelle)."
+                        label={cp.types[1].title}
+                        desc={s.toggleDescs.analytics}
                         checked={analytics}
                         onChange={setAnalytics}
                       />
                       {/* Marketing */}
                       <ToggleRow
-                        label="Cookies marketing"
-                        desc="Personnalisation des offres et publicités."
+                        label={cp.types[2].title}
+                        desc={s.toggleDescs.marketing}
                         checked={marketing}
                         onChange={setMarketing}
                       />
@@ -107,7 +111,7 @@ export default function CookieBanner() {
                   className="w-3.5 h-3.5 transition-transform duration-200"
                   style={{ transform: expanded ? "rotate(180deg)" : "rotate(0deg)" }}
                 />
-                {expanded ? "Masquer les options" : "Personnaliser"}
+                {expanded ? s.hideOptions : s.customize}
               </button>
 
               {/* Boutons d'action */}
@@ -120,7 +124,7 @@ export default function CookieBanner() {
                     boxShadow: "0 4px 16px rgba(22,163,74,0.35)",
                   }}
                 >
-                  Tout accepter
+                  {cp.acceptAll}
                 </button>
 
                 {expanded ? (
@@ -128,14 +132,14 @@ export default function CookieBanner() {
                     onClick={() => saveCustom({ analytics, marketing })}
                     className="w-full py-3 rounded-xl font-bold text-green-700 text-sm border-2 border-green-200 hover:bg-green-50 transition-all duration-200"
                   >
-                    Enregistrer mes choix
+                    {cp.saveButton}
                   </button>
                 ) : (
                   <button
                     onClick={refuseAll}
                     className="w-full py-3 rounded-xl font-semibold text-gray-500 text-sm border border-gray-200 hover:bg-gray-50 transition-all duration-200"
                   >
-                    Tout refuser
+                    {cp.refuseAll}
                   </button>
                 )}
               </div>
