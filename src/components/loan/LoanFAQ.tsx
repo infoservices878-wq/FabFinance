@@ -1,26 +1,16 @@
+import { useI18n } from "@/lib/i18n-context"
+
 export default function LoanFAQ(){
 
-  const faqs = [
-    {
-      q:"Combien de temps pour obtenir une réponse ?",
-      a:"Une réponse de principe peut être donnée immédiatement après votre demande."
-    },
-    {
-      q:"Puis-je rembourser mon prêt plus tôt ?",
-      a:"Oui, le remboursement anticipé est possible sans frais supplémentaires."
-    },
-    {
-      q:"Les démarches sont-elles sécurisées ?",
-      a:"Toutes les informations sont protégées et traitées de manière confidentielle."
-    }
-  ]
+  const { t } = useI18n();
+  const faqs = t.loanFaq.items
 
   return(
 
     <section className="bg-white p-10 rounded-3xl border border-gray-100">
 
       <h2 className="text-2xl font-bold mb-8">
-        Questions fréquentes
+        {t.faq.title}
       </h2>
 
       <div className="space-y-6">

@@ -11,17 +11,18 @@ const monthly   = +(AMOUNT * (r * Math.pow(1 + r, MONTHS)) / (Math.pow(1 + r, MO
 const total     = +(monthly * MONTHS).toFixed(2)
 const interests = +(total - AMOUNT).toFixed(2)
 
-const ROWS = [
-  { label: "TAEG fixe",       value: "3,00%",                                   highlight: false },
-  { label: "Taux débiteur",   value: "3,96%",                                   highlight: false },
-  { label: "Total des mensualités", value: `${total.toLocaleString("fr-FR")} €`,      highlight: false },
-  { label: "Total des intérêts",  value: `${interests.toLocaleString("fr-FR")} €`,  highlight: true  },
-]
-
 export default function LoanExample() {
 
   const { lang, t, routes, switchLang } = useI18n();
-  
+  const s = t.loanExample
+
+  const ROWS = [
+    { label: s.rows.taegFixe,     value: "3,00%",                                     highlight: false },
+    { label: s.rows.tauxDebiteur, value: "3,96%",                                     highlight: false },
+    { label: t.simulator.totalPaid,       value: `${total.toLocaleString("fr-FR")} €`,     highlight: false },
+    { label: t.simulator.card.totalInterest, value: `${interests.toLocaleString("fr-FR")} €`, highlight: true  },
+  ]
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 24 }}
@@ -63,8 +64,8 @@ export default function LoanExample() {
             <Percent className="w-5 h-5 text-green-400" />
           </div>
           <div>
-            <h2 className="text-xl font-extrabold text-white">Exemple de financement</h2>
-            <p className="text-xs text-gray-400 mt-0.5">Simulation indicative · TAEG fixe 3%</p>
+            <h2 className="text-xl font-extrabold text-white">{s.title}</h2>
+            <p className="text-xs text-gray-400 mt-0.5">{s.subtitle}</p>
           </div>
         </div>
 
@@ -73,16 +74,16 @@ export default function LoanExample() {
           {/* Gauche */}
           <div>
             <p className="text-gray-400 text-base leading-relaxed mb-6">
-              Pour un emprunt de{" "}
+              {s.introPart1}{" "}
               <span className="font-bold text-white">{AMOUNT.toLocaleString("fr-FR")} €</span>{" "}
-              sur une période de{" "}
-              <span className="font-bold text-white">{MONTHS} mois</span>.
+              {s.introPart2}{" "}
+              <span className="font-bold text-white">{MONTHS} {t.common.monthly}</span>.
             </p>
 
             {/* Mensualité */}
             <div className="mb-6">
               <div className="text-xs text-gray-500 uppercase tracking-widest mb-2 font-semibold">
-                Mensualité estimée
+                {t.simulator.monthlyPayment}
               </div>
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
@@ -94,14 +95,14 @@ export default function LoanExample() {
                 {monthly.toFixed(2).replace(".", ",")}
                 <span className="text-green-400 text-3xl"> €</span>
               </motion.div>
-              <div className="text-xs text-gray-500 mt-2">/ mois · sur {MONTHS} mois</div>
+              <div className="text-xs text-gray-500 mt-2">{s.durationNote} {MONTHS} {t.common.monthly}</div>
             </div>
 
             {/* Barre capital / intérêts */}
             <div className="mb-6">
               <div className="flex justify-between text-xs text-gray-500 mb-1.5">
-                <span>Capital remboursé</span>
-                <span>Coût des intérêts</span>
+                <span>{s.capitalLabel}</span>
+                <span>{s.interestsLabel}</span>
               </div>
               <div className="h-2.5 rounded-full overflow-hidden bg-white/10 flex">
                 <motion.div
@@ -123,10 +124,10 @@ export default function LoanExample() {
               </div>
               <div className="flex justify-between text-xs mt-1.5">
                 <span className="text-green-400 font-semibold">
-                  {((AMOUNT / total) * 100).toFixed(0)}% capital
+                  {((AMOUNT / total) * 100).toFixed(0)}% {s.capitalSuffix}
                 </span>
                 <span className="text-gray-500">
-                  {((interests / total) * 100).toFixed(0)}% intérêts
+                  {((interests / total) * 100).toFixed(0)}% {s.interestsSuffix}
                 </span>
               </div>
             </div>
@@ -139,7 +140,7 @@ export default function LoanExample() {
                 boxShadow: "0 6px 20px rgba(22,163,74,0.40)",
               }}
             >
-              Simuler mon montant
+              {s.cta}
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
@@ -155,7 +156,7 @@ export default function LoanExample() {
           >
             <div className="px-6 py-4 border-b border-white/10">
               <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">
-                Détail du crédit
+                {s.detailTitle}
               </p>
             </div>
 
@@ -177,8 +178,7 @@ export default function LoanExample() {
 
             <div className="px-6 py-4 border-t border-white/10">
               <p className="text-[11px] text-gray-600 leading-relaxed">
-                Simulation non contractuelle. TAEG fixe de 3,00% sur 120 mois.
-                Un crédit vous engage et doit être remboursé.
+                {s.disclaimer}
               </p>
             </div>
           </div>

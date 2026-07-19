@@ -1460,5 +1460,122 @@ export const en = {
         }
       ]
     }
+  },
+  "loanAdvantages": {
+    "title": "Why choose this loan?",
+    "subtitle": "All benefits included, with no hidden fees",
+    "extra": [
+      "100% Digital Management",
+      "Dedicated Advisor",
+      "Complete transparency"
+    ],
+    "footerPrefix": "All these benefits are included at no extra cost —",
+    "footerSuffix": ", no unpleasant surprises."
+  },
+  "loanUsage": {
+    "title": "What kinds of projects can this loan be used for?",
+    "subtitle": "Real-life examples to help you visualize the future",
+    "cta": "Fund My Project"
+  },
+  "loanExample": {
+    "title": "Financing Example",
+    "subtitle": "Estimated simulation · Fixed APR of 3%",
+    "introPart1": "For a loan of",
+    "introPart2": "over a period of",
+    "durationNote": "/ month · on",
+    "rows": {
+      "taegFixe": "Fixed APR",
+      "tauxDebiteur": "Lending Rate"
+    },
+    "capitalLabel": "Principal Repaid",
+    "interestsLabel": "Interest Expense",
+    "capitalSuffix": "capital",
+    "interestsSuffix": "interests",
+    "cta": "Estimate my amount",
+    "detailTitle": "Loan Details",
+    "disclaimer": "Non-binding estimate. Fixed APR of 3.00% over 120 months. A loan is a financial commitment and must be repaid."
+  },
+  "loanSteps": {
+    "eyebrow": "Simplified Process",
+    "title": "How do you get your loan?",
+    "subtitle": "3 simple steps to finance your project.",
+    "steps": [
+      {
+        "title": "Submit your request",
+        "desc": "Fill out our secure form in just a few minutes, from any device.",
+        "tag": "2 min"
+      },
+      {
+        "title": "Quick Analysis",
+        "desc": "Our experts will review your application immediately and provide you with a preliminary decision.",
+        "tag": "Immediate"
+      },
+      {
+        "title": "Receive the funds",
+        "desc": "Once approved, the funds will be available in your account within 24 to 48 hours.",
+        "tag": "24–48 hours"
+      }
+    ],
+    "ctaPrefix": "Ready to get started?",
+    "ctaBold": "Your request takes just 2 minutes.",
+    "ctaButton": "Submit my request"
+  },
+  "loanTrust": {
+    "eyebrow": "Social Proof",
+    "title": "They trust us",
+    "subtitle": "More than 200,000 projects funded through Fab Finance",
+    "stats": [
+      {
+        "label": "funded projects"
+      },
+      {
+        "label": "average customer rating"
+      },
+      {
+        "label": "payment deadline"
+      },
+      {
+        "label": "secure platform"
+      }
+    ],
+    "ratingSub": "Based on over 12,000 verified reviews",
+    "reviews": [
+      "Super-fast response, funds received within 48 hours. Perfect!",
+      "Transparent and with no hidden fees. I highly recommend it.",
+      "A very professional advisor who provides top-notch support."
+    ],
+    "cta": "Join our satisfied customers"
+  },
+  "loanFaq": {
+    "items": [
+      {
+        "q": "How long does it take to get a response?",
+        "a": "We can provide a preliminary response immediately after receiving your request."
+      },
+      {
+        "q": "Can I pay off my loan early?",
+        "a": "Yes, early repayment is possible without any additional fees."
+      },
+      {
+        "q": "Are the procedures secure?",
+        "a": "All information is protected and treated as confidential."
+      }
+    ]
+  },
+  "loanOtherLoans": {
+    "sectionTitle": "Check out our other solutions as well",
+    "descriptions": {
+      "personnel": "All your projects without supporting documentation.",
+      "auto": "New or used at the best rate.",
+      "etudiant": "Finance your education with peace of mind.",
+      "conso": "For your everyday shopping.",
+      "professionnel": "Grow your business.",
+      "rachat": "Lower your monthly payments."
+    }
+  },
+  "loanStats": {
+    "rateTypeLabel": "Rate Type",
+    "feesLabel": "Application Fee",
+    "feesValue": "Low"
   }
 };

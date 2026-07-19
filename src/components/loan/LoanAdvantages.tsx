@@ -1,18 +1,15 @@
 import { CheckCircle2, Sparkles } from "lucide-react"
 import { motion } from "framer-motion"
+import { useI18n } from "@/lib/i18n-context"
 
 interface Props {
   advantages: string[]
 }
 
-const EXTRA = [
-  "Gestion 100% digitale",
-  "Conseiller dédié",
-  "Transparence totale",
-]
-
 export default function LoanAdvantages({ advantages }: Props) {
-  const items = [...advantages, ...EXTRA]
+  const { t } = useI18n();
+  const s = t.loanAdvantages
+  const items = [...advantages, ...s.extra]
 
   return (
     <motion.div
@@ -40,8 +37,8 @@ export default function LoanAdvantages({ advantages }: Props) {
             <Sparkles className="w-5 h-5 text-white" />
           </div>
           <div>
-            <h2 className="text-xl font-extrabold text-gray-900">Pourquoi choisir ce prêt ?</h2>
-            <p className="text-xs text-gray-400 mt-0.5">Tous les avantages inclus, sans frais cachés</p>
+            <h2 className="text-xl font-extrabold text-gray-900">{s.title}</h2>
+            <p className="text-xs text-gray-400 mt-0.5">{s.subtitle}</p>
           </div>
         </div>
 
@@ -83,8 +80,9 @@ export default function LoanAdvantages({ advantages }: Props) {
         >
           <CheckCircle2 className="w-4 h-4 text-green-600 flex-shrink-0" />
           <p className="text-sm text-green-800 font-medium">
-            Tous ces avantages sont inclus sans frais supplémentaires —{" "}
-            <span className="font-bold">Faible frais de dossier</span>, zéro mauvaise surprise.
+            {s.footerPrefix}{" "}
+            <span className="font-bold">{t.heroSimulator.card.nofees}</span>
+            {s.footerSuffix}
           </p>
         </div>
       </div>

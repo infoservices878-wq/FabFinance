@@ -3,34 +3,25 @@ import { Star, Users, TrendingUp, ShieldCheck, ArrowRight } from "lucide-react"
 import { Link } from "wouter"
 import { useI18n } from "@/lib/i18n-context"
 
-const STATS = [
-  { icon: Users,      value: "+200 000", label: "projets financés",       color: "#4ade80" },
-  { icon: Star,       value: "4.8 / 5",  label: "note moyenne clients",   color: "#fbbf24" },
-  { icon: TrendingUp, value: "48h",      label: "délai de versement",     color: "#60a5fa" },
-  { icon: ShieldCheck,value: "100%",     label: "plateforme sécurisée",   color: "#a78bfa" },
+const STAT_META = [
+  { icon: Users,       value: "+200 000", color: "#4ade80" },
+  { icon: Star,        value: "4.8 / 5",  color: "#fbbf24" },
+  { icon: TrendingUp,  value: "48h",      color: "#60a5fa" },
+  { icon: ShieldCheck, value: "100%",     color: "#a78bfa" },
 ]
 
-const REVIEWS = [
-  {
-    name:   "Sophie M.",
-    text:   "Réponse ultra rapide, fonds reçus en 48h. Parfait !",
-    avatar: "1494790108377-be9c29b29330",
-  },
-  {
-    name:   "Lucas B.",
-    text:   "Transparent et sans frais cachés. Je recommande vivement.",
-    avatar: "1500648767791-00dcc994a43e",
-  },
-  {
-    name:   "Claire D.",
-    text:   "Conseiller très professionnel, accompagnement au top.",
-    avatar: "1438761681033-6461ffad8d80",
-  },
+const REVIEW_META = [
+  { name: "Sophie M.", avatar: "1494790108377-be9c29b29330" },
+  { name: "Lucas B.",  avatar: "1500648767791-00dcc994a43e" },
+  { name: "Claire D.", avatar: "1438761681033-6461ffad8d80" },
 ]
 
 export default function LoanTrust() {
-    const { lang, t, routes, switchLang } = useI18n();
-  
+  const { lang, t, routes, switchLang } = useI18n();
+  const s = t.loanTrust
+  const STATS   = s.stats.map((data, i) => ({ ...STAT_META[i], ...data }))
+  const REVIEWS = s.reviews.map((text, i) => ({ ...REVIEW_META[i], text }))
+
   return (
     <motion.section
       initial={{ opacity: 0, y: 24 }}
@@ -57,14 +48,14 @@ export default function LoanTrust() {
         <div className="text-center mb-10">
           <span className="inline-flex items-center gap-2 text-green-400 text-xs font-bold uppercase tracking-widest mb-4">
             <span className="w-4 h-0.5 bg-green-500 rounded-full" />
-            Preuve sociale
+            {s.eyebrow}
             <span className="w-4 h-0.5 bg-green-500 rounded-full" />
           </span>
           <h2 className="text-2xl md:text-3xl font-extrabold text-white mb-2">
-            Ils nous font confiance
+            {s.title}
           </h2>
           <p className="text-gray-400 text-sm">
-            Plus de 200 000 projets financés avec Fab Finance
+            {s.subtitle}
           </p>
         </div>
 
@@ -98,7 +89,7 @@ export default function LoanTrust() {
             ))}
           </div>
           <p className="text-white font-bold text-lg">4.8 / 5</p>
-          <p className="text-gray-500 text-xs mt-0.5">Basé sur +12 000 avis vérifiés</p>
+          <p className="text-gray-500 text-xs mt-0.5">{s.ratingSub}</p>
         </div>
 
         {/* Avis */}
@@ -117,8 +108,8 @@ export default function LoanTrust() {
               }}
             >
               <div className="flex gap-0.5 mb-3">
-                {[...Array(5)].map((_, s) => (
-                  <Star key={s} className="w-3.5 h-3.5 fill-yellow-400 text-yellow-400" />
+                {[...Array(5)].map((_, si) => (
+                  <Star key={si} className="w-3.5 h-3.5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
               <p className="text-sm text-gray-300 leading-relaxed mb-4 italic">
@@ -146,7 +137,7 @@ export default function LoanTrust() {
               boxShadow: "0 6px 24px rgba(22,163,74,0.45)",
             }}
           >
-            Rejoindre nos clients satisfaits
+            {s.cta}
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>

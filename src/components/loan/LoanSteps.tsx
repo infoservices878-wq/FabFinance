@@ -3,36 +3,17 @@ import { ClipboardList, SearchCheck, Banknote, ArrowRight } from "lucide-react"
 import { Link } from "wouter"
 import { useI18n } from "@/lib/i18n-context"
 
-const STEPS = [
-  {
-    icon:  ClipboardList,
-    title: "Faites votre demande",
-    desc:  "Remplissez notre formulaire sécurisé en quelques minutes, depuis n'importe quel appareil.",
-    tag:   "2 min",
-    color: "#16a34a",
-    bg:    "#f0fdf4",
-  },
-  {
-    icon:  SearchCheck,
-    title: "Analyse rapide",
-    desc:  "Nos experts analysent votre dossier immédiatement et vous donnent une réponse de principe.",
-    tag:   "Immédiat",
-    color: "#3b82f6",
-    bg:    "#eff6ff",
-  },
-  {
-    icon:  Banknote,
-    title: "Recevez les fonds",
-    desc:  "Après validation, les fonds sont disponibles sur votre compte sous 24 à 48 heures.",
-    tag:   "24 – 48h",
-    color: "#8b5cf6",
-    bg:    "#f5f3ff",
-  },
+const STEP_META = [
+  { icon: ClipboardList, color: "#16a34a", bg: "#f0fdf4" },
+  { icon: SearchCheck,   color: "#3b82f6", bg: "#eff6ff" },
+  { icon: Banknote,      color: "#8b5cf6", bg: "#f5f3ff" },
 ]
 
 export default function LoanSteps() {
-    const { lang, t, routes, switchLang } = useI18n();
-  
+  const { lang, t, routes, switchLang } = useI18n();
+  const s = t.loanSteps
+  const STEPS = s.steps.map((data, i) => ({ ...STEP_META[i], ...data }))
+
   return (
     <motion.section
       initial={{ opacity: 0, y: 24 }}
@@ -46,13 +27,13 @@ export default function LoanSteps() {
       <div className="px-8 md:px-10 pt-8 md:pt-10 pb-8">
         <span className="inline-flex items-center gap-2 text-green-600 text-xs font-bold uppercase tracking-widest mb-4">
           <span className="w-4 h-0.5 bg-green-500 rounded-full" />
-          Processus simplifié
+          {s.eyebrow}
         </span>
         <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900">
-          Comment obtenir votre prêt ?
+          {s.title}
         </h2>
         <p className="text-gray-400 text-sm mt-2">
-          3 étapes simples pour financer votre projet.
+          {s.subtitle}
         </p>
       </div>
 
@@ -126,9 +107,9 @@ export default function LoanSteps() {
         style={{ background: "linear-gradient(135deg, #f0fdf4 0%, #f9fafb 100%)" }}
       >
         <p className="text-sm text-gray-500 text-center sm:text-left">
-          Prêt à commencer ?{" "}
+          {s.ctaPrefix}{" "}
           <span className="text-gray-700 font-semibold">
-            Votre demande ne prend que 2 minutes.
+            {s.ctaBold}
           </span>
         </p>
         <Link
@@ -139,7 +120,7 @@ export default function LoanSteps() {
             boxShadow: "0 6px 20px rgba(22,163,74,0.35)",
           }}
         >
-          Faire ma demande
+          {s.ctaButton}
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
         </Link>
       </div>

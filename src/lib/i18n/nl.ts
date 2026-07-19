@@ -1460,5 +1460,122 @@ export const nl = {
         }
       ]
     }
+  },
+  "loanAdvantages": {
+    "title": "Waarom zou je voor deze lening kiezen?",
+    "subtitle": "Alle voordelen inbegrepen, zonder verborgen kosten",
+    "extra": [
+      "100% digitaal beheer",
+      "Persoonlijke adviseur",
+      "Volledige transparantie"
+    ],
+    "footerPrefix": "Al deze voordelen zijn inbegrepen zonder extra kosten —",
+    "footerSuffix": ", geen onaangename verrassingen."
+  },
+  "loanUsage": {
+    "title": "Voor welke projecten kun je deze lening gebruiken?",
+    "subtitle": "Concrete voorbeelden om u te helpen zich een beeld te vormen",
+    "cta": "Mijn project financieren"
+  },
+  "loanExample": {
+    "title": "Voorbeeld van financiering",
+    "subtitle": "Indicatieve simulatie · Vast JKP van 3%",
+    "introPart1": "Voor een lening van",
+    "introPart2": "over een periode van",
+    "durationNote": "/ maand · op",
+    "rows": {
+      "taegFixe": "Vaste JKP",
+      "tauxDebiteur": "Debetrentevoet"
+    },
+    "capitalLabel": "Terugbetaald kapitaal",
+    "interestsLabel": "Rentekosten",
+    "capitalSuffix": "kapitaal",
+    "interestsSuffix": "belangen",
+    "cta": "Mijn bedrag berekenen",
+    "detailTitle": "Overzicht van de lening",
+    "disclaimer": "Niet-bindende simulatie. Vaste JKP van 3,00% over 120 maanden. Een lening is een verbintenis en moet worden terugbetaald."
+  },
+  "loanSteps": {
+    "eyebrow": "Vereenvoudigd proces",
+    "title": "Hoe kunt u uw lening aanvragen?",
+    "subtitle": "3 eenvoudige stappen om uw project te financieren.",
+    "steps": [
+      {
+        "title": "Dien uw aanvraag in",
+        "desc": "Vul ons beveiligde formulier in een paar minuten in, vanaf elk apparaat.",
+        "tag": "2 min"
+      },
+      {
+        "title": "Snelle analyse",
+        "desc": "Onze deskundigen bekijken uw dossier onmiddellijk en geven u een voorlopig antwoord.",
+        "tag": "Onmiddellijk"
+      },
+      {
+        "title": "Ontvang het geld",
+        "desc": "Na goedkeuring staat het geld binnen 24 tot 48 uur op uw rekening.",
+        "tag": "24 – 48 uur"
+      }
+    ],
+    "ctaPrefix": "Klaar om te beginnen?",
+    "ctaBold": "Het invullen van uw aanvraag duurt slechts 2 minuten.",
+    "ctaButton": "Mijn aanvraag indienen"
+  },
+  "loanTrust": {
+    "eyebrow": "Sociaal bewijs",
+    "title": "Ze vertrouwen ons",
+    "subtitle": "Meer dan 200.000 projecten gefinancierd met Fab Finance",
+    "stats": [
+      {
+        "label": "gefinancierde projecten"
+      },
+      {
+        "label": "gemiddelde klantbeoordeling"
+      },
+      {
+        "label": "betalingstermijn"
+      },
+      {
+        "label": "beveiligd platform"
+      }
+    ],
+    "ratingSub": "Gebaseerd op meer dan 12.000 geverifieerde beoordelingen",
+    "reviews": [
+      "Supersnelle reactie, het geld was binnen 48 uur op mijn rekening. Perfect!",
+      "Transparant en zonder verborgen kosten. Ik raad het ten zeerste aan.",
+      "Zeer professionele adviseur, uitstekende begeleiding."
+    ],
+    "cta": "Sluit je aan bij onze tevreden klanten"
+  },
+  "loanFaq": {
+    "items": [
+      {
+        "q": "Hoe lang duurt het voordat ik een antwoord krijg?",
+        "a": "Direct na uw aanvraag kan er een principieel antwoord worden gegeven."
+      },
+      {
+        "q": "Kan ik mijn lening vervroegd aflossen?",
+        "a": "Ja, vervroegde aflossing is mogelijk zonder extra kosten."
+      },
+      {
+        "q": "Zijn de procedures veilig?",
+        "a": "Alle informatie wordt beschermd en vertrouwelijk behandeld."
+      }
+    ]
+  },
+  "loanOtherLoans": {
+    "sectionTitle": "Ontdek ook onze andere oplossingen",
+    "descriptions": {
+      "personnel": "Al uw projecten zonder bewijsstukken.",
+      "auto": "Nieuw of tweedehands tegen de beste prijs.",
+      "etudiant": "Financier je studie zonder zorgen.",
+      "conso": "Voor uw dagelijkse boodschappen.",
+      "professionnel": "Breid uw bedrijf uit.",
+      "rachat": "Verlaag uw maandelijkse aflossingen."
+    }
+  },
+  "loanStats": {
+    "rateTypeLabel": "Soort rentevoet",
+    "feesLabel": "Behandelingskosten",
+    "feesValue": "Laag"
   }
 };

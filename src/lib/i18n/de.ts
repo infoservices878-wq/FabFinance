@@ -1460,5 +1460,122 @@ export const de = {
         }
       ]
     }
+  },
+  "loanAdvantages": {
+    "title": "Warum sollten Sie sich für diesen Kredit entscheiden?",
+    "subtitle": "Alle Vorteile inklusive, ohne versteckte Kosten",
+    "extra": [
+      "100 % digitale Verwaltung",
+      "Persönlicher Berater",
+      "Vollständige Transparenz"
+    ],
+    "footerPrefix": "All diese Vorteile sind ohne zusätzliche Kosten enthalten —",
+    "footerSuffix": ", keine bösen Überraschungen."
+  },
+  "loanUsage": {
+    "title": "Für welche Projekte kann dieses Darlehen genutzt werden?",
+    "subtitle": "Konkrete Beispiele, die Ihnen helfen sollen, sich ein Bild davon zu machen",
+    "cta": "Mein Projekt finanzieren"
+  },
+  "loanExample": {
+    "title": "Finanzierungsbeispiel",
+    "subtitle": "Unverbindliche Simulation · Fester effektiver Jahreszins von 3 %",
+    "introPart1": "Bei einem Darlehen in Höhe von",
+    "introPart2": "über einen Zeitraum von",
+    "durationNote": "/ Monat · auf",
+    "rows": {
+      "taegFixe": "Fester effektiver Jahreszins",
+      "tauxDebiteur": "Kreditzinssatz"
+    },
+    "capitalLabel": "Zurückgezahltes Kapital",
+    "interestsLabel": "Zinskosten",
+    "capitalSuffix": "Kapital",
+    "interestsSuffix": "Interessen",
+    "cta": "Meinen Betrag berechnen",
+    "detailTitle": "Angaben zur Kreditvergabe",
+    "disclaimer": "Unverbindliche Simulation. Fester effektiver Jahreszins von 3,00 % über 120 Monate. Ein Kredit ist eine Verpflichtung und muss zurückgezahlt werden."
+  },
+  "loanSteps": {
+    "eyebrow": "Vereinfachtes Verfahren",
+    "title": "Wie erhalten Sie Ihren Kredit?",
+    "subtitle": "3 einfache Schritte zur Finanzierung Ihres Projekts.",
+    "steps": [
+      {
+        "title": "Stellen Sie Ihren Antrag",
+        "desc": "Füllen Sie unser sicheres Formular in wenigen Minuten aus – von jedem Gerät aus.",
+        "tag": "2 Min."
+      },
+      {
+        "title": "Schnellanalyse",
+        "desc": "Unsere Experten prüfen Ihren Antrag umgehend und geben Ihnen eine vorläufige Antwort.",
+        "tag": "Sofort"
+      },
+      {
+        "title": "Erhalten Sie das Geld",
+        "desc": "Nach der Bestätigung sind die Beträge innerhalb von 24 bis 48 Stunden auf Ihrem Konto verfügbar.",
+        "tag": "24–48 Stunden"
+      }
+    ],
+    "ctaPrefix": "Bist du bereit, loszulegen?",
+    "ctaBold": "Die Bearbeitung Ihrer Anfrage dauert nur 2 Minuten.",
+    "ctaButton": "Meinen Antrag stellen"
+  },
+  "loanTrust": {
+    "eyebrow": "Sozialer Beweis",
+    "title": "Sie vertrauen uns",
+    "subtitle": "Über 200.000 mit Fab Finance finanzierte Projekte",
+    "stats": [
+      {
+        "label": "finanzierte Projekte"
+      },
+      {
+        "label": "Durchschnittliche Kundenbewertung"
+      },
+      {
+        "label": "Zahlungsfrist"
+      },
+      {
+        "label": "sichere Plattform"
+      }
+    ],
+    "ratingSub": "Basierend auf über 12.000 verifizierten Bewertungen",
+    "reviews": [
+      "Blitzschnelle Antwort, Geld innerhalb von 48 Stunden eingegangen. Perfekt!",
+      "Transparent und ohne versteckte Kosten. Ich kann es wärmstens empfehlen.",
+      "Sehr professioneller Berater, erstklassige Betreuung."
+    ],
+    "cta": "Schließen Sie sich unseren zufriedenen Kunden an"
+  },
+  "loanFaq": {
+    "items": [
+      {
+        "q": "Wie lange dauert es, bis ich eine Antwort erhalte?",
+        "a": "Eine grundsätzliche Antwort kann unmittelbar nach Ihrer Anfrage erteilt werden."
+      },
+      {
+        "q": "Kann ich mein Darlehen vorzeitig zurückzahlen?",
+        "a": "Ja, eine vorzeitige Rückzahlung ist ohne zusätzliche Kosten möglich."
+      },
+      {
+        "q": "Sind die Vorgänge sicher?",
+        "a": "Alle Informationen werden geschützt und vertraulich behandelt."
+      }
+    ]
+  },
+  "loanOtherLoans": {
+    "sectionTitle": "Entdecken Sie auch unsere anderen Lösungen",
+    "descriptions": {
+      "personnel": "Alle Ihre Projekte ohne Nachweis.",
+      "auto": "Neuwagen oder Gebrauchtwagen zum besten Preis.",
+      "etudiant": "Finanzieren Sie Ihr Studium ganz entspannt.",
+      "conso": "Für Ihre täglichen Einkäufe.",
+      "professionnel": "Erweitern Sie Ihr Geschäft.",
+      "rachat": "Senken Sie Ihre monatlichen Raten."
+    }
+  },
+  "loanStats": {
+    "rateTypeLabel": "Zinsart",
+    "feesLabel": "Bearbeitungsgebühr",
+    "feesValue": "Gering"
   }
 };

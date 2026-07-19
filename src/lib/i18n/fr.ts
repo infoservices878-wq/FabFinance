@@ -1052,6 +1052,98 @@ export const fr = {
       ],
     },
   },
+  // ── Loan Advantages (composant) ─────────────────────────────────────────────
+  loanAdvantages: {
+    title:    "Pourquoi choisir ce prêt ?",
+    subtitle: "Tous les avantages inclus, sans frais cachés",
+    extra: ["Gestion 100% digitale", "Conseiller dédié", "Transparence totale"],
+    footerPrefix: "Tous ces avantages sont inclus sans frais supplémentaires —",
+    footerSuffix: ", zéro mauvaise surprise.",
+  },
+  // ── Loan Usage (composant) ──────────────────────────────────────────────────
+  loanUsage: {
+    title:    "Pour quels projets utiliser ce prêt ?",
+    subtitle: "Des exemples concrets pour vous aider à vous projeter",
+    cta:      "Financer mon projet",
+  },
+ // ── Loan Example (composant) ────────────────────────────────────────────────
+  loanExample: {
+    title:    "Exemple de financement",
+    subtitle: "Simulation indicative · TAEG fixe 3%",
+    introPart1: "Pour un emprunt de",
+    introPart2: "sur une période de",
+    durationNote: "/ mois · sur",
+    rows: {
+      taegFixe: "TAEG fixe",
+      tauxDebiteur: "Taux débiteur",
+    },
+    capitalLabel:   "Capital remboursé",
+    interestsLabel: "Coût des intérêts",
+    capitalSuffix:  "capital",
+    interestsSuffix:"intérêts",
+    cta: "Simuler mon montant",
+    detailTitle: "Détail du crédit",
+    disclaimer: "Simulation non contractuelle. TAEG fixe de 3,00% sur 120 mois. Un crédit vous engage et doit être remboursé.",
+  },
+  // ── Loan Steps (composant) ──────────────────────────────────────────────────
+  loanSteps: {
+    eyebrow:  "Processus simplifié",
+    title:    "Comment obtenir votre prêt ?",
+    subtitle: "3 étapes simples pour financer votre projet.",
+    steps: [
+      { title: "Faites votre demande", desc: "Remplissez notre formulaire sécurisé en quelques minutes, depuis n'importe quel appareil.", tag: "2 min" },
+      { title: "Analyse rapide",       desc: "Nos experts analysent votre dossier immédiatement et vous donnent une réponse de principe.", tag: "Immédiat" },
+      { title: "Recevez les fonds",    desc: "Après validation, les fonds sont disponibles sur votre compte sous 24 à 48 heures.", tag: "24 – 48h" },
+    ],
+    ctaPrefix: "Prêt à commencer ?",
+    ctaBold:   "Votre demande ne prend que 2 minutes.",
+    ctaButton: "Faire ma demande",
+  },
+  // ── Loan Trust (composant) ──────────────────────────────────────────────────
+  loanTrust: {
+    eyebrow:  "Preuve sociale",
+    title:    "Ils nous font confiance",
+    subtitle: "Plus de 200 000 projets financés avec Fab Finance",
+    stats: [
+      { label: "projets financés" },
+      { label: "note moyenne clients" },
+      { label: "délai de versement" },
+      { label: "plateforme sécurisée" },
+    ],
+    ratingSub: "Basé sur +12 000 avis vérifiés",
+    reviews: [
+      "Réponse ultra rapide, fonds reçus en 48h. Parfait !",
+      "Transparent et sans frais cachés. Je recommande vivement.",
+      "Conseiller très professionnel, accompagnement au top.",
+    ],
+    cta: "Rejoindre nos clients satisfaits",
+  },
+  // ── Loan FAQ (composant) ────────────────────────────────────────────────────
+  loanFaq: {
+    items: [
+      { q: "Combien de temps pour obtenir une réponse ?", a: "Une réponse de principe peut être donnée immédiatement après votre demande." },
+      { q: "Puis-je rembourser mon prêt plus tôt ?",       a: "Oui, le remboursement anticipé est possible sans frais supplémentaires." },
+      { q: "Les démarches sont-elles sécurisées ?",        a: "Toutes les informations sont protégées et traitées de manière confidentielle." },
+    ],
+  },
+  // ── Loan Other Loans (composant) ────────────────────────────────────────────
+  loanOtherLoans: {
+    sectionTitle: "Découvrez aussi nos autres solutions",
+    descriptions: {
+      personnel:     "Tous vos projets sans justificatif.",
+      auto:          "Neuf ou occasion au meilleur taux.",
+      etudiant:      "Financez vos études sereinement.",
+      conso:         "Pour vos achats du quotidien.",
+      professionnel: "Développez votre activité.",
+      rachat:        "Allégez vos mensualités.",
+    },
+  },
+  // ── Loan Stats (composant) ──────────────────────────────────────────────────
+  loanStats: {
+    rateTypeLabel: "Type de taux",
+    feesLabel:     "Frais de dossier",
+    feesValue:     "Faible",
+  },
 
   // ── Common ───────────────────────────────────────────────────────────────────
   common: {

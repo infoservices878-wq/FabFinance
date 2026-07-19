@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { TrendingDown, TrendingUp, Clock, Percent, Receipt, BadgeCheck } from "lucide-react"
+import { useI18n } from "@/lib/i18n-context"
 
 interface Props {
   min:      string
@@ -21,13 +22,16 @@ const COLORS = [
 ]
 
 export default function LoanStats({ min, max, duration, taeg, rateType }: Props) {
+  const { t } = useI18n();
+  const s = t.loanStats
+
   const stats = [
-    { label: "Montant min.",      value: min      },
-    { label: "Montant max.",      value: max      },
-    { label: "Durée",             value: duration },
-    { label: "TAEG fixe",         value: taeg     },
-    { label: "Type de taux",      value: rateType },
-    { label: "Frais de dossier",  value: "Faible"    },
+    { label: t.hero.statsCard.minLabel,   value: min      },
+    { label: t.hero.statsCard.maxLabel,   value: max      },
+    { label: t.simulator.card.durationLabel, value: duration },
+    { label: t.loanExample.rows.taegFixe, value: taeg     },
+    { label: s.rateTypeLabel,             value: rateType },
+    { label: s.feesLabel,                 value: s.feesValue },
   ]
 
   return (

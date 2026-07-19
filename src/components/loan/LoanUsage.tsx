@@ -15,7 +15,8 @@ interface Props {
 
 export default function LoanUsage({ usage = [] }: Props) {
   const { lang, t, routes, switchLang } = useI18n();
-  
+  const s = t.loanUsage
+
   if (!usage.length) return null
 
   return (
@@ -37,10 +38,10 @@ export default function LoanUsage({ usage = [] }: Props) {
         </div>
         <div>
           <h2 className="text-xl font-extrabold text-gray-900">
-            Pour quels projets utiliser ce prêt ?
+            {s.title}
           </h2>
           <p className="text-xs text-gray-400 mt-0.5">
-            Des exemples concrets pour vous aider à vous projeter
+            {s.subtitle}
           </p>
         </div>
       </motion.div>
@@ -81,12 +82,6 @@ export default function LoanUsage({ usage = [] }: Props) {
               <p className="text-sm text-gray-500 leading-relaxed flex-grow">
                 {p.desc}
               </p>
-
-              {/* Lien */}
-              {/* <div className="mt-4 flex items-center gap-1.5 text-xs font-semibold text-green-600 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                En savoir plus
-                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-              </div> */}
             </div>
 
             {/* Barre verte bas */}
@@ -113,7 +108,7 @@ export default function LoanUsage({ usage = [] }: Props) {
             boxShadow: "0 6px 20px rgba(22,163,74,0.35)",
           }}
         >
-          Financer mon projet
+          {s.cta}
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
         </Link>
       </motion.div>
