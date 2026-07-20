@@ -74,7 +74,7 @@ export function Footer() {
                 <Landmark className="w-4 h-4" />
               </div>
               <span className="font-extrabold text-xl text-white tracking-tight">
-                Fab<span className="text-green-500">Finance</span>
+                Fab <span className="text-green-500">Finance</span>
               </span>
             </Link>
 
